@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const items = [
   "PrimePress", "QueueGuard", "Order Shield", "Product Shield", "Pixel Reports",
   "Pixel CRM", "PP Whatsapp", "Provador de Tamanho", "Pixel Conjuntos",
-  "Filtro Inteligente", "Carrinhos Personalizados",
+  "Filtro Inteligente", "Carrinhos Personalizados", "Fidelização + Cashback", "Atacado B2B", "Código de Vendedor",
 ];
 
 export default function Marquee() {

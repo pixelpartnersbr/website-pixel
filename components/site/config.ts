@@ -1,5 +1,5 @@
 // ⚙️ AJUSTE AQUI: dados de contato e estatísticas do site institucional
-export const BUILD = "1.7.1";
+export const BUILD = "1.9.0";
 
 export const SITE = {
   whatsapp: "5527996520301",
