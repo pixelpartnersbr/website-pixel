@@ -17,6 +17,22 @@ const faqs = [
   ["Os plugins funcionam se eu sair da Pixel?", "Sua loja é sua — o núcleo é WooCommerce open-source e o catálogo, os pedidos e os clientes são exportáveis a qualquer momento, sem lock-in. Os módulos proprietários da plataforma (Reports, Shields, Provador etc.) fazem parte da assinatura, como em qualquer plataforma — a diferença é que aqui os seus dados saem com você."],
 ];
 
+function Comparativos() {
+  return (
+    <Reveal>
+      <div className="glow-border mx-auto mt-12 flex max-w-[860px] flex-wrap items-center justify-between gap-4 rounded-2xl border border-amber/40 bg-amber/[.05] p-6">
+        <div>
+          <p className="font-display text-[16px] font-extrabold tracking-tight">Comparando com outras ferramentas?</p>
+          <p className="text-[13.5px] text-dim">Fizemos a lição de casa por você — recurso a recurso, com a conta na ponta do lápis.</p>
+        </div>
+        <a href="/comparativos/pixel-crm-vs-zoppy" className="btn-ghost whitespace-nowrap">
+          Pixel CRM vs Zoppy →
+        </a>
+      </div>
+    </Reveal>
+  );
+}
+
 export default function PricingExtras() {
   const [open, setOpen] = useState<number | null>(0);
   return (
@@ -90,6 +106,7 @@ export default function PricingExtras() {
               </Reveal>
             ))}
           </div>
+          <Comparativos />
         </div>
       </section>
     </>

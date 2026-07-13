@@ -96,10 +96,15 @@ export default function Plataforma() {
                   <div key={m.name} className="spot rounded-xl border border-line bg-navy-800/20 p-5 transition-all hover:border-amber/50 hover:bg-navy-800/35">
                     <strong className="mb-1 block font-display text-[14.5px] font-bold">
                       {m.href ? (
-                        <a href={m.href} target="_blank" rel="noopener" className="border-b border-amber/50 no-underline">{m.name}</a>
+                        <a href={m.href} {...(m.href.startsWith("http") ? { target: "_blank", rel: "noopener" } : {})} className="border-b border-amber/50 no-underline">{m.name}</a>
                       ) : m.name}
                     </strong>
                     <span className="block text-[13px] text-dim">{m.desc}</span>
+                    {m.href && m.href.startsWith("/comparativos") && (
+                      <a href={m.href} className="mt-2 inline-block font-mono text-[10.5px] uppercase tracking-[0.08em] text-amber no-underline">
+                        ver comparativo com concorrentes →
+                      </a>
+                    )}
                   </div>
                 ))}
               </div>
