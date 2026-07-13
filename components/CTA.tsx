@@ -34,7 +34,7 @@ export default function CTA() {
       <div className="wrap relative">
         <Reveal>
           <span className="eyebrow justify-center">Próximo passo</span>
-          <h2 className="mx-auto mb-5 max-w-[760px] font-display text-[clamp(28px,4vw,48px)] font-black leading-[1.1] tracking-[-0.025em]">
+          <h2 className="mx-auto mb-5 max-w-[760px] font-display text-[clamp(28px,4vw,54px)] font-black leading-[1.1] tracking-[-0.025em]">
             Sua loja merece mais do que uma colcha de retalhos.
           </h2>
           <p className="mx-auto mb-10 max-w-[560px] text-[16.5px] text-dim">

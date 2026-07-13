@@ -8,7 +8,7 @@ export default function Prova() {
       <div className="wrap">
         <Reveal className="mb-14 max-w-[680px]">
           <span className="eyebrow">Em produção, não em slide</span>
-          <h2 className="font-display text-[clamp(26px,3.2vw,40px)] font-extrabold leading-[1.12] tracking-tight">
+          <h2 className="font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
             Isso já roda hoje, em lojas de verdade.
           </h2>
         </Reveal>

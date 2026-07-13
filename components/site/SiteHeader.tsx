@@ -1,5 +1,6 @@
 "use client";
 import { motion, useScroll, useSpring } from "framer-motion";
+import MobileNav from "../MobileNav";
 
 const links = [
   ["/#sobre", "Sobre"],
@@ -31,9 +32,10 @@ export default function SiteHeader() {
             </li>
           ))}
         </ul>
-        <a href="/#contato" className="rounded-lg bg-amber px-[18px] py-[9px] font-display text-[13px] font-bold text-navy-950 transition-all hover:-translate-y-px hover:shadow-[0_6px_18px_rgba(255,183,0,.28)]">
+        <a href="/#contato" className="hidden rounded-lg bg-amber sm:max-md:hidden md:inline-block px-[18px] py-[9px] font-display text-[13px] font-bold text-navy-950 transition-all hover:-translate-y-px hover:shadow-[0_6px_18px_rgba(255,183,0,.28)]">
           Fale Conosco
         </a>
+        <MobileNav links={links} cta={["/#contato", "Fale Conosco"]} />
       </div>
     </header>
   );

@@ -21,7 +21,7 @@ export default function Comparativo() {
       <div className="wrap">
         <Reveal className="mb-14 max-w-[680px]">
           <span className="eyebrow">Onde o Pixel Commerce se encaixa</span>
-          <h2 className="font-display text-[clamp(26px,3.2vw,40px)] font-extrabold leading-[1.12] tracking-tight">
+          <h2 className="font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
             Mais robusto que o Woo puro. Mais livre que plataforma fechada.
           </h2>
         </Reveal>

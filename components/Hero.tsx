@@ -55,7 +55,7 @@ export default function Hero() {
           </motion.span>
           <motion.h1
             variants={child}
-            className="mb-6 font-display text-[clamp(34px,4.6vw,58px)] font-extrabold leading-[1.06] tracking-[-0.025em]"
+            className="mb-6 font-display text-[clamp(34px,4.6vw,64px)] font-extrabold leading-[1.06] tracking-[-0.025em]"
           >
             Sua loja roda WooCommerce.
             <br />

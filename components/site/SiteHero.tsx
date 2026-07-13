@@ -30,7 +30,7 @@ export default function SiteHero() {
           </motion.span>
           <motion.h1
             variants={child}
-            className="mb-6 font-display text-[clamp(36px,5vw,64px)] font-extrabold leading-[1.05] tracking-[-0.025em]"
+            className="mb-6 font-display text-[clamp(36px,5vw,72px)] font-extrabold leading-[1.05] tracking-[-0.025em]"
           >
             Precisão digital.
             <br />

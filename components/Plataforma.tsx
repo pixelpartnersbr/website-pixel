@@ -71,7 +71,7 @@ export default function Plataforma() {
       <div className="wrap">
         <Reveal className="mb-14 max-w-[680px]">
           <span className="eyebrow">Ato 3 · a plataforma</span>
-          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,40px)] font-extrabold leading-[1.12] tracking-tight">
+          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
             Seis camadas. Um sistema operacional para o seu e-commerce.
           </h2>
           <p className="text-[16.5px] text-dim">

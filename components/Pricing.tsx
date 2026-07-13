@@ -75,7 +75,7 @@ export default function Pricing() {
       <div className="wrap">
         <Reveal className="mx-auto mb-10 max-w-[720px] text-center">
           <span className="eyebrow justify-center">Planos Pixel Commerce</span>
-          <h1 className="mb-4 font-display text-[clamp(32px,4.2vw,52px)] font-extrabold leading-[1.08] tracking-[-0.025em]">
+          <h1 className="mb-4 font-display text-[clamp(32px,4.2vw,58px)] font-extrabold leading-[1.08] tracking-[-0.025em]">
             Preço fixo. <span className="text-amber">0% de comissão.</span>
             <br />Sem surpresa na fatura.
           </h1>

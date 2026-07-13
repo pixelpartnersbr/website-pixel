@@ -83,7 +83,7 @@ export function WaMotivos() {
       <div className="wrap">
         <Reveal className="mb-14 max-w-[680px]">
           <span className="eyebrow">Por que sair da integração não-oficial</span>
-          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,40px)] font-extrabold leading-[1.12] tracking-tight">
+          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
             Seis motivos — e cada um vale o mês inteiro.
           </h2>
           <p className="text-[16.5px] text-dim">
@@ -166,7 +166,7 @@ export function WaEcossistema() {
       <div className="wrap">
         <Reveal className="mb-14 max-w-[720px]">
           <span className="eyebrow">Ecossistema Pixel Partners</span>
-          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,40px)] font-extrabold leading-[1.12] tracking-tight">
+          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
             O WhatsApp oficial vira o motor da sua esteira de vendas.
           </h2>
           <p className="text-[16.5px] text-dim">
@@ -224,7 +224,7 @@ export function WaInvestimento() {
       <div className="wrap">
         <Reveal className="mb-14 max-w-[680px]">
           <span className="eyebrow">Investimento</span>
-          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,40px)] font-extrabold leading-[1.12] tracking-tight">
+          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
             Comece pelo essencial, ative módulos conforme o retorno aparece.
           </h2>
           <p className="text-[16.5px] text-dim">

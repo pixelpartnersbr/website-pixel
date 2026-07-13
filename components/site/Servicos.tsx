@@ -42,7 +42,7 @@ export default function Servicos() {
       <div className="wrap">
         <Reveal className="mb-14 max-w-[680px]">
           <span className="eyebrow">O que fazemos</span>
-          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,40px)] font-extrabold leading-[1.12] tracking-tight">
+          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
             Nossos serviços
           </h2>
           <p className="text-[16.5px] text-dim">

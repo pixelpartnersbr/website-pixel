@@ -28,7 +28,7 @@ button:focus-visible {
 
 @layer components {
   .wrap {
-    @apply mx-auto max-w-[1180px] px-6;
+    @apply mx-auto max-w-[1360px] px-6 lg:px-10;
   }
   .eyebrow {
     @apply mb-5 inline-flex items-center gap-2.5 font-mono text-xs uppercase tracking-[0.14em] text-amber;

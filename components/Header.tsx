@@ -1,5 +1,6 @@
 "use client";
 import { motion, useScroll, useSpring } from "framer-motion";
+import MobileNav from "./MobileNav";
 
 const links = [
   ["/plataforma#problema", "O problema"],
@@ -7,6 +8,7 @@ const links = [
   ["/plataforma#plataforma", "A plataforma"],
   ["/plataforma#queueguard", "QueueGuard"],
   ["/planos", "Planos"],
+  ["/", "Site Pixel Partners"],
 ];
 
 export default function Header() {
@@ -26,9 +28,10 @@ export default function Header() {
             </li>
           ))}
         </ul>
-        <a href="#contato" className="rounded-lg bg-amber px-[18px] py-[9px] font-display text-[13px] font-bold text-navy-950 transition-all hover:-translate-y-px hover:shadow-[0_6px_18px_rgba(255,183,0,.28)]">
+        <a href="#contato" className="hidden rounded-lg bg-amber md:inline-block px-[18px] py-[9px] font-display text-[13px] font-bold text-navy-950 transition-all hover:-translate-y-px hover:shadow-[0_6px_18px_rgba(255,183,0,.28)]">
           Falar com a Pixel
         </a>
+        <MobileNav links={links} cta={["#contato", "Falar com a Pixel"]} />
       </div>
     </header>
   );

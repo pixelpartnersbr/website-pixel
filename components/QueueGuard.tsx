@@ -64,7 +64,7 @@ export default function QueueGuard() {
           <span className="mb-5 inline-flex items-center gap-2 rounded-full bg-amber px-3 py-1.5 font-mono text-[11px] font-medium uppercase tracking-[0.12em] text-navy-950">
             🛡️ Produto Pixel Partners · pronto e em operação
           </span>
-          <h2 className="mb-[18px] font-display text-[clamp(26px,3.2vw,40px)] font-extrabold leading-[1.1] tracking-tight">
+          <h2 className="mb-[18px] font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.1] tracking-tight">
             QueueGuard: sua loja nunca mais cai num pico de acesso.
           </h2>
           <p className="mb-7 max-w-[520px] text-[16.5px] text-dim">

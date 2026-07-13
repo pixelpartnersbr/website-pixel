@@ -14,7 +14,7 @@ export default function Sobre() {
       <div className="wrap grid items-center gap-14 lg:grid-cols-2">
         <Reveal>
           <span className="eyebrow">Quem somos</span>
-          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,40px)] font-extrabold leading-[1.12] tracking-tight">
+          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
             Marketing e tecnologia não deveriam morar em empresas separadas.
           </h2>
           <p className="mb-4 text-[16px] text-dim">

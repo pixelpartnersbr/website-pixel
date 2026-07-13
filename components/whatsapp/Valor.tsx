@@ -24,7 +24,7 @@ export function VHero() {
       <div className="wrap text-center">
         <Reveal>
           <span className="eyebrow justify-center">Pixel Partners · WhatsApp oficial</span>
-          <h1 className="mx-auto mb-5 max-w-[820px] font-display text-[clamp(30px,4.2vw,50px)] font-extrabold leading-[1.1] tracking-[-0.025em]">
+          <h1 className="mx-auto mb-5 max-w-[820px] font-display text-[clamp(30px,4.2vw,56px)] font-extrabold leading-[1.1] tracking-[-0.025em]">
             O canal que seu cliente <span className="text-wa">abre</span> — trabalhando em cada etapa da venda.
           </h1>
           <p className="mx-auto mb-10 max-w-[620px] text-[16.5px] text-dim">

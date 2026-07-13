@@ -21,7 +21,7 @@ export default function Manifesto() {
     <section className="bg-amber py-28 text-navy-950">
       <div className="wrap" ref={ref}>
         <span className="eyebrow !text-navy-950 before:!bg-navy-950">Ato 2 · a decisão</span>
-        <h2 className="max-w-[900px] font-display text-[clamp(28px,4vw,52px)] font-black leading-[1.08] tracking-[-0.025em]">
+        <h2 className="max-w-[900px] font-display text-[clamp(28px,4vw,56px)] font-black leading-[1.08] tracking-[-0.025em]">
           {words.map((w, i) => (
             <Word key={i} progress={scrollYProgress} range={[i / words.length, (i + 1) / words.length]}>
               {w}

@@ -37,7 +37,7 @@ export default function Contato() {
       <div className="wrap relative grid gap-14 lg:grid-cols-[1fr_.85fr]">
         <Reveal>
           <span className="eyebrow">Entre em contato</span>
-          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,40px)] font-extrabold leading-[1.12] tracking-tight">
+          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
             Pronto para crescer com estratégia?
           </h2>
           <p className="mb-8 max-w-[480px] text-[16px] text-dim">
