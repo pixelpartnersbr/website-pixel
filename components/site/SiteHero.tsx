@@ -1,0 +1,64 @@
+"use client";
+import { motion } from "framer-motion";
+import Counter from "../Counter";
+import { SITE } from "./config";
+
+const parent = { hidden: {}, show: { transition: { staggerChildren: 0.08, delayChildren: 0.1 } } };
+const child = {
+  hidden: { opacity: 0, y: 40 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.21, 0.47, 0.32, 0.98] } },
+};
+
+export default function SiteHero() {
+  return (
+    <section
+      className="relative overflow-hidden pb-20 pt-[150px]"
+      style={{
+        background:
+          "radial-gradient(900px 500px at 85% 0%, rgba(10,76,130,.35), transparent 60%), radial-gradient(700px 420px at 0% 100%, rgba(5,58,102,.5), transparent 65%), #021627",
+      }}
+    >
+      <div className="wrap">
+        <motion.div variants={parent} initial="hidden" animate="show" className="max-w-[820px]">
+          <motion.span variants={child} className="eyebrow">
+            Tecnologia · Marketing · Desde 2016
+          </motion.span>
+          <motion.h1
+            variants={child}
+            className="mb-6 font-display text-[clamp(36px,5vw,64px)] font-extrabold leading-[1.05] tracking-[-0.025em]"
+          >
+            Precisão digital.
+            <br />
+            <span className="text-amber">Parceria verdadeira.</span>
+          </motion.h1>
+          <motion.p variants={child} className="mb-9 max-w-[560px] text-[17.5px] text-dim">
+            Somos especialistas em transformar presença digital em crescimento mensurável. Tecnologia
+            própria, tráfego pago certificado e a plataforma Pixel Commerce — tudo sob o mesmo teto.
+          </motion.p>
+          <motion.div variants={child} className="flex flex-wrap gap-3.5">
+            <a href="/#contato" className="btn-amber">Fale com um Especialista</a>
+            <a href="/#servicos" className="btn-ghost">Ver Serviços</a>
+          </motion.div>
+          <motion.ul variants={child} className="mt-10 flex flex-wrap gap-8 border-t border-line pt-7">
+            <li className="text-[13px] text-dim">
+              <Counter to={SITE.stats.clientes} suffix="+" className="block font-display text-2xl font-extrabold tracking-tight text-amber" />
+              clientes atendidos
+            </li>
+            <li className="text-[13px] text-dim">
+              <Counter to={SITE.stats.midiaMi} prefix="R$ " suffix=" mi+" className="block font-display text-2xl font-extrabold tracking-tight text-amber" />
+              em mídia gerenciada
+            </li>
+            <li className="text-[13px] text-dim">
+              <Counter to={SITE.stats.anos} suffix="+" className="block font-display text-2xl font-extrabold tracking-tight text-amber" />
+              anos de mercado
+            </li>
+            <li className="text-[13px] text-dim">
+              <span className="block font-display text-2xl font-extrabold tracking-tight text-amber">Google · Meta</span>
+              parceiros certificados
+            </li>
+          </motion.ul>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
