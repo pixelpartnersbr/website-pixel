@@ -1,4 +1,6 @@
 // ⚙️ AJUSTE AQUI: dados de contato e estatísticas do site institucional
+export const BUILD = "1.8.0";
+
 export const SITE = {
   whatsapp: "5527996520301",
   whatsappDisplay: "+55 27 99652-0301",
@@ -19,7 +21,11 @@ export const STACK_IMG =
 
 // Light trails âmbar (fundo dos CTAs). Mesmo esquema: baixar depois para public/images/light-trails.png
 export const TRAILS_IMG =
-  "https://d8j0ntlcm91z4.cloudfront.net/user_3Am4Jv4nSnw3p3H5eVz5c4jDLKs/hf_20260713_194811_960efcce-ae3d-488a-941b-432f20c2915d.png";
+  "https://d8j0ntlcm91z4.cloudfront.net/user_3Am4Jv4nSnw3p3H5eVz5c4jDLKs/hf_20260713_210830_7b1661e4-06a1-44d8-9144-3c6071590317.png";
+
+// Loop de vídeo das light trails (fundo animado dos CTAs). Fallback: TRAILS_IMG.
+export const TRAILS_VIDEO =
+  "https://d8j0ntlcm91z4.cloudfront.net/user_3Am4Jv4nSnw3p3H5eVz5c4jDLKs/hf_20260713_210802_7aacfd54-422c-41bc-bfd8-a88683aae2a1.mp4";
 
 export const waLink = (msg: string) =>
   `https://api.whatsapp.com/send/?phone=${SITE.whatsapp}&text=${encodeURIComponent(msg)}&type=phone_number&app_absent=0`;

@@ -43,6 +43,8 @@ const camadas: Camada[] = [
       { name: "Pixel Conjuntos", desc: "Kits e conjuntos de produtos com montagem visual, variações sincronizadas e regras de estoque de verdade." },
       { name: "Filtro inteligente de estoque", desc: "Navegação por atributo que respeita o estoque real de cada variação. O cliente nunca clica em algo que não existe." },
       { name: "Carrinhos personalizados", desc: "Links de carrinho pré-montado com desconto condicional — perfeito para vendas assistidas por WhatsApp." },
+      { name: "Módulo Atacadista", desc: "Canal B2B dentro da mesma loja: tabela de preço de atacado, pedido mínimo e catálogo fechado para lojistas revendedores." },
+      { name: "Código de Vendedor", desc: "Cada vendedor ou representante com seu código e painel próprio: atribuição de venda, comissão calculada sobre venda líquida e ranking." },
     ],
   },
   {
@@ -51,6 +53,7 @@ const camadas: Camada[] = [
     mods: [
       { name: "PP Whatsapp", desc: "Integração oficial via Meta Cloud API e 360dialog: recuperação de carrinho, aviso de volta ao estoque, resumo de vendas e alerta de fraude — direto no seu WhatsApp." },
       { name: "Campanhas segmentadas", desc: "Disparos em massa a partir do Pixel CRM, com segmentação por comportamento de compra — não por lista fria." },
+      { name: "Fidelização + Cashback", desc: "Programa de pontos e cashback nativo da loja: saldo que só vale ali, prazo de expiração que cria urgência e cliente voltando sem precisar de anúncio." },
     ],
   },
   {

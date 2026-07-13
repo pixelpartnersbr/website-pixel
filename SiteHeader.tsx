@@ -1,6 +1,7 @@
 "use client";
 import Reveal from "../Reveal";
-import { SITE, waLink, TRAILS_IMG } from "./config";
+import { SITE, waLink, TRAILS_IMG, TRAILS_VIDEO } from "./config";
+import AmbientVideo from "../fx/AmbientVideo";
 
 const MSG = "Olá! Vim pelo site da Pixel Partners e quero conversar sobre a minha operação.";
 
@@ -15,10 +16,10 @@ function WaIcon() {
 export default function Contato() {
   return (
     <section id="contato" className="relative overflow-hidden border-t border-line bg-navy-900 py-24">
-      <div
-        aria-hidden
-        className="absolute inset-0 bg-cover bg-bottom opacity-[.45] [mask-image:linear-gradient(to_top,black_10%,transparent_80%)]"
-        style={{ backgroundImage: `url(${TRAILS_IMG})` }}
+      <AmbientVideo
+        src={TRAILS_VIDEO}
+        poster={TRAILS_IMG}
+        className="opacity-[.5] [mask-image:linear-gradient(to_top,black_10%,transparent_80%)]"
       />
       <div className="beam" aria-hidden />
       <div className="wrap relative text-center">

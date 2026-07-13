@@ -4,62 +4,65 @@ import { motion, AnimatePresence } from "framer-motion";
 import Reveal from "./Reveal";
 import { waLink } from "./site/config";
 
+type Feature = { t: string; novo?: boolean };
 type Plan = {
-  name: string; tagline: string; monthly: number | null;
+  name: string; tagline: string; job: string; monthly: number | null;
   orders: string; setup: string; featured?: boolean;
-  features: string[]; cta: string;
+  features: Feature[]; cta: string;
 };
 
 const plans: Plan[] = [
   {
     name: "Start", tagline: "Para lojas começando a operar sério",
+    job: "Operação blindada, números na mesa",
     monthly: 597, orders: "até 300 pedidos/mês", setup: "R$ 2.497",
     features: [
-      "PrimePress: servidor sob medida (compartilhado)",
-      "Order Shield + Product Shield",
-      "Detecção de carding",
-      "Pixel Reports completo",
-      "Filtro inteligente de estoque",
-      "Suporte via ticket/WhatsApp em até 48h úteis",
+      { t: "PrimePress: servidor sob medida (compartilhado)" },
+      { t: "Order Shield + Product Shield + detecção de carding" },
+      { t: "Pixel Reports: analytics de verdade, venda líquida real" },
+      { t: "Filtro inteligente de estoque" },
+      { t: "Suporte via ticket/WhatsApp em até 48h úteis" },
     ],
     cta: "Começar com o Start",
   },
   {
     name: "Growth", tagline: "Para lojas em crescimento consistente",
+    job: "A máquina de recompra: cliente que volta sozinho",
     monthly: 1197, orders: "até 1.500 pedidos/mês", setup: "R$ 2.497", featured: true,
     features: [
-      "Tudo do Start",
-      "Fatia de servidor garantida",
-      "Pixel CRM completo (RFM, segmentos, retenção)",
-      "Provador de Tamanho",
-      "Pixel Conjuntos + Carrinhos personalizados",
-      "Suporte prioritário em até 24h úteis",
+      { t: "Tudo do Start + fatia de servidor garantida" },
+      { t: "Fidelização + Cashback: pontos e saldo que trazem o cliente de volta", novo: true },
+      { t: "Pixel CRM completo: RFM, segmentos, risco de churn por cliente" },
+      { t: "Provador de Tamanho: menos troca, menos devolução" },
+      { t: "Pixel Conjuntos + Carrinhos personalizados" },
+      { t: "Suporte prioritário em até 24h úteis" },
     ],
     cta: "Crescer com o Growth",
   },
   {
     name: "Scale", tagline: "Para operações de alto volume",
+    job: "Novos canais de receita, picos sob controle",
     monthly: 2497, orders: "até 5.000 pedidos/mês", setup: "R$ 4.997",
     features: [
-      "Tudo do Growth",
-      "Recursos dedicados de servidor (CCX)",
-      "QueueGuard incluso (até 4 eventos/ano)",
-      "War-room em datas críticas (Black Friday, lançamentos)",
-      "Canal direto com o time técnico",
-      "Suporte prioritário em até 8h úteis",
+      { t: "Tudo do Growth + servidor dedicado (CCX)" },
+      { t: "Módulo Atacadista: preços B2B, pedido mínimo, catálogo fechado", novo: true },
+      { t: "Código de Vendedor: atribuição por vendedor com painel de comissões", novo: true },
+      { t: "QueueGuard incluso (até 4 eventos/ano)" },
+      { t: "War-room em datas críticas + canal direto com o time técnico" },
+      { t: "Suporte prioritário em até 8h úteis" },
     ],
     cta: "Escalar com o Scale",
   },
   {
     name: "Enterprise", tagline: "Para quem já é referência no segmento",
+    job: "A plataforma moldada à sua operação",
     monthly: null, orders: "5.000+ pedidos/mês", setup: "sob proposta",
     features: [
-      "Tudo do Scale",
-      "Servidor 100% dedicado",
-      "QueueGuard ilimitado",
-      "SLA contratual",
-      "Suporte dedicado",
-      "Roadmap de módulos priorizado com o seu time",
+      { t: "Tudo do Scale + servidor 100% dedicado" },
+      { t: "QueueGuard ilimitado" },
+      { t: "SLA contratual" },
+      { t: "Suporte dedicado" },
+      { t: "Roadmap de módulos priorizado com o seu time" },
     ],
     cta: "Falar com a Pixel",
   },
@@ -126,7 +129,10 @@ export default function Pricing() {
                     </span>
                   )}
                   <h2 className="font-display text-[22px] font-extrabold tracking-tight">{p.name}</h2>
-                  <p className="mb-5 mt-1 text-[13px] text-dim">{p.tagline}</p>
+                  <p className="mt-1 text-[13px] text-dim">{p.tagline}</p>
+                  <p className="mb-5 mt-2.5 font-display text-[14.5px] font-bold leading-snug text-amber">
+                    {p.job}
+                  </p>
                   <div className="mb-1 flex h-[52px] items-end">
                     {price !== null ? (
                       <AnimatePresence mode="popLayout" initial={false}>
@@ -156,9 +162,16 @@ export default function Pricing() {
                   </p>
                   <ul className="mb-8 flex flex-col gap-2.5">
                     {p.features.map((f) => (
-                      <li key={f} className="flex gap-2.5 text-[13.5px] text-dim">
+                      <li key={f.t} className="flex gap-2.5 text-[13.5px] text-dim">
                         <span className="mt-px shrink-0 font-bold text-amber">✓</span>
-                        <span>{f}</span>
+                        <span>
+                          {f.t}
+                          {f.novo && (
+                            <span className="ml-1.5 inline-block rounded-full bg-amber/15 px-2 py-px align-middle font-mono text-[9px] font-medium uppercase tracking-[0.1em] text-amber">
+                              novo
+                            </span>
+                          )}
+                        </span>
                       </li>
                     ))}
                   </ul>
