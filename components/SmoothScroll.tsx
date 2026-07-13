@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import Lenis from "lenis";
+import FxProvider from "./fx/FxProvider";
 
 export default function SmoothScroll({ children }: { children: React.ReactNode }) {
   useEffect(() => {
@@ -11,5 +12,5 @@ export default function SmoothScroll({ children }: { children: React.ReactNode }
     raf = requestAnimationFrame(loop);
     return () => { cancelAnimationFrame(raf); lenis.destroy(); };
   }, []);
-  return <div className="grain">{children}</div>;
+  return <div className="grain"><FxProvider />{children}</div>;
 }

@@ -11,6 +11,14 @@ export const metadata: Metadata = {
     title: "Pixel Partners",
     description:
       "Tecnologia própria, marketing certificado e a plataforma Pixel Commerce. Code. Connect. Create.",
+    images: [
+      {
+        url: "https://d8j0ntlcm91z4.cloudfront.net/user_3Am4Jv4nSnw3p3H5eVz5c4jDLKs/hf_20260713_193947_c566a573-9fe4-4ac7-a7be-611e2728ae3f.png",
+        width: 2048,
+        height: 2048,
+        alt: "Pixel Commerce — plataforma em seis camadas",
+      },
+    ],
     type: "website",
   },
 };

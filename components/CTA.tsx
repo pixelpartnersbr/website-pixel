@@ -2,6 +2,7 @@
 import { useRef } from "react";
 import { motion, useMotionValue, useSpring } from "framer-motion";
 import Reveal from "./Reveal";
+import { TRAILS_IMG } from "./site/config";
 
 export default function CTA() {
   const ref = useRef<HTMLAnchorElement>(null);
@@ -21,10 +22,16 @@ export default function CTA() {
   return (
     <section
       id="contato"
-      className="py-[120px] text-center"
+      className="relative overflow-hidden py-[120px] text-center"
       style={{ background: "radial-gradient(800px 400px at 50% 0%, rgba(255,183,0,.12), transparent 60%), #042A4C" }}
     >
-      <div className="wrap">
+      <div
+        aria-hidden
+        className="absolute inset-0 bg-cover bg-bottom opacity-[.35] [mask-image:linear-gradient(to_top,black,transparent_75%)]"
+        style={{ backgroundImage: `url(${TRAILS_IMG})` }}
+      />
+      <div className="beam" aria-hidden />
+      <div className="wrap relative">
         <Reveal>
           <span className="eyebrow justify-center">Próximo passo</span>
           <h2 className="mx-auto mb-5 max-w-[760px] font-display text-[clamp(28px,4vw,48px)] font-black leading-[1.1] tracking-[-0.025em]">

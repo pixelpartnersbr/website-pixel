@@ -76,3 +76,91 @@ button:focus-visible {
     90% { transform: translate(-3%, 3%); }
   }
 }
+
+/* ============================================================
+   FX PACK v2 — coreografia Huly-grade
+   ============================================================ */
+
+/* --- Spotlight que segue o cursor (elementos com .spot + data-spot) --- */
+.spot { position: relative; }
+.spot::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  background: radial-gradient(
+    240px circle at var(--sx, 50%) var(--sy, 50%),
+    rgba(255, 183, 0, 0.13),
+    transparent 65%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+.spot:hover::before { opacity: 1; }
+.spot > * { position: relative; z-index: 1; }
+
+/* --- Borda com brilho viajante (conic-gradient girando) --- */
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.glow-border { position: relative; }
+.glow-border::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: conic-gradient(
+    from var(--angle),
+    transparent 0%,
+    rgba(255, 183, 0, 0.9) 10%,
+    rgba(255, 183, 0, 0.25) 18%,
+    transparent 30%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .glow-border::before { animation: spin-border 4.5s linear infinite; }
+  @keyframes spin-border { to { --angle: 360deg; } }
+}
+
+/* --- Feixe de luz varrendo o hero --- */
+.beam {
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  width: 320px;
+  left: -30%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 183, 0, 0.055) 35%,
+    rgba(255, 255, 255, 0.07) 50%,
+    rgba(255, 183, 0, 0.055) 65%,
+    transparent
+  );
+  transform: skewX(-14deg);
+  filter: blur(6px);
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .beam { animation: beam-sweep 9s ease-in-out infinite; }
+  @keyframes beam-sweep {
+    0%   { left: -30%; opacity: 0; }
+    12%  { opacity: 1; }
+    55%  { left: 115%; opacity: 1; }
+    68%  { opacity: 0; }
+    100% { left: 115%; opacity: 0; }
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .beam { display: none; }
+}

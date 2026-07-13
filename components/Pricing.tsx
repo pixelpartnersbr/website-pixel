@@ -115,7 +115,7 @@ export default function Pricing() {
                 <article
                   className={`relative flex h-full flex-col rounded-2xl border p-7 ${
                     p.featured
-                      ? "border-amber bg-gradient-to-b from-amber/[.08] to-transparent shadow-[0_20px_60px_rgba(255,183,0,.12)]"
+                      ? "glow-border border-amber/70 bg-gradient-to-b from-amber/[.08] to-transparent shadow-[0_20px_60px_rgba(255,183,0,.12)]"
                       : "border-line bg-navy-800/15"
                   }`}
                 >

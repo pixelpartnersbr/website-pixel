@@ -90,7 +90,7 @@ export default function Plataforma() {
               </div>
               <div className="grid gap-3.5 sm:grid-cols-2">
                 {c.mods.map((m) => (
-                  <div key={m.name} className="rounded-xl border border-line bg-navy-800/20 p-5 transition-all hover:border-amber/50 hover:bg-navy-800/35">
+                  <div key={m.name} className="spot rounded-xl border border-line bg-navy-800/20 p-5 transition-all hover:border-amber/50 hover:bg-navy-800/35">
                     <strong className="mb-1 block font-display text-[14.5px] font-bold">
                       {m.href ? (
                         <a href={m.href} target="_blank" rel="noopener" className="border-b border-amber/50 no-underline">{m.name}</a>

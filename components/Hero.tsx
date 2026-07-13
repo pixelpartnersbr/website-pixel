@@ -1,5 +1,6 @@
 "use client";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
+import Starfield from "./fx/Starfield";
 
 const layers = [
   ["06", "Suporte", true],
@@ -45,7 +46,9 @@ export default function Hero() {
           "radial-gradient(900px 500px at 85% 10%, rgba(10,76,130,.35), transparent 60%), radial-gradient(700px 420px at 0% 100%, rgba(5,58,102,.5), transparent 65%), #021627",
       }}
     >
-      <div className="wrap grid items-center gap-14 lg:grid-cols-[1.05fr_.95fr]">
+      <Starfield density={80} />
+      <div className="beam" aria-hidden />
+      <div className="wrap relative grid items-center gap-14 lg:grid-cols-[1.05fr_.95fr]">
         <motion.div variants={parent} initial="hidden" animate="show">
           <motion.span variants={child} className="eyebrow">
             Plataforma proprietária · núcleo open-source

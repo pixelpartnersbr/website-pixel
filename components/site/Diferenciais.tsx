@@ -27,7 +27,7 @@ export default function Diferenciais() {
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {items.map(([t, d], i) => (
             <Reveal key={t} delay={i * 0.06} className="h-full">
-              <article className="card h-full bg-gradient-to-b from-navy-800/25 to-transparent p-6 transition-colors hover:border-amber/40">
+              <article className="spot card h-full bg-gradient-to-b from-navy-800/25 to-transparent p-6 transition-colors hover:border-amber/40">
                 <span className="mb-3 block font-mono text-[11px] text-amber">{String(i + 1).padStart(2, "0")}</span>
                 <h3 className="mb-2 font-display text-[16.5px] font-bold tracking-tight">{t}</h3>
                 <p className="text-[13.5px] text-dim">{d}</p>

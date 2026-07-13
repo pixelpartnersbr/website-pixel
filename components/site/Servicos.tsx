@@ -56,8 +56,8 @@ export default function Servicos() {
               <article
                 className={`flex h-full flex-col rounded-2xl border p-7 transition-colors ${
                   s.featured
-                    ? "border-amber bg-gradient-to-b from-amber/[.08] to-transparent"
-                    : "border-line bg-navy-950/40 hover:border-amber/40"
+                    ? "glow-border border-amber/60 bg-gradient-to-b from-amber/[.08] to-transparent"
+                    : "spot border-line bg-navy-950/40 hover:border-amber/40"
                 }`}
               >
                 {s.featured && (

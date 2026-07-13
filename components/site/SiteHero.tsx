@@ -1,7 +1,8 @@
 "use client";
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import Counter from "../Counter";
-import { SITE } from "./config";
+import Starfield from "../fx/Starfield";
+import { SITE, STACK_IMG } from "./config";
 
 const parent = { hidden: {}, show: { transition: { staggerChildren: 0.08, delayChildren: 0.1 } } };
 const child = {
@@ -10,6 +11,8 @@ const child = {
 };
 
 export default function SiteHero() {
+  const { scrollYProgress } = useScroll();
+  const imgY = useTransform(scrollYProgress, [0, 0.25], [0, 60]);
   return (
     <section
       className="relative overflow-hidden pb-20 pt-[150px]"
@@ -18,7 +21,9 @@ export default function SiteHero() {
           "radial-gradient(900px 500px at 85% 0%, rgba(10,76,130,.35), transparent 60%), radial-gradient(700px 420px at 0% 100%, rgba(5,58,102,.5), transparent 65%), #021627",
       }}
     >
-      <div className="wrap">
+      <Starfield density={80} />
+      <div className="beam" aria-hidden />
+      <div className="wrap relative grid items-center gap-14 lg:grid-cols-[1.05fr_.95fr]">
         <motion.div variants={parent} initial="hidden" animate="show" className="max-w-[820px]">
           <motion.span variants={child} className="eyebrow">
             Tecnologia · Marketing · Desde 2016
@@ -57,6 +62,21 @@ export default function SiteHero() {
               parceiros certificados
             </li>
           </motion.ul>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.94, y: 30 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 1.1, delay: 0.35, ease: [0.21, 0.47, 0.32, 0.98] }}
+          className="relative hidden justify-center lg:flex"
+          style={{ y: imgY }}
+        >
+          <div className="absolute inset-8 rounded-full bg-amber/15 blur-[90px]" aria-hidden />
+          <img
+            src={STACK_IMG}
+            alt="Render 3D das seis camadas da plataforma Pixel Commerce"
+            className="relative w-full max-w-[520px] rounded-3xl border border-white/10 shadow-[0_50px_120px_rgba(0,0,0,.55)]"
+            loading="eager"
+          />
         </motion.div>
       </div>
     </section>

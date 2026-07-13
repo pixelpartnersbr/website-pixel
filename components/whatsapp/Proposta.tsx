@@ -177,7 +177,7 @@ export function WaEcossistema() {
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {eco.map(([ic, t, d], i) => (
             <Reveal key={t} delay={i * 0.05} className="h-full">
-              <article className="card h-full bg-navy-800/15 p-5 transition-colors hover:border-wa/40">
+              <article className="spot card h-full bg-navy-800/15 p-5 transition-colors hover:border-wa/40">
                 <span className="text-xl" aria-hidden>{ic}</span>
                 <h3 className="mb-1.5 mt-2 font-display text-[15px] font-bold tracking-tight">{t}</h3>
                 <p className="text-[13px] text-dim">{d}</p>

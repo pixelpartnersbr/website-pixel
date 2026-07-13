@@ -27,7 +27,7 @@ export default function Numeros() {
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
           {cards.map((c, i) => (
             <Reveal key={c.what} delay={i * 0.1} className="h-full">
-              <article className="card flex h-full flex-col gap-2 bg-gradient-to-b from-navy-950/60 to-navy-950/20 p-7">
+              <article className="spot card flex h-full flex-col gap-2 bg-gradient-to-b from-navy-950/60 to-navy-950/20 p-7">
                 <Counter
                   to={c.n} prefix={c.prefix} suffix={c.suffix}
                   className="font-display text-[clamp(34px,3.6vw,48px)] font-black leading-none tracking-[-0.03em] text-amber"
@@ -48,7 +48,7 @@ export default function Numeros() {
 
         <Reveal>
           <div
-            className="mt-14 grid items-center gap-9 rounded-[20px] border border-amber/45 p-10 max-md:p-7 md:grid-cols-[auto_1fr]"
+            className="glow-border mt-14 grid items-center gap-9 rounded-[20px] border border-amber/45 p-10 max-md:p-7 md:grid-cols-[auto_1fr]"
             style={{ background: "radial-gradient(500px 240px at 8% 0%, rgba(255,183,0,.14), transparent 60%), rgba(255,183,0,.04)" }}
           >
             <div className="font-display text-[clamp(56px,7vw,92px)] font-black leading-[0.9] tracking-[-0.04em] text-amber">
