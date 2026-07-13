@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Reveal from "../Reveal";
-import { SITE, waLink } from "./config";
+import { SITE, waLink, TRAILS_IMG } from "./config";
 
 const servicosOpts = [
   "Desenvolvimento Web / Pixel Commerce",
@@ -27,8 +27,14 @@ export default function Contato() {
     "w-full rounded-[10px] border border-line bg-navy-950/60 px-4 py-3 text-[14px] text-ink placeholder:text-dim/60 outline-none transition-colors focus:border-amber";
 
   return (
-    <section id="contato" className="border-t border-line bg-navy-900 py-24">
-      <div className="wrap grid gap-14 lg:grid-cols-[1fr_.85fr]">
+    <section id="contato" className="relative overflow-hidden border-t border-line bg-navy-900 py-24">
+      <div
+        aria-hidden
+        className="absolute inset-0 bg-cover bg-bottom opacity-[.45] [mask-image:linear-gradient(to_top,black_10%,transparent_80%)]"
+        style={{ backgroundImage: `url(${TRAILS_IMG})` }}
+      />
+      <div className="beam" aria-hidden />
+      <div className="wrap relative grid gap-14 lg:grid-cols-[1fr_.85fr]">
         <Reveal>
           <span className="eyebrow">Entre em contato</span>
           <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,40px)] font-extrabold leading-[1.12] tracking-tight">

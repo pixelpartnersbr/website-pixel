@@ -18,7 +18,7 @@ export default function SiteHeader() {
       <motion.div className="absolute inset-x-0 top-0 h-[2px] origin-left bg-amber" style={{ scaleX }} />
       <div className="wrap flex h-16 items-center justify-between">
         <a href="/" className="flex items-center gap-2.5 font-display text-[17px] font-extrabold tracking-tight">
-          <span className="grid h-[26px] w-[26px] place-items-center rounded-md bg-amber text-[13px] font-black text-navy-950">P</span>
+          <img src="/images/logo-pixel-partners.png" alt="" aria-hidden className="h-11 w-11" />
           Pixel Partners
           <small className="ml-0.5 hidden font-mono text-[10px] font-normal uppercase tracking-[0.08em] text-dim sm:inline">
             code · connect · create

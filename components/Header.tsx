@@ -16,12 +16,8 @@ export default function Header() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-line bg-navy-950/80 backdrop-blur-xl">
       <motion.div className="absolute inset-x-0 top-0 h-[2px] origin-left bg-amber" style={{ scaleX }} />
       <div className="wrap flex h-16 items-center justify-between">
-        <a href="/plataforma" className="flex items-center gap-2.5 font-display text-[17px] font-extrabold tracking-tight">
-          <span className="grid h-[26px] w-[26px] place-items-center rounded-md bg-amber text-[13px] font-black text-navy-950">P</span>
-          Pixel Commerce
-          <small className="ml-0.5 hidden font-mono text-[10px] font-normal uppercase tracking-[0.08em] text-dim sm:inline">
-            <a href="/" className="transition-colors hover:text-ink">by Pixel Partners</a>
-          </small>
+        <a href="/plataforma" className="flex items-center">
+          <img src="/images/logo-pixel-commerce.png" alt="Pixel Commerce by Pixel Partners" className="h-9 w-auto" />
         </a>
         <ul className="hidden gap-7 md:flex">
           {links.map(([href, label]) => (

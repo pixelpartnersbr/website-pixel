@@ -6,6 +6,7 @@ export default function SiteFooter() {
       <div className="wrap">
         <div className="mb-10 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
+            <img src="/images/logo-pixel-partners.png" alt="Pixel Partners" className="mb-3 h-16 w-16" />
             <p className="mb-2 font-display text-[16px] font-extrabold">Pixel Partners</p>
             <p className="text-[13px] text-dim">
               Agência especializada em desenvolvimento web e marketing digital. Precisão, parceria e

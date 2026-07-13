@@ -27,7 +27,7 @@ export default function CTA() {
     >
       <div
         aria-hidden
-        className="absolute inset-0 bg-cover bg-bottom opacity-[.35] [mask-image:linear-gradient(to_top,black,transparent_75%)]"
+        className="absolute inset-0 bg-cover bg-bottom opacity-[.55] [mask-image:linear-gradient(to_top,black_15%,transparent_85%)]"
         style={{ backgroundImage: `url(${TRAILS_IMG})` }}
       />
       <div className="beam" aria-hidden />
