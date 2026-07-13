@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Reveal from "./Reveal";
+import { waLink } from "./site/config";
 
 type Plan = {
   name: string; tagline: string; monthly: number | null;
@@ -162,7 +163,9 @@ export default function Pricing() {
                     ))}
                   </ul>
                   <a
-                    href="https://pixelpartners.com.br/contato"
+                    href={waLink(`Olá! Tenho interesse no plano ${p.name} do Pixel Commerce.`)}
+                    target="_blank"
+                    rel="noopener"
                     className={`mt-auto rounded-[10px] py-3 text-center font-display text-sm font-bold transition-all ${
                       p.featured
                         ? "bg-amber text-navy-950 hover:-translate-y-0.5 hover:shadow-[0_10px_26px_rgba(255,183,0,.3)]"

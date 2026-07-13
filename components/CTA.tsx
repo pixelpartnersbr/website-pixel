@@ -2,7 +2,8 @@
 import { useRef } from "react";
 import { motion, useMotionValue, useSpring } from "framer-motion";
 import Reveal from "./Reveal";
-import { TRAILS_IMG } from "./site/config";
+import { TRAILS_IMG, TRAILS_VIDEO, waLink } from "./site/config";
+import AmbientVideo from "./fx/AmbientVideo";
 
 export default function CTA() {
   const ref = useRef<HTMLAnchorElement>(null);
@@ -25,10 +26,10 @@ export default function CTA() {
       className="relative overflow-hidden py-[120px] text-center"
       style={{ background: "radial-gradient(800px 400px at 50% 0%, rgba(255,183,0,.12), transparent 60%), #042A4C" }}
     >
-      <div
-        aria-hidden
-        className="absolute inset-0 bg-cover bg-bottom opacity-[.55] [mask-image:linear-gradient(to_top,black_15%,transparent_85%)]"
-        style={{ backgroundImage: `url(${TRAILS_IMG})` }}
+      <AmbientVideo
+        src={TRAILS_VIDEO}
+        poster={TRAILS_IMG}
+        className="opacity-[.55] [mask-image:linear-gradient(to_top,black_15%,transparent_85%)]"
       />
       <div className="beam" aria-hidden />
       <div className="wrap relative">
@@ -43,7 +44,9 @@ export default function CTA() {
           </p>
           <motion.a
             ref={ref}
-            href="https://pixelpartners.com.br/contato"
+            href={waLink("Olá! Quero minha loja rodando em Pixel Commerce.")}
+            target="_blank"
+            rel="noopener"
             className="btn-amber inline-block !px-10 !py-4 !text-base"
             style={{ x: sx, y: sy }}
             onMouseMove={onMove}

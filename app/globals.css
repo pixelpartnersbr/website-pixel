@@ -164,3 +164,15 @@ button:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   .beam { display: none; }
 }
+
+/* --- Deriva lenta do fundo de trails (fallback estático ganha vida) --- */
+@media (prefers-reduced-motion: no-preference) {
+  .trails-drift {
+    background-size: 130% auto;
+    animation: trails-pan 50s ease-in-out infinite alternate;
+  }
+  @keyframes trails-pan {
+    from { background-position: 0% 100%; }
+    to   { background-position: 100% 100%; }
+  }
+}

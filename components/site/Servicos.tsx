@@ -19,14 +19,9 @@ const servicos: Servico[] = [
     tags: ["E-commerce", "Negócios Locais", "Médicos", "Serviços"],
   },
   {
-    name: "CRO",
-    desc: "Conversion Rate Optimization: análise de comportamento, testes A/B e otimizações contínuas para maximizar o retorno do seu site.",
-    tags: ["Análise de Funil", "Testes A/B", "Heatmaps", "Landing Pages"],
-  },
-  {
-    name: "SEO / GEO",
-    desc: "Otimização para mecanismos de busca tradicionais e para IA Generativa (GEO). Visibilidade onde o seu cliente busca — inclusive dentro das IAs.",
-    tags: ["On-Page & Off-Page", "Conteúdo Estratégico", "GEO — Otimização para IA"],
+    name: "Desenvolvimento de Apps",
+    desc: "Aplicativos Android e iOS sob medida, do conceito à publicação nas lojas — integrados ao seu e-commerce, CRM e operação.",
+    tags: ["Android", "iOS", "Publicação nas Lojas", "Integração com E-commerce"],
   },
   {
     name: "Redes Sociais",
@@ -50,7 +45,7 @@ export default function Servicos() {
             consistente — e mensurável.
           </p>
         </Reveal>
-        <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           {servicos.map((s, i) => (
             <Reveal key={s.name} delay={i * 0.08} className={`h-full ${s.featured ? "md:col-span-2 xl:col-span-1" : ""}`}>
               <article

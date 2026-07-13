@@ -1,87 +1,58 @@
 "use client";
-import { useState } from "react";
 import Reveal from "../Reveal";
-import { SITE, waLink, TRAILS_IMG } from "./config";
+import { SITE, waLink, TRAILS_IMG, TRAILS_VIDEO } from "./config";
+import AmbientVideo from "../fx/AmbientVideo";
 
-const servicosOpts = [
-  "Desenvolvimento Web / Pixel Commerce",
-  "Tráfego Pago",
-  "CRO",
-  "SEO / GEO",
-  "Redes Sociais",
-  "Combo / Pacote Completo",
-];
+const MSG = "Olá! Vim pelo site da Pixel Partners e quero conversar sobre a minha operação.";
+
+function WaIcon() {
+  return (
+    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden>
+      <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.4 14.1c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1a13 13 0 0 1-6.3-5.6c-.5-.8-.9-1.9-.9-2.7 0-.9.5-1.4.7-1.6.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.4l.9 2.1c.1.2.1.4 0 .6l-.4.6-.3.4c-.1.1-.2.3-.1.5.1.3.6 1.1 1.4 1.8a8 8 0 0 0 2.1 1.4c.3.1.4.1.6-.1l.7-.9c.2-.3.4-.2.6-.1l2 .9c.3.1.5.2.5.4.1.1.1.6-.1 1.1Z"/>
+    </svg>
+  );
+}
 
 export default function Contato() {
-  const [f, setF] = useState({ nome: "", empresa: "", servico: servicosOpts[0], msg: "" });
-
-  const enviar = () => {
-    const texto =
-      `Olá! Vim pelo site da Pixel Partners.\n` +
-      `Nome: ${f.nome}\nEmpresa: ${f.empresa}\nInteresse: ${f.servico}\n` +
-      (f.msg ? `Mensagem: ${f.msg}` : "");
-    window.open(waLink(texto), "_blank", "noopener");
-  };
-
-  const input =
-    "w-full rounded-[10px] border border-line bg-navy-950/60 px-4 py-3 text-[14px] text-ink placeholder:text-dim/60 outline-none transition-colors focus:border-amber";
-
   return (
     <section id="contato" className="relative overflow-hidden border-t border-line bg-navy-900 py-24">
-      <div
-        aria-hidden
-        className="absolute inset-0 bg-cover bg-bottom opacity-[.45] [mask-image:linear-gradient(to_top,black_10%,transparent_80%)]"
-        style={{ backgroundImage: `url(${TRAILS_IMG})` }}
+      <AmbientVideo
+        src={TRAILS_VIDEO}
+        poster={TRAILS_IMG}
+        className="opacity-[.5] [mask-image:linear-gradient(to_top,black_10%,transparent_80%)]"
       />
       <div className="beam" aria-hidden />
-      <div className="wrap relative grid gap-14 lg:grid-cols-[1fr_.85fr]">
+      <div className="wrap relative text-center">
         <Reveal>
-          <span className="eyebrow">Entre em contato</span>
-          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
+          <span className="eyebrow justify-center">Entre em contato</span>
+          <h2 className="mx-auto mb-4 max-w-[720px] font-display text-[clamp(26px,3.2vw,48px)] font-extrabold leading-[1.12] tracking-tight">
             Pronto para crescer com estratégia?
           </h2>
-          <p className="mb-8 max-w-[480px] text-[16px] text-dim">
-            Conte o que a sua operação precisa. A conversa começa no WhatsApp — sem formulário perdido em
-            caixa de entrada, sem robô.
+          <p className="mx-auto mb-9 max-w-[520px] text-[16.5px] text-dim">
+            A conversa começa — e continua — no WhatsApp. Direto com quem resolve: sem formulário, sem
+            fila de e-mail, sem robô.
           </p>
-          <div className="flex flex-col gap-5">
-            <div className="grid gap-4 sm:grid-cols-2">
-              <input className={input} placeholder="Seu nome" value={f.nome}
-                onChange={(e) => setF({ ...f, nome: e.target.value })} aria-label="Seu nome" />
-              <input className={input} placeholder="Empresa" value={f.empresa}
-                onChange={(e) => setF({ ...f, empresa: e.target.value })} aria-label="Empresa" />
-            </div>
-            <select className={input} value={f.servico} aria-label="Serviço de interesse"
-              onChange={(e) => setF({ ...f, servico: e.target.value })}>
-              {servicosOpts.map((s) => <option key={s} value={s}>{s}</option>)}
-            </select>
-            <textarea className={`${input} min-h-[110px] resize-y`} placeholder="Mensagem (opcional)"
-              value={f.msg} onChange={(e) => setF({ ...f, msg: e.target.value })} aria-label="Mensagem" />
-            <button type="button" onClick={enviar} className="btn-amber w-fit">
-              Enviar pelo WhatsApp
-            </button>
-          </div>
-        </Reveal>
-        <Reveal delay={0.15}>
-          <div className="flex h-full flex-col gap-4">
-            <div className="card bg-navy-950/40 p-6">
-              <h3 className="mb-1 font-display text-[15px] font-bold">E-mail</h3>
-              <a href={`mailto:${SITE.email}`} className="text-[14px] text-dim no-underline hover:text-ink">{SITE.email}</a>
-            </div>
-            <div className="card bg-navy-950/40 p-6">
+          <a
+            href={waLink(MSG)}
+            target="_blank"
+            rel="noopener"
+            className="inline-flex items-center gap-3 rounded-full bg-[#25D366] px-9 py-4.5 py-[18px] font-display text-[16.5px] font-bold text-navy-950 no-underline shadow-[0_10px_30px_rgba(37,211,102,.3)] transition-all hover:-translate-y-0.5 hover:shadow-[0_14px_36px_rgba(37,211,102,.4)]"
+          >
+            <WaIcon /> Chamar no WhatsApp
+          </a>
+          <p className="mt-4 font-mono text-[13px] tracking-[0.04em] text-dim">{SITE.whatsappDisplay}</p>
+          <div className="mx-auto mt-12 grid max-w-[880px] gap-4 sm:grid-cols-3">
+            <div className="spot card bg-navy-950/40 p-6 text-left">
               <h3 className="mb-1 font-display text-[15px] font-bold">Atendimento</h3>
-              <p className="text-[14px] text-dim">Segunda a sexta · 9h às 18h<br />Brasil — atendimento em todo o território nacional</p>
+              <p className="text-[13.5px] text-dim">Segunda a sexta · 9h às 18h. Todo o Brasil.</p>
             </div>
-            <div className="card bg-navy-950/40 p-6">
+            <div className="spot card bg-navy-950/40 p-6 text-left">
               <h3 className="mb-1 font-display text-[15px] font-bold">Tempo de resposta</h3>
-              <p className="text-[14px] text-dim">Em até 1 dia útil por e-mail. Via WhatsApp, geralmente em poucas horas.</p>
+              <p className="text-[13.5px] text-dim">Via WhatsApp, geralmente em poucas horas.</p>
             </div>
-            <div className="card flex items-center justify-between gap-4 border-amber/40 bg-amber/5 p-6">
-              <div>
-                <h3 className="mb-1 font-display text-[15px] font-bold">Certificações oficiais</h3>
-                <p className="text-[13px] text-dim">Google Partner · Meta Business Partner</p>
-              </div>
-              <span className="font-display text-2xl font-black text-amber">G·M</span>
+            <div className="spot card border-amber/40 bg-amber/5 p-6 text-left">
+              <h3 className="mb-1 font-display text-[15px] font-bold">Certificações</h3>
+              <p className="text-[13.5px] text-dim">Google Partner · Meta Business Partner</p>
             </div>
           </div>
         </Reveal>

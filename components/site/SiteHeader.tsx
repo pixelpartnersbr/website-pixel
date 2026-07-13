@@ -18,10 +18,9 @@ export default function SiteHeader() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-line bg-navy-950/80 backdrop-blur-xl">
       <motion.div className="absolute inset-x-0 top-0 h-[2px] origin-left bg-amber" style={{ scaleX }} />
       <div className="wrap flex h-16 items-center justify-between">
-        <a href="/" className="flex items-center gap-2.5 font-display text-[17px] font-extrabold tracking-tight">
-          <img src="/images/logo-pixel-partners.png" alt="" aria-hidden className="h-11 w-11" />
-          Pixel Partners
-          <small className="ml-0.5 hidden font-mono text-[10px] font-normal uppercase tracking-[0.08em] text-dim sm:inline">
+        <a href="/" className="flex items-center gap-3">
+          <img src="/images/logo-pixel-partners-inline.png" alt="Pixel Partners" className="h-10 w-auto" />
+          <small className="hidden font-mono text-[10px] uppercase tracking-[0.08em] text-dim lg:inline">
             code · connect · create
           </small>
         </a>
