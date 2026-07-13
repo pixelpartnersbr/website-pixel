@@ -1,7 +1,7 @@
 // ⚙️ AJUSTE AQUI: dados de contato e estatísticas do site institucional
 export const SITE = {
-  whatsapp: "5527999999999", // TODO: número real com DDI+DDD
-  email: "contato@pixelpartners.com.br", // TODO: confirmar e-mail
+  whatsapp: "5527996520301",
+  whatsappDisplay: "+55 27 99652-0301",
   instagram: "https://www.instagram.com/pixelpartnersbr/",
   cnpj: "52.094.031/0001-52",
   stats: {

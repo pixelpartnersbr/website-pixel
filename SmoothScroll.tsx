@@ -2,7 +2,7 @@
 import { useRef } from "react";
 import { motion, useMotionValue, useSpring } from "framer-motion";
 import Reveal from "./Reveal";
-import { TRAILS_IMG } from "./site/config";
+import { TRAILS_IMG, waLink } from "./site/config";
 
 export default function CTA() {
   const ref = useRef<HTMLAnchorElement>(null);
@@ -43,7 +43,9 @@ export default function CTA() {
           </p>
           <motion.a
             ref={ref}
-            href="https://pixelpartners.com.br/contato"
+            href={waLink("Olá! Quero minha loja rodando em Pixel Commerce.")}
+            target="_blank"
+            rel="noopener"
             className="btn-amber inline-block !px-10 !py-4 !text-base"
             style={{ x: sx, y: sy }}
             onMouseMove={onMove}
