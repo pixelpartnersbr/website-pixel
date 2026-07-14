@@ -15,7 +15,7 @@ const plans: Plan[] = [
   {
     name: "Start", tagline: "Para lojas começando a operar sério",
     job: "Operação blindada, números na mesa",
-    monthly: 597, orders: "até 300 pedidos/mês", setup: "R$ 2.497",
+    monthly: 597, orders: "até 100 pedidos/mês", setup: "R$ 2.497",
     features: [
       { t: "PrimePress: servidor sob medida (compartilhado)" },
       { t: "Order Shield + Product Shield + detecção de carding" },
@@ -28,7 +28,7 @@ const plans: Plan[] = [
   {
     name: "Growth", tagline: "Para lojas em crescimento consistente",
     job: "A máquina de recompra: cliente que volta sozinho",
-    monthly: 1197, orders: "até 1.500 pedidos/mês", setup: "R$ 2.497", featured: true,
+    monthly: 1197, orders: "até 350 pedidos/mês", setup: "R$ 2.497", featured: true,
     features: [
       { t: "Tudo do Start + fatia de servidor garantida" },
       { t: "Fidelização + Cashback: pontos e saldo que trazem o cliente de volta", novo: true },
@@ -42,7 +42,7 @@ const plans: Plan[] = [
   {
     name: "Scale", tagline: "Para operações de alto volume",
     job: "Novos canais de receita, picos sob controle",
-    monthly: 2497, orders: "até 5.000 pedidos/mês", setup: "R$ 4.997",
+    monthly: 2497, orders: "até 1.000 pedidos/mês", setup: "R$ 4.997",
     features: [
       { t: "Tudo do Growth + servidor dedicado (CCX)" },
       { t: "Módulo Atacadista: preços B2B, pedido mínimo, catálogo fechado", novo: true },
@@ -57,7 +57,7 @@ const plans: Plan[] = [
   {
     name: "Enterprise", tagline: "Para quem já é referência no segmento",
     job: "A plataforma moldada à sua operação",
-    monthly: null, orders: "5.000+ pedidos/mês", setup: "sob proposta",
+    monthly: null, orders: "1.000+ pedidos/mês · proposta personalizada", setup: "sob proposta",
     features: [
       { t: "Tudo do Scale + servidor 100% dedicado" },
       { t: "QueueGuard ilimitado" },
@@ -197,9 +197,10 @@ export default function Pricing() {
         <Reveal>
           <p className="mx-auto mt-8 max-w-[760px] text-center text-[12.5px] text-dim">
             Valores fixos dentro de cada faixa. O enquadramento por pedidos/mês é medido pelo próprio Pixel
-            Reports e revisado a cada trimestre — sua loja só muda de plano se mudar de patamar, com aviso
-            prévio. Contrato anual: 10% de desconto. Implantação inclui migração, hardening e configuração
-            de todos os módulos.
+            Reports sobre a média do trimestre — um pico isolado (Black Friday, lançamento) não reenquadra a
+            sua loja, e estourar a faixa nunca bloqueia nada. Mudança de plano só quando o patamar muda de
+            verdade, sempre com aviso prévio. Contrato anual: 10% de desconto. Implantação inclui migração,
+            hardening e configuração de todos os módulos.
           </p>
         </Reveal>
       </div>

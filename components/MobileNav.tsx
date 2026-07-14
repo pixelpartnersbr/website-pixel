@@ -7,7 +7,7 @@ export default function MobileNav({
 }: { links: (readonly [string, string])[] | string[][]; cta: [string, string] }) {
   const [open, setOpen] = useState(false);
   return (
-    <div className="md:hidden">
+    <div className="xl:hidden">
       <button
         type="button"
         aria-label={open ? "Fechar menu" : "Abrir menu"}

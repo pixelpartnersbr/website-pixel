@@ -20,18 +20,18 @@ export default function SiteHeader() {
       <div className="wrap flex h-16 items-center justify-between">
         <a href="/" className="flex items-center gap-3">
           <img src="/images/logo-pixel-partners-inline.png" alt="Pixel Partners" className="h-10 w-auto" />
-          <small className="hidden font-mono text-[10px] uppercase tracking-[0.08em] text-dim lg:inline">
+          <small className="hidden font-mono text-[10px] uppercase tracking-[0.08em] text-dim xl:inline">
             code · connect · create
           </small>
         </a>
-        <ul className="hidden gap-7 md:flex">
+        <ul className="hidden gap-7 xl:flex">
           {links.map(([href, label]) => (
             <li key={href}>
               <a href={href} className="text-[13.5px] text-dim transition-colors hover:text-ink">{label}</a>
             </li>
           ))}
         </ul>
-        <a href="/#contato" className="hidden rounded-lg bg-amber sm:max-md:hidden md:inline-block px-[18px] py-[9px] font-display text-[13px] font-bold text-navy-950 transition-all hover:-translate-y-px hover:shadow-[0_6px_18px_rgba(255,183,0,.28)]">
+        <a href="/#contato" className="hidden rounded-lg bg-amber xl:inline-block px-[18px] py-[9px] font-display text-[13px] font-bold text-navy-950 transition-all hover:-translate-y-px hover:shadow-[0_6px_18px_rgba(255,183,0,.28)]">
           Fale Conosco
         </a>
         <MobileNav links={links} cta={["/#contato", "Fale Conosco"]} />
