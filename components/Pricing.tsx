@@ -7,7 +7,7 @@ import { waLink } from "./site/config";
 type Feature = { t: string; novo?: boolean };
 type Plan = {
   name: string; tagline: string; job: string; monthly: number | null;
-  orders: string; setup: string; featured?: boolean;
+  orders: string; pct?: string; featured?: boolean;
   features: Feature[]; cta: string;
 };
 
@@ -15,7 +15,7 @@ const plans: Plan[] = [
   {
     name: "Start", tagline: "Para lojas começando a operar sério",
     job: "Operação blindada, números na mesa",
-    monthly: 597, orders: "até 100 pedidos/mês", setup: "R$ 2.497",
+    monthly: 597, orders: "até 100 pedidos/mês", pct: "≈ 2,0%",
     features: [
       { t: "PrimePress: servidor sob medida (compartilhado)" },
       { t: "Order Shield + Product Shield + detecção de carding" },
@@ -28,7 +28,7 @@ const plans: Plan[] = [
   {
     name: "Growth", tagline: "Para lojas em crescimento consistente",
     job: "A máquina de recompra: cliente que volta sozinho",
-    monthly: 1197, orders: "até 350 pedidos/mês", setup: "R$ 2.497", featured: true,
+    monthly: 1197, orders: "até 350 pedidos/mês", pct: "≈ 1,1%", featured: true,
     features: [
       { t: "Tudo do Start + fatia de servidor garantida" },
       { t: "Fidelização + Cashback: pontos e saldo que trazem o cliente de volta", novo: true },
@@ -42,7 +42,7 @@ const plans: Plan[] = [
   {
     name: "Scale", tagline: "Para operações de alto volume",
     job: "Novos canais de receita, picos sob controle",
-    monthly: 2497, orders: "até 1.000 pedidos/mês", setup: "R$ 4.997",
+    monthly: 2497, orders: "até 1.000 pedidos/mês", pct: "≈ 0,8%",
     features: [
       { t: "Tudo do Growth + servidor dedicado (CCX)" },
       { t: "Módulo Atacadista: preços B2B, pedido mínimo, catálogo fechado", novo: true },
@@ -57,7 +57,7 @@ const plans: Plan[] = [
   {
     name: "Enterprise", tagline: "Para quem já é referência no segmento",
     job: "A plataforma moldada à sua operação",
-    monthly: null, orders: "1.000+ pedidos/mês · proposta personalizada", setup: "sob proposta",
+    monthly: null, orders: "1.000+ pedidos/mês · proposta personalizada",
     features: [
       { t: "Tudo do Scale + servidor 100% dedicado" },
       { t: "QueueGuard ilimitado" },
@@ -159,8 +159,13 @@ export default function Pricing() {
                     )}
                   </div>
                   <p className="mb-6 font-mono text-[11px] uppercase tracking-[0.08em] text-dim">
-                    {p.orders} · implantação {p.setup}
+                    {p.orders}
                   </p>
+                  {p.pct && (
+                    <p className="mt-1.5 text-[12px] text-dim">
+                      a plataforma inteira por <strong className="text-amber">{p.pct} do faturamento</strong> no teto da faixa*
+                    </p>
+                  )}
                   <ul className="mb-8 flex flex-col gap-2.5">
                     {p.features.map((f) => (
                       <li key={f.t} className="flex gap-2.5 text-[13.5px] text-dim">
@@ -199,8 +204,10 @@ export default function Pricing() {
             Valores fixos dentro de cada faixa. O enquadramento por pedidos/mês é medido pelo próprio Pixel
             Reports sobre a média do trimestre — um pico isolado (Black Friday, lançamento) não reenquadra a
             sua loja, e estourar a faixa nunca bloqueia nada. Mudança de plano só quando o patamar muda de
-            verdade, sempre com aviso prévio. Contrato anual: 10% de desconto. Implantação inclui migração,
-            hardening e configuração de todos os módulos.
+            verdade, sempre com aviso prévio. Contrato anual: 10% de desconto. Implantação definida em
+            proposta — inclui migração, hardening e configuração de todos os módulos. *Percentual de
+            referência calculado no teto de pedidos da faixa com ticket médio de R$ 299; quanto maior o
+            seu ticket, menor o percentual.
           </p>
         </Reveal>
       </div>
