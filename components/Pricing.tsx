@@ -162,7 +162,7 @@ export default function Pricing() {
                     {p.orders}
                   </p>
                   {p.pct && (
-                    <p className="mt-1.5 text-[12px] text-dim">
+                    <p className="mb-5 mt-1.5 text-[12px] text-dim">
                       a plataforma inteira por <strong className="text-amber">{p.pct} do faturamento</strong> no teto da faixa*
                     </p>
                   )}

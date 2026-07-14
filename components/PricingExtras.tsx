@@ -25,9 +25,14 @@ function Comparativos() {
           <p className="font-display text-[16px] font-extrabold tracking-tight">Comparando com outras ferramentas?</p>
           <p className="text-[13.5px] text-dim">Fizemos a lição de casa por você — recurso a recurso, com a conta na ponta do lápis.</p>
         </div>
-        <a href="/comparativos/pixel-crm-vs-zoppy" className="btn-ghost whitespace-nowrap">
-          Pixel CRM vs Zoppy →
-        </a>
+        <div className="flex flex-wrap gap-3">
+          <a href="/comparativos/pixel-crm-vs-zoppy" className="btn-ghost whitespace-nowrap">
+            Pixel CRM vs Zoppy →
+          </a>
+          <a href="/comparativos/pixel-commerce-vs-shopify" className="btn-ghost whitespace-nowrap">
+            Pixel Commerce vs Shopify →
+          </a>
+        </div>
       </div>
     </Reveal>
   );
