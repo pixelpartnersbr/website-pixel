@@ -41,18 +41,19 @@ const camadas: Camada[] = [
     mods: [
       { name: "Videocommerce", desc: "Vídeo shoppable no catálogo, na galeria e em stories — com carrinho e seletor de variação dentro do player. A peça em movimento vende o caimento que a foto não mostra.", href: "/videocommerce" },
       { name: "Provador de Tamanho", desc: "Provador virtual com silhueta corporal, tabela híbrida de medidas e motor de recomendação — inclusive para calçados. Menos troca, menos devolução.", href: "/provador" },
-      { name: "Pixel Conjuntos", desc: "Kits e conjuntos de produtos com montagem visual, variações sincronizadas e regras de estoque de verdade." },
+      { name: "Pixel Conjuntos + Shop the Look", desc: "Kits e conjuntos com montagem visual, variações sincronizadas e o look completo compre-junto na página do produto." },
       { name: "Filtro inteligente de estoque", desc: "Navegação por atributo que respeita o estoque real de cada variação. O cliente nunca clica em algo que não existe." },
       { name: "Carrinhos personalizados", desc: "Links de carrinho pré-montado com desconto condicional — perfeito para vendas assistidas por WhatsApp." },
       { name: "Módulo Atacadista", desc: "Atacado e varejo na mesma loja: preços B2B por CNPJ aprovado, quantidade mínima, checkout próprio e estoque único — sem segundo site.", href: "/atacadista" },
-      { name: "Código de Vendedor", desc: "Cada vendedor ou representante com seu código e painel próprio: atribuição de venda, comissão calculada sobre venda líquida e ranking." },
+      { name: "Código de Vendedor", desc: "O cliente indica no checkout quem o atendeu — sem desconto, sem cupom. Ranking por vendas líquidas e comissão fechada em minutos.", href: "/vendedor" },
     ],
   },
   {
     num: "05", title: "Relacionamento",
     desc: "O WhatsApp deixa de ser atendimento e vira canal de receita.",
     mods: [
-      { name: "Canal WhatsApp", desc: "Integração oficial via Meta Cloud API e 360dialog: recuperação de carrinho, aviso de volta ao estoque, resumo de vendas e alerta de fraude — direto no seu WhatsApp." },
+      { name: "Canal WhatsApp", desc: "Integração oficial via Meta Cloud API e 360dialog: a voz de todos os módulos — aviso de volta ao estoque, resumo de vendas e alerta de fraude direto no seu WhatsApp." },
+      { name: "Recuperação de Carrinho Abandonado", desc: "Quem desistiu recebe o link do carrinho pronto, com desconto condicional pra fechar a venda na hora — pelo canal WhatsApp da loja." },
       { name: "Campanhas segmentadas", desc: "Disparos em massa a partir do Pixel CRM, com segmentação por comportamento de compra — não por lista fria." },
       { name: "Fidelização + Cashback", desc: "Programa de pontos e cashback nativo da loja: saldo que só vale ali, prazo de expiração que cria urgência e cliente voltando sem precisar de anúncio.", href: "/comparativos/fidelizacao-vs-fidelizar-mais" },
     ],

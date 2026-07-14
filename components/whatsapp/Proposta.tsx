@@ -211,7 +211,8 @@ const canalItems = [
 ];
 
 const vozes: [string, string][] = [
-  ["Pixel CRM", "campanhas segmentadas e recuperação de carrinho disparadas direto da sua base RFM"],
+  ["Recuperação de Carrinho Abandonado", "quem desistiu recebe o link do carrinho pronto pra fechar a venda na hora"],
+  ["Pixel CRM", "campanhas segmentadas disparadas direto da sua base RFM"],
   ["Fidelização + Cashback", "aviso de saldo ganho e de cashback expirando — a urgência que traz de volta"],
   ["Código de Vendedor", "cada vendedor recebe a comissão pingando em tempo real no próprio WhatsApp"],
   ["Pixel Reports", "os números da operação saindo do painel e chegando na palma da sua mão"],

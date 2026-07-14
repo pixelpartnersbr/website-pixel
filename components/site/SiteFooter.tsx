@@ -37,6 +37,7 @@ export default function SiteFooter() {
               <li><a href="/pixel-crm" className="text-dim no-underline hover:text-ink">Pixel CRM</a></li>
               <li><a href="/atacadista" className="text-dim no-underline hover:text-ink">Módulo Atacadista</a></li>
               <li><a href="/provador" className="text-dim no-underline hover:text-ink">Provador de Tamanho</a></li>
+              <li><a href="/vendedor" className="text-dim no-underline hover:text-ink">Código de Vendedor</a></li>
               <li><a href="/videocommerce" className="text-dim no-underline hover:text-ink">Videocommerce</a></li>
               <li><a href="https://queueguard.app" target="_blank" rel="noopener" className="text-dim no-underline hover:text-ink">QueueGuard ↗</a></li>
             </ul>

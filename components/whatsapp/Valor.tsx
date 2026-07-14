@@ -134,7 +134,7 @@ export function VCarrinho() {
     "w-full rounded-[10px] border border-line bg-navy-950/60 px-4 py-2.5 text-[14px] text-ink outline-none transition-colors focus:border-wa";
   return (
     <Modulo
-      badge="Canal + Pixel CRM"
+      badge="Canal + módulo Recuperação de Carrinho"
       title="Carrinho abandonado: o dinheiro que já esteve na sua mão"
       invert
       mock={
@@ -168,7 +168,7 @@ export function VCarrinho() {
     >
       <p>
         Em média, <strong className="text-ink">7 de cada 10 carrinhos são abandonados</strong> no
-        e-commerce*. Esse cliente escolheu o produto, colocou no carrinho — e sumiu. A automação do Pixel CRM manda pra
+        e-commerce*. Esse cliente escolheu o produto, colocou no carrinho — e sumiu. O módulo Recuperação de Carrinho manda pra
         ele, no WhatsApp, o <strong className="text-ink">link do carrinho pronto</strong>, com{" "}
         <strong className="text-ink">desconto condicional</strong> pra fechar agora.
       </p>
