@@ -16,6 +16,7 @@ export default function Footer() {
           <a href="/atacadista" className="text-dim no-underline transition-colors hover:text-ink">Módulo Atacadista</a>
           <a href="/provador" className="text-dim no-underline transition-colors hover:text-ink">Provador de Tamanho</a>
           <a href="/vendedor" className="text-dim no-underline transition-colors hover:text-ink">Código de Vendedor</a>
+          <a href="/shop-the-look" className="text-dim no-underline transition-colors hover:text-ink">Shop The Look</a>
           <a href="/videocommerce" className="text-dim no-underline transition-colors hover:text-ink">Videocommerce</a>
           <a href="/planos" className="text-dim no-underline transition-colors hover:text-ink">Planos</a>
         </nav>
