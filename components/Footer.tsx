@@ -13,6 +13,8 @@ export default function Footer() {
           <a href="/comparativos/pixel-commerce-vs-shopify" className="text-dim no-underline transition-colors hover:text-ink">vs Shopify</a>
           <a href="/comparativos/fidelizacao-vs-fidelizar-mais" className="text-dim no-underline transition-colors hover:text-ink">vs Fidelizar+</a>
           <a href="/pixel-crm" className="text-dim no-underline transition-colors hover:text-ink">Pixel CRM</a>
+          <a href="/atacadista" className="text-dim no-underline transition-colors hover:text-ink">Módulo Atacadista</a>
+          <a href="/provador" className="text-dim no-underline transition-colors hover:text-ink">Provador de Tamanho</a>
           <a href="/videocommerce" className="text-dim no-underline transition-colors hover:text-ink">Videocommerce</a>
           <a href="/planos" className="text-dim no-underline transition-colors hover:text-ink">Planos</a>
         </nav>

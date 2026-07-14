@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 import Counter from "./Counter";
 
 const cards = [
-  { n: 30, prefix: "até ", suffix: "%", what: "dos carrinhos abandonados recuperados", how: "Recuperação ativa por WhatsApp com o PP Whatsapp: mensagem certa, na hora certa, no canal que o brasileiro responde.", src: "recuperação ativa de carrinho · referência de mercado" },
+  { n: 30, prefix: "até ", suffix: "%", what: "dos carrinhos abandonados recuperados", how: "Recuperação ativa por WhatsApp com o Canal WhatsApp: mensagem certa, na hora certa, no canal que o brasileiro responde.", src: "recuperação ativa de carrinho · referência de mercado" },
   { n: 40, prefix: "−", suffix: "%", what: "em trocas e devoluções por tamanho errado", how: "Provador de Tamanho com silhueta corporal e recomendação automática: o cliente compra o tamanho certo na primeira vez.", src: "ferramentas de fit & size · referência de mercado" },
   { n: 7, prefix: "+", suffix: "%", what: "de conversão a cada segundo a menos no carregamento", how: "PrimePress com cache em camadas: página rápida vende mais — e o efeito se repete em cada visita, todos os dias.", src: "velocidade × conversão · referência de mercado" },
   { n: 100, prefix: "", suffix: "%", what: "das mudanças de pedido e produto auditadas", how: "Order Shield e Product Shield registram e bloqueiam o que não deveria acontecer. Fraude barrada é margem preservada.", src: "medido em produção · frota pixel commerce" },

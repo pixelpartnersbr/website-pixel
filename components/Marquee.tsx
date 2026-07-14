@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const items = [
   "PrimePress", "QueueGuard", "Order Shield", "Product Shield", "Pixel Reports",
-  "Pixel CRM", "PP Whatsapp", "Provador de Tamanho", "Pixel Conjuntos",
-  "Filtro Inteligente", "Carrinhos Personalizados", "Fidelização + Cashback", "Atacado B2B", "Código de Vendedor", "PP Videocommerce",
+  "Pixel CRM", "Canal WhatsApp", "Provador de Tamanho", "Pixel Conjuntos",
+  "Filtro Inteligente", "Carrinhos Personalizados", "Fidelização + Cashback", "Módulo Atacadista", "Código de Vendedor", "Videocommerce",
 ];
 
 export default function Marquee() {

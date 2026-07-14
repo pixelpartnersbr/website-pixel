@@ -1,5 +1,5 @@
 "use client";
-// Elementos compartilhados das páginas PP Whatsapp
+// Elementos compartilhados das páginas Canal WhatsApp
 export function WaIcon({ className = "h-5 w-5" }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" className={className} fill="currentColor" aria-hidden>

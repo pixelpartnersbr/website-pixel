@@ -3,7 +3,7 @@ import Reveal from "../Reveal";
 import { PhoneMock, Bubble, WaIcon, ModBadge } from "./ui";
 import { waLink } from "../site/config";
 
-const CTA_MSG = "Olá! Quero saber mais sobre o WhatsApp Oficial (PP Whatsapp) para a minha loja.";
+const CTA_MSG = "Olá! Quero saber mais sobre o WhatsApp Oficial (Canal WhatsApp) para a minha loja.";
 
 /* ============ HERO ============ */
 export function WaHero() {

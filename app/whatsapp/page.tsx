@@ -6,7 +6,7 @@ import { WaHero, WaMotivos, WaTarifas, WaEcossistema, WaInvestimento } from "@/c
 export const metadata: Metadata = {
   title: "WhatsApp Oficial para sua loja — Pixel Partners",
   description:
-    "PP Whatsapp: sua loja no WhatsApp oficial com app próprio na Meta. Follow-up de pedidos, recuperação de carrinho e atendimento sem risco de banimento. A partir de R$ 199/mês.",
+    "Canal WhatsApp: sua loja no WhatsApp oficial com app próprio na Meta. Follow-up de pedidos, recuperação de carrinho e atendimento sem risco de banimento. A partir de R$ 199/mês.",
 };
 
 export default function WhatsappPage() {

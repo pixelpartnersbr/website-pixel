@@ -2,7 +2,7 @@
 import Reveal from "./Reveal";
 import { waLink } from "./site/config";
 
-const CTA_MSG = "Olá! Quero vídeo shoppable na minha loja com o PP Videocommerce.";
+const CTA_MSG = "Olá! Quero vídeo shoppable na minha loja com o Videocommerce.";
 
 /* ============ MOCK: story shoppable ============ */
 function StoryMock() {
@@ -63,7 +63,7 @@ export function VcHero() {
       <div className="beam" aria-hidden />
       <div className="wrap relative grid items-center gap-14 lg:grid-cols-[1.1fr_.9fr]">
         <Reveal>
-          <span className="eyebrow">Pixel Commerce · PP Videocommerce</span>
+          <span className="eyebrow">Pixel Commerce · Videocommerce</span>
           <h1 className="mb-5 font-display text-[clamp(32px,4.4vw,56px)] font-extrabold leading-[1.08] tracking-[-0.025em]">
             Vídeo que vende — <span className="text-amber">dentro</span> da sua loja.
           </h1>
@@ -212,7 +212,7 @@ export function VcComparativo() {
     <section id="comparativo" className="border-t border-line py-24">
       <div className="wrap">
         <Reveal className="mb-10 max-w-[720px]">
-          <span className="eyebrow">Comparativo · PP Videocommerce vs Widde</span>
+          <span className="eyebrow">Comparativo · Videocommerce vs Widde</span>
           <h2 className="mb-4 font-display text-[clamp(24px,3vw,38px)] font-extrabold leading-[1.12] tracking-tight">
             A mesma categoria da líder — sem limite e pela metade do preço
           </h2>
@@ -228,7 +228,7 @@ export function VcComparativo() {
               <thead>
                 <tr className="border-b border-line bg-navy-950/60">
                   <th className="p-4 font-mono text-[11px] font-medium uppercase tracking-[0.1em] text-dim">Critério</th>
-                  <th className="w-[210px] p-4 text-center font-display text-[14px] font-extrabold text-amber">PP Videocommerce</th>
+                  <th className="w-[210px] p-4 text-center font-display text-[14px] font-extrabold text-amber">Videocommerce</th>
                   <th className="w-[210px] p-4 text-center font-display text-[14px] font-extrabold">Widde</th>
                 </tr>
               </thead>
@@ -280,7 +280,7 @@ export function VcHonesto() {
           <p className="text-[15px] text-dim">
             <strong className="text-ink">Live commerce</strong> (transmissão ao vivo) e{" "}
             <strong className="text-ink">provador virtual com IA</strong> são infraestrutura dedicada, não
-            plugin. Pra manter o produto enxuto, rápido e a R$ 199, o PP Videocommerce foca no essencial do
+            plugin. Pra manter o produto enxuto, rápido e a R$ 199, o Videocommerce foca no essencial do
             vídeo shoppable — e quando live ou provador de IA fizerem sentido pra sua operação, o caminho
             certo é integrar uma plataforma especializada. A Pixel orienta nisso, sem empurrar o que não
             resolve.

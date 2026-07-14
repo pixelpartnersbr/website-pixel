@@ -87,7 +87,7 @@ const rows: [string, Cell, Cell][] = [
   ["Preço fixo, público, que não escala com o sucesso", { v: "sim", note: "R$ 299/mês ou incluso no Growth" }, { v: "info", note: "público, mas por faixa de base" }],
   ["Dados do programa no banco da sua loja", { v: "sim" }, { v: "nao", note: "SaaS externo" }],
   ["Integração nativa com CRM da mesma stack (RFM, churn)", { v: "sim", note: "Pixel CRM" }, { v: "nao" }],
-  ["Aviso de cashback expirando por WhatsApp oficial", { v: "sim", note: "via canal PP Whatsapp" }, { v: "info", note: "integração WhatsApp possível" }],
+  ["Aviso de cashback expirando por WhatsApp oficial", { v: "sim", note: "via canal WhatsApp oficial" }, { v: "info", note: "integração WhatsApp possível" }],
   ["Suporte de quem escreveu o código", { v: "sim" }, { v: "nao", note: "gerente de contas a partir de R$ 750/mês" }],
   ["Gamificação (caça ao tesouro, foto/vídeo, roleta)", { v: "nao" }, { v: "sim" }],
   ["Sistema de níveis de cliente (tiers)", { v: "nao", note: "no roadmap; segmentação hoje via Pixel CRM" }, { v: "sim" }],

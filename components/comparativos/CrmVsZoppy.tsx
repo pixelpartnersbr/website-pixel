@@ -82,7 +82,7 @@ const rows: [string, Cell, Cell][] = [
   ["Matriz RFM (quem compra, quem sumiu, quem vale reativar)", { v: "sim" }, { v: "sim" }],
   ["Cashback / giftback para recompra", { v: "sim", note: "módulo Fidelização + Cashback" }, { v: "sim", note: "giftback" }],
   ["Automações de recompra e reativação", { v: "sim" }, { v: "sim" }],
-  ["Campanhas segmentadas por WhatsApp / e-mail", { v: "sim", note: "via PP Whatsapp — API oficial Meta, app seu" }, { v: "sim", note: "WhatsApp, SMS e e-mail" }],
+  ["Campanhas segmentadas por WhatsApp / e-mail", { v: "sim", note: "via canal WhatsApp oficial — API Meta, app seu" }, { v: "sim", note: "WhatsApp, SMS e e-mail" }],
   ["Clientes registrados + guests unificados na mesma base", { v: "sim" }, { v: "info", note: "não divulgado" }],
   ["Risco de churn pela cadência individual de compra de cada cliente", { v: "sim" }, { v: "info", note: "não divulgado" }],
   ["Venda líquida real (bruta − frete − reembolsos) como métrica", { v: "sim", note: "integração nativa Pixel Reports" }, { v: "info", note: "não divulgado" }],

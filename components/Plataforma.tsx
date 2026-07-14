@@ -39,12 +39,12 @@ const camadas: Camada[] = [
     num: "04", title: "Conversão",
     desc: "Recursos de plataforma fechada, construídos sob medida para moda e varejo brasileiro.",
     mods: [
-      { name: "PP Videocommerce", desc: "Vídeo shoppable no catálogo, na galeria e em stories — com carrinho e seletor de variação dentro do player. A peça em movimento vende o caimento que a foto não mostra.", href: "/videocommerce" },
-      { name: "Provador de Tamanho", desc: "Provador virtual com silhueta corporal, tabela híbrida de medidas e motor de recomendação — inclusive para calçados. Menos troca, menos devolução." },
+      { name: "Videocommerce", desc: "Vídeo shoppable no catálogo, na galeria e em stories — com carrinho e seletor de variação dentro do player. A peça em movimento vende o caimento que a foto não mostra.", href: "/videocommerce" },
+      { name: "Provador de Tamanho", desc: "Provador virtual com silhueta corporal, tabela híbrida de medidas e motor de recomendação — inclusive para calçados. Menos troca, menos devolução.", href: "/provador" },
       { name: "Pixel Conjuntos", desc: "Kits e conjuntos de produtos com montagem visual, variações sincronizadas e regras de estoque de verdade." },
       { name: "Filtro inteligente de estoque", desc: "Navegação por atributo que respeita o estoque real de cada variação. O cliente nunca clica em algo que não existe." },
       { name: "Carrinhos personalizados", desc: "Links de carrinho pré-montado com desconto condicional — perfeito para vendas assistidas por WhatsApp." },
-      { name: "Módulo Atacadista", desc: "Canal B2B dentro da mesma loja: tabela de preço de atacado, pedido mínimo e catálogo fechado para lojistas revendedores." },
+      { name: "Módulo Atacadista", desc: "Atacado e varejo na mesma loja: preços B2B por CNPJ aprovado, quantidade mínima, checkout próprio e estoque único — sem segundo site.", href: "/atacadista" },
       { name: "Código de Vendedor", desc: "Cada vendedor ou representante com seu código e painel próprio: atribuição de venda, comissão calculada sobre venda líquida e ranking." },
     ],
   },
@@ -52,7 +52,7 @@ const camadas: Camada[] = [
     num: "05", title: "Relacionamento",
     desc: "O WhatsApp deixa de ser atendimento e vira canal de receita.",
     mods: [
-      { name: "PP Whatsapp", desc: "Integração oficial via Meta Cloud API e 360dialog: recuperação de carrinho, aviso de volta ao estoque, resumo de vendas e alerta de fraude — direto no seu WhatsApp." },
+      { name: "Canal WhatsApp", desc: "Integração oficial via Meta Cloud API e 360dialog: recuperação de carrinho, aviso de volta ao estoque, resumo de vendas e alerta de fraude — direto no seu WhatsApp." },
       { name: "Campanhas segmentadas", desc: "Disparos em massa a partir do Pixel CRM, com segmentação por comportamento de compra — não por lista fria." },
       { name: "Fidelização + Cashback", desc: "Programa de pontos e cashback nativo da loja: saldo que só vale ali, prazo de expiração que cria urgência e cliente voltando sem precisar de anúncio.", href: "/comparativos/fidelizacao-vs-fidelizar-mais" },
     ],
@@ -93,21 +93,43 @@ export default function Plataforma() {
                 <p className="text-sm text-dim">{c.desc}</p>
               </div>
               <div className="grid gap-3.5 sm:grid-cols-2">
-                {c.mods.map((m) => (
-                  <div key={m.name} className="spot rounded-xl border border-line bg-navy-800/20 p-5 transition-all hover:border-amber/50 hover:bg-navy-800/35">
-                    <strong className="mb-1 block font-display text-[14.5px] font-bold">
-                      {m.href ? (
-                        <a href={m.href} {...(m.href.startsWith("http") ? { target: "_blank", rel: "noopener" } : {})} className="border-b border-amber/50 no-underline">{m.name}</a>
-                      ) : m.name}
-                    </strong>
-                    <span className="block text-[13px] text-dim">{m.desc}</span>
-                    {m.href && m.href.startsWith("/comparativos") && (
-                      <a href={m.href} className="mt-2 inline-block font-mono text-[10.5px] uppercase tracking-[0.08em] text-amber no-underline">
-                        ver comparativo com concorrentes →
-                      </a>
-                    )}
-                  </div>
-                ))}
+                {c.mods.map((m) => {
+                  const inner = (
+                    <>
+                      <strong className="mb-1 flex items-start justify-between gap-3 font-display text-[14.5px] font-bold">
+                        <span className={m.href ? "transition-colors group-hover:text-amber" : ""}>{m.name}</span>
+                        {m.href && (
+                          <span
+                            aria-hidden
+                            className="shrink-0 -translate-x-1 font-bold text-amber opacity-40 transition-all group-hover:translate-x-0 group-hover:opacity-100"
+                          >
+                            →
+                          </span>
+                        )}
+                      </strong>
+                      <span className="block text-[13px] text-dim">{m.desc}</span>
+                      {m.href && (
+                        <span className="mt-2.5 inline-block font-mono text-[10px] uppercase tracking-[0.08em] text-amber/70 transition-colors group-hover:text-amber">
+                          {m.href.startsWith("/comparativos") ? "ver comparativo" : "conhecer o módulo"}
+                        </span>
+                      )}
+                    </>
+                  );
+                  return m.href ? (
+                    <a
+                      key={m.name}
+                      href={m.href}
+                      {...(m.href.startsWith("http") ? { target: "_blank", rel: "noopener" } : {})}
+                      className="spot group block cursor-pointer rounded-xl border border-line bg-navy-800/20 p-5 no-underline transition-all hover:-translate-y-0.5 hover:border-amber/60 hover:bg-navy-800/40 hover:shadow-[0_14px_34px_rgba(0,0,0,.35)]"
+                    >
+                      {inner}
+                    </a>
+                  ) : (
+                    <div key={m.name} className="spot rounded-xl border border-line bg-navy-800/20 p-5 transition-all hover:border-amber/30 hover:bg-navy-800/30">
+                      {inner}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </Reveal>
