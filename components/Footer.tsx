@@ -11,6 +11,7 @@ export default function Footer() {
         <nav className="flex items-center gap-5 text-[12px]">
           <a href="/comparativos/pixel-crm-vs-zoppy" className="text-dim no-underline transition-colors hover:text-ink">vs Zoppy</a>
           <a href="/comparativos/pixel-commerce-vs-shopify" className="text-dim no-underline transition-colors hover:text-ink">vs Shopify</a>
+          <a href="/comparativos/fidelizacao-vs-fidelizar-mais" className="text-dim no-underline transition-colors hover:text-ink">vs Fidelizar+</a>
           <a href="/planos" className="text-dim no-underline transition-colors hover:text-ink">Planos</a>
         </nav>
         <p className="font-mono text-[11px] tracking-[0.06em] text-dim">

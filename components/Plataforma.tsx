@@ -53,7 +53,7 @@ const camadas: Camada[] = [
     mods: [
       { name: "PP Whatsapp", desc: "Integração oficial via Meta Cloud API e 360dialog: recuperação de carrinho, aviso de volta ao estoque, resumo de vendas e alerta de fraude — direto no seu WhatsApp." },
       { name: "Campanhas segmentadas", desc: "Disparos em massa a partir do Pixel CRM, com segmentação por comportamento de compra — não por lista fria." },
-      { name: "Fidelização + Cashback", desc: "Programa de pontos e cashback nativo da loja: saldo que só vale ali, prazo de expiração que cria urgência e cliente voltando sem precisar de anúncio." },
+      { name: "Fidelização + Cashback", desc: "Programa de pontos e cashback nativo da loja: saldo que só vale ali, prazo de expiração que cria urgência e cliente voltando sem precisar de anúncio.", href: "/comparativos/fidelizacao-vs-fidelizar-mais" },
     ],
   },
   {

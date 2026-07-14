@@ -32,6 +32,9 @@ function Comparativos() {
           <a href="/comparativos/pixel-commerce-vs-shopify" className="btn-ghost whitespace-nowrap">
             Pixel Commerce vs Shopify →
           </a>
+          <a href="/comparativos/fidelizacao-vs-fidelizar-mais" className="btn-ghost whitespace-nowrap">
+            Fidelização vs Fidelizar+ →
+          </a>
         </div>
       </div>
     </Reveal>
