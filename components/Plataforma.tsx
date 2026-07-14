@@ -30,7 +30,7 @@ const camadas: Camada[] = [
     desc: "Números que batem com o caixa. É essa a diferença entre relatório e decisão.",
     mods: [
       { name: "Pixel Reports", desc: "Vendas líquidas de verdade (brutas − frete − reembolsos), LTV, recompra, vendas por região e classificação completa de canais por UTM." },
-      { name: "Pixel CRM", desc: "Clientes e guests unificados numa base única, com análise RFM para saber quem compra, quem sumiu e quem vale reativar.", href: "/comparativos/pixel-crm-vs-zoppy" },
+      { name: "Pixel CRM", desc: "Clientes e guests unificados numa base única, com análise RFM para saber quem compra, quem sumiu e quem vale reativar.", href: "/pixel-crm" },
       { name: "Painel de influencers", desc: "Comissões, ranking e receita por influencer calculados sobre venda líquida — sem planilha paralela, sem discussão." },
       { name: "Sessões & canais", desc: "Contador de sessões com atribuição por UTM e click-ID, para saber de onde vem a venda de verdade." },
     ],
