@@ -15,6 +15,7 @@ const comparativos: [string, string][] = [
   ["/comparativos/pixel-commerce-vs-shopify", "vs Shopify"],
   ["/comparativos/fidelizacao-vs-fidelizar-mais", "vs Fidelizar+"],
   ["/videocommerce#comparativo", "vs Widde"],
+  ["/trafego-ecommerce", "Tráfego Pago"],
   ["/planos", "Planos"],
 ];
 

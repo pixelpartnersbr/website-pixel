@@ -207,8 +207,11 @@ export function TpQuemFaq() {
             ))}
           </ul>
           <p className="mt-6 text-[13px] text-dim">
-            Tem loja virtual? O tráfego pago pra e-commerce é outra conversa — com verba, metas e
-            ferramentas próprias. Fale com a gente que direcionamos certo.
+            Tem loja virtual? O tráfego pago pra e-commerce é outra conversa — com verba, metas e régua de
+            venda líquida próprias.{" "}
+            <a href="/trafego-ecommerce" className="border-b border-amber/50 text-amber no-underline">
+              Conheça os planos pra lojas virtuais →
+            </a>
           </p>
         </Reveal>
         <Reveal delay={0.08}>
