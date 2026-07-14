@@ -34,6 +34,7 @@ const plans: Plan[] = [
       { t: "Fidelização + Cashback: pontos e saldo que trazem o cliente de volta", novo: true },
       { t: "Pixel CRM completo: RFM, segmentos, risco de churn por cliente" },
       { t: "Provador de Tamanho: menos troca, menos devolução" },
+      { t: "PP Videocommerce: vídeo do produto na galeria", novo: true },
       { t: "Pixel Conjuntos + Carrinhos personalizados" },
       { t: "Suporte prioritário em até 24h úteis" },
     ],

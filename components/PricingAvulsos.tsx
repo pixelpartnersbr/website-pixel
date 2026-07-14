@@ -10,6 +10,7 @@ const mods: Mod[] = [
   { id: "fid", name: "Fidelização + Cashback", desc: "Pontos e saldo que trazem o cliente de volta sozinho", price: 299, tier: "Growth" },
   { id: "prov", name: "Provador de Tamanho", desc: "Recomendação de tamanho: menos troca, menos devolução", price: 249, tier: "Growth" },
   { id: "conj", name: "Pixel Conjuntos + Carrinhos", desc: "Kits com preço fechado e carrinhos pré-montados", price: 199, tier: "Growth" },
+  { id: "video", name: "PP Videocommerce", desc: "Vídeo do produto na galeria — a peça em movimento no PDP", price: 199, tier: "Growth" },
   { id: "atac", name: "Módulo Atacadista", desc: "Canal B2B: tabela de atacado, pedido mínimo, catálogo fechado", price: 549, tier: "Scale" },
   { id: "vend", name: "Código de Vendedor", desc: "Atribuição por vendedor com painel de comissões e ranking", price: 399, tier: "Scale" },
 ];

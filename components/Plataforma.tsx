@@ -39,6 +39,7 @@ const camadas: Camada[] = [
     num: "04", title: "Conversão",
     desc: "Recursos de plataforma fechada, construídos sob medida para moda e varejo brasileiro.",
     mods: [
+      { name: "PP Videocommerce", desc: "Vídeo do produto direto na galeria, logo após a capa — a peça em movimento, integrado ao Pixel Gallery. O vídeo vende o caimento que a foto não mostra." },
       { name: "Provador de Tamanho", desc: "Provador virtual com silhueta corporal, tabela híbrida de medidas e motor de recomendação — inclusive para calçados. Menos troca, menos devolução." },
       { name: "Pixel Conjuntos", desc: "Kits e conjuntos de produtos com montagem visual, variações sincronizadas e regras de estoque de verdade." },
       { name: "Filtro inteligente de estoque", desc: "Navegação por atributo que respeita o estoque real de cada variação. O cliente nunca clica em algo que não existe." },
