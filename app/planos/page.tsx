@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Pricing from "@/components/Pricing";
+import PricingAvulsos from "@/components/PricingAvulsos";
 import PricingExtras from "@/components/PricingExtras";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -16,6 +17,7 @@ export default function PlanosPage() {
     <main>
       <Header />
       <Pricing />
+      <PricingAvulsos />
       <PricingExtras />
       <CTA />
       <Footer />

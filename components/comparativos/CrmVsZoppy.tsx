@@ -63,7 +63,7 @@ export function CvModelo() {
                 Incluso no plano da plataforma. Preço fixo, público.
               </h3>
               <ul className="flex flex-col gap-3 text-[14px] text-dim">
-                <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> CRM completo incluso no plano Growth (R$ 1.197/mês) — junto com servidor, segurança, analytics, provador e fidelização</li>
+                <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> CRM completo incluso no plano Growth (R$ 1.197/mês) — ou avulso por <strong className="text-ink">R$ 399/mês fixos</strong> em qualquer plano</li>
                 <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Vender mais não aumenta a mensalidade: 0% de comissão, enquadramento só por faixa de pedidos</li>
                 <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Roda dentro do seu WooCommerce: os dados de clientes nunca saem da sua loja</li>
                 <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Um fornecedor, uma fatura — CRM, infra, segurança e suporte no mesmo contrato</li>
@@ -198,8 +198,8 @@ export function CvCalculadora() {
               </div>
             </div>
             <p className="mt-4 text-center text-[12.5px] text-dim">
-              CRM + Fidelização + Cashback já fazem parte do plano Growth —{" "}
-              <a href="/planos" className="border-b border-amber/50 text-amber no-underline">ver planos</a>
+              No Pixel Commerce: incluso no Growth, ou avulso por R$ 399/mês fixos —{" "}
+              <a href="/planos" className="border-b border-amber/50 text-amber no-underline">ver planos e módulos</a>
             </p>
           </div>
         </Reveal>
