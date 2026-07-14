@@ -20,7 +20,7 @@ export default function SiteFooter() {
             <p className="mb-3 font-mono text-[11px] uppercase tracking-[0.1em] text-dim">Serviços</p>
             <ul className="flex flex-col gap-2 text-[13.5px]">
               <li><a href="/plataforma" className="text-dim no-underline hover:text-ink">Pixel Commerce</a></li>
-              <li><a href="/#servicos" className="text-dim no-underline hover:text-ink">Tráfego Pago</a></li>
+              <li><a href="/trafego-pago" className="text-dim no-underline hover:text-ink">Tráfego Pago</a></li>
               <li><a href="/#servicos" className="text-dim no-underline hover:text-ink">Desenvolvimento de Apps</a></li>
               <li><a href="/#servicos" className="text-dim no-underline hover:text-ink">Redes Sociais</a></li>
             </ul>

@@ -17,6 +17,7 @@ const servicos: Servico[] = [
     name: "Tráfego Pago",
     desc: "Campanhas de alta performance no Google Ads e Meta Ads, com gestão especializada por segmento de negócio e otimização sobre venda líquida.",
     tags: ["E-commerce", "Negócios Locais", "Médicos", "Serviços"],
+    href: "/trafego-pago", cta: "Pacote para negócios locais",
   },
   {
     name: "Desenvolvimento de Apps",
