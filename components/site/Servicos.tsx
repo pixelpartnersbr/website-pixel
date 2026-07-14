@@ -29,6 +29,7 @@ const servicos: Servico[] = [
     desc: "Gestão de redes sociais com foco em negócios locais e profissionais da saúde. Conteúdo estratégico que gera autoridade e relacionamento.",
     tags: ["Negócios Locais", "Médicos"],
     warn: "Não atendemos: moda / e-commerce",
+    href: "/redes-sociais", cta: "Planos e valores",
   },
 ];
 

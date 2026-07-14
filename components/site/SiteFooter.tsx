@@ -23,7 +23,7 @@ export default function SiteFooter() {
               <li><a href="/trafego-pago" className="text-dim no-underline hover:text-ink">Tráfego Pago · Negócios Locais</a></li>
               <li><a href="/trafego-ecommerce" className="text-dim no-underline hover:text-ink">Tráfego Pago · Lojas Virtuais</a></li>
               <li><a href="/#servicos" className="text-dim no-underline hover:text-ink">Desenvolvimento de Apps</a></li>
-              <li><a href="/#servicos" className="text-dim no-underline hover:text-ink">Redes Sociais</a></li>
+              <li><a href="/redes-sociais" className="text-dim no-underline hover:text-ink">Redes Sociais</a></li>
             </ul>
           </div>
           <div>
