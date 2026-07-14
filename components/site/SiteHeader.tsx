@@ -7,7 +7,6 @@ const links = [
   ["/#servicos", "Serviços"],
   ["/plataforma", "Plataforma"],
   ["/whatsapp", "WhatsApp"],
-  ["/planos", "Planos"],
   ["/#contato", "Contato"],
 ];
 
