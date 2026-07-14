@@ -35,6 +35,9 @@ function Comparativos() {
           <a href="/comparativos/fidelizacao-vs-fidelizar-mais" className="btn-ghost whitespace-nowrap">
             Fidelização vs Fidelizar+ →
           </a>
+          <a href="/videocommerce#comparativo" className="btn-ghost whitespace-nowrap">
+            Videocommerce vs Widde →
+          </a>
         </div>
       </div>
     </Reveal>

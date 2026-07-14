@@ -34,6 +34,7 @@ export default function SiteFooter() {
               <li><a href="/comparativos/pixel-crm-vs-zoppy" className="text-dim no-underline hover:text-ink">Pixel CRM vs Zoppy</a></li>
               <li><a href="/comparativos/pixel-commerce-vs-shopify" className="text-dim no-underline hover:text-ink">Pixel Commerce vs Shopify</a></li>
               <li><a href="/comparativos/fidelizacao-vs-fidelizar-mais" className="text-dim no-underline hover:text-ink">Fidelização vs Fidelizar+</a></li>
+              <li><a href="/videocommerce" className="text-dim no-underline hover:text-ink">PP Videocommerce</a></li>
               <li><a href="https://queueguard.app" target="_blank" rel="noopener" className="text-dim no-underline hover:text-ink">QueueGuard ↗</a></li>
             </ul>
           </div>
