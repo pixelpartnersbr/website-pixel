@@ -43,7 +43,7 @@ const plans: Plan[] = [
   {
     name: "Scale", tagline: "Para operações de alto volume",
     job: "Novos canais de receita, picos sob controle",
-    monthly: 2497, orders: "até 1.000 pedidos/mês", pct: "≈ 0,8%",
+    monthly: 2497, orders: "até 800 pedidos/mês", pct: "≈ 1,0%",
     features: [
       { t: "Tudo do Growth + servidor dedicado (CCX)" },
       { t: "Módulo Atacadista: preços B2B, pedido mínimo, catálogo fechado", novo: true },
@@ -58,7 +58,7 @@ const plans: Plan[] = [
   {
     name: "Enterprise", tagline: "Para quem já é referência no segmento",
     job: "A plataforma moldada à sua operação",
-    monthly: null, orders: "1.000+ pedidos/mês · proposta personalizada",
+    monthly: null, orders: "800+ pedidos/mês · proposta personalizada",
     features: [
       { t: "Tudo do Scale + servidor 100% dedicado" },
       { t: "QueueGuard ilimitado" },
