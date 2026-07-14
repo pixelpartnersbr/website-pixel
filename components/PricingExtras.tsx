@@ -5,7 +5,7 @@ import Reveal from "./Reveal";
 
 const addons = [
   { name: "QueueGuard", price: "R$ 297/mês", alt: "ou R$ 597 por evento avulso", desc: "Fila de espera virtual para picos de acesso. Incluso nos planos Scale e Enterprise.", href: "https://queueguard.app" },
-  { name: "PP Whatsapp", price: "a partir de R$ 199/mês", alt: "contratado à parte, preços modulares", desc: "Recuperação de carrinho, volta ao estoque e notificações da operação via WhatsApp oficial.", href: "/whatsapp" },
+  { name: "Canal WhatsApp oficial (PP Whatsapp)", price: "R$ 199/mês por loja", alt: "tudo incluso · já vem no plano Scale", desc: "Dá voz de WhatsApp a tudo que seus módulos já fazem — campanhas do CRM, avisos de cashback, comissões de vendedor — mais leads do site, resumo diário e alerta de fraude.", href: "/whatsapp" },
   { name: "Horas de desenvolvimento", price: "sob demanda", alt: "pacotes mensais disponíveis", desc: "Customizações exclusivas da sua loja além dos módulos da plataforma — orçadas por escopo." },
 ];
 

@@ -47,6 +47,7 @@ const plans: Plan[] = [
       { t: "Tudo do Growth + servidor dedicado (CCX)" },
       { t: "Módulo Atacadista: preços B2B, pedido mínimo, catálogo fechado", novo: true },
       { t: "Código de Vendedor: atribuição por vendedor com painel de comissões", novo: true },
+      { t: "Canal WhatsApp oficial incluso (PP Whatsapp)", novo: true },
       { t: "QueueGuard incluso (até 4 eventos/ano)" },
       { t: "War-room em datas críticas + canal direto com o time técnico" },
       { t: "Suporte prioritário em até 8h úteis" },

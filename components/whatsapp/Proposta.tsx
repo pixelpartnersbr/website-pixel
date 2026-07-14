@@ -17,18 +17,17 @@ export function WaHero() {
     >
       <div className="wrap grid items-center gap-14 lg:grid-cols-[1.05fr_.95fr]">
         <Reveal>
-          <span className="eyebrow">Pixel Partners · WhatsApp Business Platform</span>
+          <span className="eyebrow">Pixel Commerce · Canal oficial da plataforma</span>
           <h1 className="mb-5 font-display text-[clamp(32px,4.4vw,54px)] font-extrabold leading-[1.08] tracking-[-0.025em]">
             Sua loja no WhatsApp <span className="text-wa">oficial</span> — com app próprio na Meta.
           </h1>
           <p className="mb-7 max-w-[500px] text-[17px] text-dim">
-            Notificações de pedido, recuperação de carrinho e atendimento saindo do número verificado da
-            sua marca. Sem risco de banimento, sem intermediário cobrando por mensagem.
+            O canal oficial que dá voz de WhatsApp a tudo que a sua loja Pixel Commerce já faz — do número verificado da sua marca, sem risco de banimento, sem intermediário cobrando por mensagem.
           </p>
           <div className="mb-2 flex items-baseline gap-2.5">
             <span className="text-sm text-dim">a partir de</span>
             <span className="font-display text-[46px] font-black leading-none tracking-tight">R$ 199</span>
-            <span className="text-[15px] text-dim">/mês · número digital incluso</span>
+            <span className="text-[15px] text-dim">/mês por loja · número digital incluso · sem menu de módulos</span>
           </div>
           <a
             href={waLink(CTA_MSG)}
@@ -198,52 +197,52 @@ export function WaEcossistema() {
 }
 
 /* ============ INVESTIMENTO ============ */
-const baseItems = [
+const canalItems = [
   <>Criação e configuração do <strong>seu app oficial na Meta</strong> (app, permissões, token permanente, webhook)</>,
   <><strong>Número digital incluso</strong> no valor</>,
   <>Criação e submissão dos seus <strong>templates</strong> junto à Meta</>,
   <><strong>Follow-up completo de pedidos</strong> por status</>,
-  <><strong>Atendimento sem vácuo</strong> (auto-resposta + encaminhamento)</>,
-  <>Login sem senha via WhatsApp</>,
+  <>Aviso de <strong>volta ao estoque</strong></>,
+  <><strong>Leads do site</strong> atendidos em segundos (Elementor)</>,
+  <><strong>Resumo de vendas</strong> diário/semanal no seu WhatsApp</>,
+  <><strong>Alerta de fraude</strong> em tempo real</>,
+  <>Atendimento sem vácuo + login sem senha</>,
   <>Manutenção contínua da integração</>,
 ];
 
-const modulos: [string, string, string][] = [
-  ["Recuperação de carrinho abandonado", "link do carrinho pronto + desconto condicional", "R$ 99/mês"],
-  ["Aviso de volta ao estoque", "alerta automático na reposição do produto", "R$ 49/mês"],
-  ["Painel de influencers + notificações", "portal de comissões + aviso de venda em tempo real", "R$ 149/mês"],
-  ["Leads de formulário (Elementor)", "confirmação automática no WhatsApp do lead", "R$ 49/mês"],
-  ["Alerta de fraude em tempo real", "detecção de carding avisando o dono no momento do ataque", "R$ 79/mês"],
-  ["Resumo de vendas no WhatsApp", "fechamento diário/semanal direto pro dono da loja", "R$ 39/mês"],
-  ["Integrações sob medida", "ERP, logística, fluxos específicos da sua operação", "sob consulta"],
+const vozes: [string, string][] = [
+  ["Pixel CRM", "campanhas segmentadas e recuperação de carrinho disparadas direto da sua base RFM"],
+  ["Fidelização + Cashback", "aviso de saldo ganho e de cashback expirando — a urgência que traz de volta"],
+  ["Código de Vendedor", "cada vendedor recebe a comissão pingando em tempo real no próprio WhatsApp"],
+  ["Pixel Reports", "os números da operação saindo do painel e chegando na palma da sua mão"],
 ];
 
 export function WaInvestimento() {
   return (
     <section id="investimento" className="border-t border-line bg-navy-900 py-24">
       <div className="wrap">
-        <Reveal className="mb-14 max-w-[680px]">
+        <Reveal className="mb-14 max-w-[720px]">
           <span className="eyebrow">Investimento</span>
-          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
-            Comece pelo essencial, ative módulos conforme o retorno aparece.
+          <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,40px)] font-extrabold leading-[1.12] tracking-tight">
+            Um preço. Sem menu de módulos, sem taxímetro.
           </h2>
           <p className="text-[16.5px] text-dim">
-            O plano base cobre toda a fundação oficial. Cada módulo é ligado quando fizer sentido pra sua
-            operação — sem pacote inchado.
+            A regra da casa é simples: <strong className="text-ink">capacidade se paga uma vez, canal se
+            paga à parte, nada se paga duas vezes.</strong> Os módulos da plataforma você já tem — o canal
+            dá voz de WhatsApp a todos eles.
           </p>
         </Reveal>
 
-        <div className="grid gap-6 lg:grid-cols-[.9fr_1.1fr]">
+        <div className="grid gap-6 lg:grid-cols-[.95fr_1.05fr]">
           <Reveal className="h-full">
-            <article className="flex h-full flex-col rounded-2xl border border-wa bg-gradient-to-b from-wa/[.07] to-transparent p-7">
-              <h3 className="font-display text-[20px] font-extrabold tracking-tight">Plano base</h3>
+            <article className="glow-border flex h-full flex-col rounded-2xl border border-wa bg-gradient-to-b from-wa/[.07] to-transparent p-7">
+              <h3 className="font-display text-[20px] font-extrabold tracking-tight">Canal WhatsApp oficial</h3>
               <div className="mb-5 mt-2 flex items-baseline gap-2">
-                <span className="text-[13px] text-dim">a partir de</span>
                 <span className="font-display text-[42px] font-black leading-none tracking-tight text-wa">R$ 199</span>
-                <span className="text-[13.5px] text-dim">/mês por loja</span>
+                <span className="text-[13.5px] text-dim">/mês por loja · tudo incluso</span>
               </div>
               <ul className="flex flex-col gap-2.5">
-                {baseItems.map((it, i) => (
+                {canalItems.map((it, i) => (
                   <li key={i} className="flex gap-2.5 text-[13.5px] text-dim">
                     <span className="mt-px shrink-0 font-bold text-wa">✓</span>
                     <span>{it}</span>
@@ -256,36 +255,40 @@ export function WaInvestimento() {
                 rel="noopener"
                 className="mt-7 rounded-[10px] bg-wa py-3 text-center font-display text-sm font-bold text-navy-950 no-underline transition-all hover:-translate-y-0.5 hover:shadow-[0_10px_26px_rgba(37,211,102,.3)]"
               >
-                Começar com o plano base
+                Ativar o canal na minha loja
               </a>
+              <p className="mt-3 text-center font-mono text-[10px] uppercase tracking-[0.08em] text-dim">
+                incluso no plano Scale
+              </p>
             </article>
           </Reveal>
 
           <Reveal delay={0.1} className="h-full">
             <article className="card flex h-full flex-col bg-navy-950/40 p-7">
-              <h3 className="mb-1 font-display text-[20px] font-extrabold tracking-tight">Módulos adicionais</h3>
-              <p className="mb-5 text-[13px] text-dim">Mensais, por loja. Ative e desative conforme a estratégia.</p>
+              <h3 className="mb-1 font-display text-[20px] font-extrabold tracking-tight">
+                O canal dá voz ao que você já tem
+              </h3>
+              <p className="mb-5 text-[13px] text-dim">
+                Sem cobrança extra por capacidade: os módulos da plataforma passam a falar WhatsApp
+                automaticamente ao ativar o canal.
+              </p>
               <ul className="flex flex-col divide-y divide-white/[.07]">
-                {modulos.map(([t, d, p]) => (
-                  <li key={t} className="flex items-center justify-between gap-4 py-3">
+                {vozes.map(([t, d]) => (
+                  <li key={t} className="flex items-start gap-3 py-3.5">
+                    <span className="mt-0.5 shrink-0 font-bold text-wa">→</span>
                     <div>
                       <p className="font-display text-[14px] font-bold tracking-tight">{t}</p>
-                      <p className="text-[12px] text-dim">{d}</p>
+                      <p className="text-[12.5px] text-dim">{d}</p>
                     </div>
-                    <span className="shrink-0 font-display text-[14.5px] font-extrabold text-amber">{p}</span>
                   </li>
                 ))}
               </ul>
-              <div className="mt-5 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-amber/40 bg-amber/[.06] p-4">
-                <div>
-                  <p className="font-display text-[14.5px] font-bold">Ecossistema completo</p>
-                  <p className="text-[12px] text-dim">base + todos os módulos acima</p>
-                </div>
-                <p className="font-display text-[18px] font-black">
-                  <s className="mr-2 text-[13px] font-semibold text-dim">R$ 663/mês</s>
-                  <span className="text-amber">R$ 549/mês</span>
-                </p>
-              </div>
+              <p className="mt-auto pt-5 text-[12.5px] text-dim">
+                Não tem o módulo ainda?{" "}
+                <a href="/planos" className="border-b border-wa/50 text-wa no-underline">
+                  Veja os planos e módulos avulsos →
+                </a>
+              </p>
             </article>
           </Reveal>
         </div>
@@ -296,7 +299,7 @@ export function WaInvestimento() {
               A conta que importa
             </h3>
             <p className="mb-7 text-[15.5px] text-dim">
-              A partir de R$ 199/mês + centavos por mensagem —{" "}
+              R$ 199/mês + centavos por mensagem —{" "}
               <strong className="text-ink">menos do que custa um único dia com o WhatsApp da loja fora do ar.</strong>
             </p>
             <a
@@ -308,10 +311,10 @@ export function WaInvestimento() {
               <WaIcon /> Falar com a Pixel Partners
             </a>
             <p className="mx-auto mt-7 max-w-[720px] text-[11.5px] leading-relaxed text-dim">
-              Valores “a partir de”, por loja, sem fidelidade obrigatória. Tarifas por mensagem são cobradas
-              pela Meta diretamente na conta do cliente, em dólar, e podem ser reajustadas; os valores
-              exibidos são referências convertidas. Funcionalidades e integrações adicionais são orçadas
-              conforme a operação. Proposta sujeita a análise técnica do ambiente (WooCommerce + WordPress).
+              Canal exclusivo para lojas da plataforma Pixel Commerce, por loja, sem fidelidade
+              obrigatória. Tarifas por mensagem são cobradas pela Meta diretamente na conta do cliente, em
+              dólar, e podem ser reajustadas; os valores exibidos são referências convertidas. Proposta
+              sujeita a análise técnica do ambiente.
             </p>
           </div>
         </Reveal>

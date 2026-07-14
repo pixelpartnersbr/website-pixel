@@ -89,7 +89,7 @@ export function VFollowUp() {
   ];
   return (
     <Modulo
-      badge="Incluso no plano base"
+      badge="Incluso no canal"
       title="Follow-up de pedidos: o fim do “cadê meu pedido?”"
       mock={
         <div className="card w-full max-w-[400px] bg-navy-950/60 p-5">
@@ -128,13 +128,13 @@ export function VCarrinho() {
   const [ticket, setTicket] = useState(180);
   const perdido = carrinhos * ticket;
   const recuperavel = Math.round(perdido * 0.1);
-  const multiplo = Math.max(1, Math.round(recuperavel / 99));
+  const multiplo = Math.max(1, Math.round(recuperavel / 199));
   const fmt = (n: number) => n.toLocaleString("pt-BR");
   const input =
     "w-full rounded-[10px] border border-line bg-navy-950/60 px-4 py-2.5 text-[14px] text-ink outline-none transition-colors focus:border-wa";
   return (
     <Modulo
-      badge="Módulo · R$ 99/mês"
+      badge="Canal + Pixel CRM"
       title="Carrinho abandonado: o dinheiro que já esteve na sua mão"
       invert
       mock={
@@ -161,20 +161,20 @@ export function VCarrinho() {
             </div>
           </div>
           <p className="mt-4 text-center text-[13px] text-dim">
-            Isso é <strong className="text-wa">~{multiplo}×</strong> o valor do módulo, todo mês.
+            Isso é <strong className="text-wa">~{multiplo}×</strong> o valor do canal inteiro (R$ 199), todo mês.
           </p>
         </div>
       }
     >
       <p>
         Em média, <strong className="text-ink">7 de cada 10 carrinhos são abandonados</strong> no
-        e-commerce*. Esse cliente escolheu o produto, colocou no carrinho — e sumiu. Nosso módulo manda pra
+        e-commerce*. Esse cliente escolheu o produto, colocou no carrinho — e sumiu. A automação do Pixel CRM manda pra
         ele, no WhatsApp, o <strong className="text-ink">link do carrinho pronto</strong>, com{" "}
         <strong className="text-ink">desconto condicional</strong> pra fechar agora.
       </p>
       <p>
         Recuperando algo na faixa de 10% desses carrinhos — patamar comum em recuperação via WhatsApp* — o
-        módulo se paga <strong className="text-ink">muitas vezes</strong> no mesmo mês. Use a calculadora ao
+        canal se paga <strong className="text-ink">muitas vezes</strong> no mesmo mês. Use a calculadora ao
         lado com os números da sua loja.
       </p>
       {chipRow([["se paga com", "1 carrinho recuperado"], ["média do e-commerce", "7 em 10 abandonados*"]])}
@@ -186,7 +186,7 @@ export function VCarrinho() {
 export function VEstoque() {
   return (
     <Modulo
-      badge="Módulo · R$ 49/mês"
+      badge="Incluso no canal"
       title="Volta ao estoque: vender pra quem já pediu pra comprar"
       mock={
         <div className="flex w-full max-w-[400px] flex-col gap-4">
@@ -230,7 +230,7 @@ export function VInfluencers() {
   ];
   return (
     <Modulo
-      badge="Módulo · R$ 149/mês"
+      badge="Canal + Código de Vendedor"
       title="Painel de influencers: quem vê a comissão pingar, posta mais"
       invert
       mock={
@@ -273,7 +273,7 @@ export function VInfluencers() {
 export function VLeads() {
   return (
     <Modulo
-      badge="Módulo · R$ 49/mês"
+      badge="Incluso no canal"
       title="Leads do site: quem responde primeiro, leva"
       mock={
         <div className="flex w-full max-w-[400px] flex-col gap-4">
@@ -316,7 +316,7 @@ export function VLeads() {
 export function VFraude() {
   return (
     <Modulo
-      badge="Módulo · R$ 79/mês"
+      badge="Incluso no canal"
       title="Alerta de fraude: proteção no minuto do ataque"
       invert
       mock={
@@ -362,7 +362,7 @@ export function VResumo() {
   ];
   return (
     <Modulo
-      badge="Módulo · R$ 39/mês"
+      badge="Incluso no canal"
       title="Resumo de vendas: a loja na palma da sua mão"
       mock={
         <div className="card w-full max-w-[400px] bg-navy-950/60 p-5">
@@ -399,7 +399,7 @@ export function VFundacao() {
     <section className="border-t border-line py-20">
       <div className="wrap">
         <Reveal className="mb-10 max-w-[720px]">
-          <ModBadge>Incluso no plano base</ModBadge>
+          <ModBadge>Incluso no canal</ModBadge>
           <h2 className="mb-4 font-display text-[clamp(23px,2.8vw,34px)] font-extrabold leading-[1.15] tracking-tight">
             E a fundação que segura tudo isso
           </h2>
@@ -436,17 +436,16 @@ export function VInvestimentoResumo() {
         <Reveal>
           <span className="eyebrow justify-center">Investimento</span>
           <h2 className="mx-auto mb-4 max-w-[680px] font-display text-[clamp(24px,3vw,38px)] font-extrabold leading-[1.12] tracking-tight">
-            Comece pelo essencial. Ative módulos conforme o retorno aparece.
+            Um canal. Nenhum taxímetro.
           </h2>
           <p className="mx-auto mb-8 max-w-[560px] text-[15px] text-dim">
-            Plano base com app próprio, número digital, templates e follow-up de pedidos. Módulos mensais,
-            por loja, sem pacote inchado.
+            Capacidade se paga uma vez, canal se paga à parte, nada se paga duas vezes. Os módulos você já tem na plataforma — o canal dá voz de WhatsApp a todos eles.
           </p>
           <div className="mx-auto mb-9 grid max-w-[760px] gap-4 sm:grid-cols-3">
             {[
-              ["Plano base", "a partir de", "R$ 199/mês"],
-              ["Módulos avulsos", "de", "R$ 39 a R$ 149"],
-              ["Ecossistema completo", "de R$ 663 por", "R$ 549/mês"],
+              ["Canal WhatsApp oficial", "tudo incluso, por loja", "R$ 199/mês"],
+              ["Capacidades", "vêm dos módulos da plataforma", "sem custo extra"],
+              ["No plano Scale", "canal já vem", "incluso"],
             ].map(([t, pre, v]) => (
               <div key={t} className="card bg-navy-950/40 p-5">
                 <p className="font-display text-[13.5px] font-bold">{t}</p>
