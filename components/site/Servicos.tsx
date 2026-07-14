@@ -4,6 +4,7 @@ import Reveal from "../Reveal";
 type Servico = {
   name: string; desc: string; tags: string[];
   featured?: boolean; warn?: string; href?: string; cta?: string;
+  links?: [string, string][];
 };
 
 const servicos: Servico[] = [
@@ -17,7 +18,7 @@ const servicos: Servico[] = [
     name: "Tráfego Pago",
     desc: "Campanhas de alta performance no Google Ads e Meta Ads, com gestão especializada por segmento de negócio e otimização sobre venda líquida.",
     tags: ["E-commerce", "Negócios Locais", "Médicos", "Serviços"],
-    href: "/trafego-pago", cta: "Pacote para negócios locais",
+    links: [["/trafego-ecommerce", "Tráfego para lojas virtuais"], ["/trafego-pago", "Pacote para negócios locais"]],
   },
   {
     name: "Desenvolvimento de Apps",
@@ -74,14 +75,32 @@ export default function Servicos() {
                 {s.warn && (
                   <p className="mb-4 font-mono text-[11px] uppercase tracking-[0.05em] text-[#FF8A8A]">⚠ {s.warn}</p>
                 )}
-                <a
-                  href={s.href ?? "/#contato"}
-                  className={`mt-auto w-fit font-display text-[13.5px] font-bold ${
-                    s.featured ? "border-b-2 border-amber text-amber" : "border-b border-line text-dim hover:border-amber/60 hover:text-ink"
-                  } pb-0.5 no-underline transition-colors`}
-                >
-                  {s.cta ?? "Saber mais →"}
-                </a>
+                {s.links ? (
+                  <div className="mt-auto flex flex-col gap-2.5">
+                    {s.links.map(([href, label], j) => (
+                      <a
+                        key={href}
+                        href={href}
+                        className={`w-fit pb-0.5 font-display text-[13.5px] font-bold no-underline transition-colors ${
+                          j === 0
+                            ? "border-b-2 border-amber text-amber"
+                            : "border-b border-line text-dim hover:border-amber/60 hover:text-ink"
+                        }`}
+                      >
+                        {label}
+                      </a>
+                    ))}
+                  </div>
+                ) : (
+                  <a
+                    href={s.href ?? "/#contato"}
+                    className={`mt-auto w-fit font-display text-[13.5px] font-bold ${
+                      s.featured ? "border-b-2 border-amber text-amber" : "border-b border-line text-dim hover:border-amber/60 hover:text-ink"
+                    } pb-0.5 no-underline transition-colors`}
+                  >
+                    {s.cta ?? "Saber mais →"}
+                  </a>
+                )}
               </article>
             </Reveal>
           ))}
