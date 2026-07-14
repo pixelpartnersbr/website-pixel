@@ -1,5 +1,5 @@
 // ⚙️ AJUSTE AQUI: dados de contato e estatísticas do site institucional
-export const BUILD = "1.17.0";
+export const BUILD = "1.18.0";
 
 export const SITE = {
   whatsapp: "5527996520301",
@@ -16,6 +16,10 @@ export const SITE = {
 // Render 3D da pilha Pixel Commerce (gerado via Higgsfield, upscale 2K).
 // 💡 Para servir localmente: baixe o PNG desta URL, salve como public/images/pixel-stack.png
 //    e troque o valor abaixo por "/images/pixel-stack.png".
+// Loop de vídeo do stack (hero da home) — "circuito energizando", Kling 3.0. Fallback: STACK_IMG.
+export const STACK_VIDEO =
+  "https://d8j0ntlcm91z4.cloudfront.net/user_3Am4Jv4nSnw3p3H5eVz5c4jDLKs/hf_20260714_131910_1eb0d3b3-1b82-4d3a-bc32-03d73938c99f.mp4";
+
 export const STACK_IMG =
   "https://d8j0ntlcm91z4.cloudfront.net/user_3Am4Jv4nSnw3p3H5eVz5c4jDLKs/hf_20260713_193947_c566a573-9fe4-4ac7-a7be-611e2728ae3f.png";
 

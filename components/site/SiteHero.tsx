@@ -2,7 +2,8 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import Counter from "../Counter";
 import Starfield from "../fx/Starfield";
-import { SITE, STACK_IMG } from "./config";
+import { SITE, STACK_IMG, STACK_VIDEO } from "./config";
+import AmbientVideo from "../fx/AmbientVideo";
 
 const parent = { hidden: {}, show: { transition: { staggerChildren: 0.08, delayChildren: 0.1 } } };
 const child = {
@@ -71,12 +72,13 @@ export default function SiteHero() {
           style={{ y: imgY }}
         >
           <div className="absolute inset-8 rounded-full bg-amber/15 blur-[90px]" aria-hidden />
-          <img
-            src={STACK_IMG}
-            alt="Render 3D das seis camadas da plataforma Pixel Commerce"
-            className="relative w-full max-w-[520px] rounded-3xl border border-white/10 shadow-[0_50px_120px_rgba(0,0,0,.55)]"
-            loading="eager"
-          />
+          <div
+            role="img"
+            aria-label="Animação 3D das seis camadas da plataforma Pixel Commerce energizando"
+            className="relative aspect-square w-full max-w-[520px] overflow-hidden rounded-3xl border border-white/10 shadow-[0_50px_120px_rgba(0,0,0,.55)]"
+          >
+            <AmbientVideo src={STACK_VIDEO} poster={STACK_IMG} />
+          </div>
         </motion.div>
       </div>
     </section>
