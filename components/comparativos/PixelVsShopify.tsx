@@ -221,7 +221,7 @@ export function ShCalculadora() {
               </div>
               <div className="rounded-xl border border-amber/40 bg-amber/[.06] p-4">
                 <p className="font-mono text-[10px] uppercase tracking-[0.08em] text-dim">Pixel Growth</p>
-                <p className="font-display text-[22px] font-black tracking-tight text-amber">R$ 1.197</p>
+                <p className="font-display text-[22px] font-black tracking-tight text-amber">R$ 1.297</p>
                 <p className="text-[10.5px] text-dim">fixo · 0% sobre vendas · módulos inclusos</p>
               </div>
             </div>

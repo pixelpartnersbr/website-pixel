@@ -28,14 +28,14 @@ const plans: Plan[] = [
   {
     name: "Growth", tagline: "Para lojas em crescimento consistente",
     job: "A máquina de recompra: cliente que volta sozinho",
-    monthly: 1197, orders: "até 350 pedidos/mês", pct: "≈ 1,1%", featured: true,
+    monthly: 1297, orders: "até 350 pedidos/mês", pct: "≈ 1,2%", featured: true,
     features: [
       { t: "Tudo do Start + fatia de servidor garantida" },
       { t: "Fidelização + Cashback: pontos e saldo que trazem o cliente de volta", novo: true },
-      { t: "Pixel CRM completo: RFM, segmentos, risco de churn por cliente" },
-      { t: "Provador de Tamanho: menos troca, menos devolução" },
+      { t: "Pixel CRM completo: RFM, segmentos, risco de churn por cliente", novo: true },
+      { t: "Provador de Tamanho: menos troca, menos devolução", novo: true },
       { t: "Videocommerce: vídeo do produto na galeria", novo: true },
-      { t: "Pixel Conjuntos + Shop the Look" },
+      { t: "Pixel Conjuntos + Shop the Look", novo: true },
       { t: "Carrinhos personalizados + Recuperação de Carrinho Abandonado", novo: true },
       { t: "Suporte prioritário em até 24h úteis" },
     ],

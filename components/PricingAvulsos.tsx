@@ -17,7 +17,7 @@ const mods: Mod[] = [
   { id: "vend", name: "Código de Vendedor", desc: "Atribuição por vendedor com painel de comissões e ranking", price: 399, tier: "Scale" },
 ];
 
-const DELTA_GROWTH = 600; // Start -> Growth
+const DELTA_GROWTH = 700; // Start -> Growth (1.297 - 597)
 
 export default function PricingAvulsos() {
   const [sel, setSel] = useState<string[]>([]);

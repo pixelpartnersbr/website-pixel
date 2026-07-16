@@ -63,7 +63,7 @@ export function FdModelo() {
                 Preço fixo. Base ilimitada. Fidelizar nunca fica mais caro.
               </h3>
               <ul className="flex flex-col gap-3 text-[14px] text-dim">
-                <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Incluso no plano Growth (R$ 1.197/mês) — ou avulso por <strong className="text-ink">R$ 299/mês fixos</strong> em qualquer plano</li>
+                <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Incluso no plano Growth (R$ 1.297/mês) — ou avulso por <strong className="text-ink">R$ 299/mês fixos</strong> em qualquer plano</li>
                 <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Sem faixa de clientes: 5 mil ou 500 mil cadastros, o preço é o mesmo</li>
                 <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Nativo do WooCommerce: saldo, pontos e histórico moram no banco da sua loja</li>
                 <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Conversa com o resto da casa: segmentos do Pixel CRM, aviso de cashback expirando pelo canal WhatsApp oficial</li>
