@@ -122,7 +122,7 @@ export default function PricingAvulsos() {
                   <p className="mt-1 text-[12.5px] text-dim">
                     A diferença do Start pro Growth é R$ {fmt(DELTA_GROWTH)}/mês — e o Growth leva{" "}
                     <strong className="text-ink">todos</strong> os módulos da faixa, mais fatia de servidor
-                    garantida e suporte em 24h.
+                    garantida e suporte direto com o time.
                   </p>
                 </div>
               )}
