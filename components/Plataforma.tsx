@@ -42,6 +42,7 @@ const camadas: Camada[] = [
       { name: "Videocommerce", desc: "Vídeo shoppable no catálogo, na galeria e em stories — com carrinho e seletor de variação dentro do player. A peça em movimento vende o caimento que a foto não mostra.", href: "/videocommerce" },
       { name: "Provador de Tamanho", desc: "Provador virtual com silhueta corporal, tabela híbrida de medidas e motor de recomendação — inclusive para calçados. Menos troca, menos devolução.", href: "/provador" },
       { name: "Pixel Conjuntos + Shop the Look", desc: "Kits e conjuntos com montagem visual, variações sincronizadas e o look completo compre-junto na página do produto — com desconto progressivo.", href: "/shop-the-look" },
+      { name: "Regras de Desconto", desc: "Motor de promoções condicionais: BOGO, tabela de volume, regras por cliente/tempo/região — e brinde automático por valor de compra.", href: "/regras-de-desconto" },
       { name: "Filtro inteligente de estoque", desc: "Navegação por atributo que respeita o estoque real de cada variação. O cliente nunca clica em algo que não existe." },
       { name: "Carrinhos personalizados", desc: "Links de carrinho pré-montado com desconto condicional — perfeito para vendas assistidas por WhatsApp." },
       { name: "Módulo Atacadista", desc: "Atacado e varejo na mesma loja: preços B2B por CNPJ aprovado, quantidade mínima, checkout próprio e estoque único — sem segundo site.", href: "/atacadista" },

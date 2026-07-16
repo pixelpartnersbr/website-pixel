@@ -4,6 +4,7 @@ const modulos: [string, string][] = [
   ["/pixel-crm", "Pixel CRM"],
   ["/videocommerce", "Videocommerce"],
   ["/shop-the-look", "Shop The Look"],
+  ["/regras-de-desconto", "Regras de Desconto"],
   ["/provador", "Provador de Tamanho"],
   ["/vendedor", "Código de Vendedor"],
   ["/atacadista", "Módulo Atacadista"],

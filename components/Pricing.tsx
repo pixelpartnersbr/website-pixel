@@ -37,6 +37,7 @@ const plans: Plan[] = [
       { t: "Videocommerce: vídeo do produto na galeria", novo: true },
       { t: "Pixel Conjuntos + Shop the Look", novo: true },
       { t: "Carrinhos personalizados + Recuperação de Carrinho Abandonado", novo: true },
+      { t: "Regras de Desconto: promoções condicionais + brinde por valor", novo: true },
       { t: "Suporte prioritário em até 24h úteis" },
     ],
     cta: "Crescer com o Growth",

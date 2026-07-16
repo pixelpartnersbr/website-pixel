@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const items = [
   "PrimePress", "QueueGuard", "Order Shield", "Product Shield", "Pixel Reports",
-  "Pixel CRM", "Canal WhatsApp", "Provador de Tamanho", "Conjuntos + Shop the Look", "Recuperação de Carrinho",
+  "Pixel CRM", "Canal WhatsApp", "Provador de Tamanho", "Conjuntos + Shop the Look", "Recuperação de Carrinho", "Regras de Desconto",
   "Filtro Inteligente", "Carrinhos Personalizados", "Fidelização + Cashback", "Módulo Atacadista", "Código de Vendedor", "Videocommerce",
 ];
 
