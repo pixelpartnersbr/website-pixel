@@ -5,6 +5,7 @@ const modulos: [string, string][] = [
   ["/videocommerce", "Videocommerce"],
   ["/shop-the-look", "Shop The Look"],
   ["/regras-de-desconto", "Regras de Desconto"],
+  ["/trocas", "Central de Trocas"],
   ["/provador", "Provador de Tamanho"],
   ["/vendedor", "Código de Vendedor"],
   ["/atacadista", "Módulo Atacadista"],

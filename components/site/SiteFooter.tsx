@@ -41,6 +41,7 @@ export default function SiteFooter() {
               <li><a href="/vendedor" className="text-dim no-underline hover:text-ink">Código de Vendedor</a></li>
               <li><a href="/shop-the-look" className="text-dim no-underline hover:text-ink">Shop The Look</a></li>
               <li><a href="/regras-de-desconto" className="text-dim no-underline hover:text-ink">Regras de Desconto</a></li>
+              <li><a href="/trocas" className="text-dim no-underline hover:text-ink">Central de Trocas</a></li>
               <li><a href="/videocommerce" className="text-dim no-underline hover:text-ink">Videocommerce</a></li>
               <li><a href="https://queueguard.app" target="_blank" rel="noopener" className="text-dim no-underline hover:text-ink">QueueGuard ↗</a></li>
             </ul>

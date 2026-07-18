@@ -37,6 +37,7 @@ const plans: Plan[] = [
       { t: "Pixel Conjuntos + Shop the Look", novo: true },
       { t: "Carrinhos personalizados + Recuperação de Carrinho Abandonado", novo: true },
       { t: "Regras de Desconto: promoções condicionais + brinde por valor", novo: true },
+      { t: "Central de Trocas: autoatendimento, vale-troca automático e NPS", novo: true },
     ],
     cta: "Crescer com o Growth",
   },

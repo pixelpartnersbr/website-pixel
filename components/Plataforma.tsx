@@ -55,6 +55,7 @@ const camadas: Camada[] = [
     mods: [
       { name: "Canal WhatsApp", desc: "Integração oficial via Meta Cloud API e 360dialog: a voz de todos os módulos — aviso de volta ao estoque, resumo de vendas e alerta de fraude direto no seu WhatsApp." },
       { name: "Recuperação de Carrinho Abandonado", desc: "Quem desistiu recebe o link do carrinho pronto, com desconto condicional pra fechar a venda na hora — pelo canal WhatsApp da loja." },
+      { name: "Central de Trocas", desc: "Trocas e devoluções com autoatendimento sem senha, vale-troca automático, reserva de estoque e NPS do pós-venda — dentro da sua loja.", href: "/trocas" },
       { name: "Campanhas segmentadas", desc: "Disparos em massa a partir do Pixel CRM, com segmentação por comportamento de compra — não por lista fria." },
       { name: "Fidelização + Cashback", desc: "Programa de pontos e cashback nativo da loja: saldo que só vale ali, prazo de expiração que cria urgência e cliente voltando sem precisar de anúncio.", href: "/comparativos/fidelizacao-vs-fidelizar-mais" },
     ],

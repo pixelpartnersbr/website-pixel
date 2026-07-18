@@ -16,6 +16,7 @@ const mods: Mod[] = [
   { id: "atac", name: "Módulo Atacadista", desc: "Atacado e varejo na mesma loja: preços B2B, mínimos, CNPJ aprovado", price: 549, tier: "Scale" },
   { id: "vend", name: "Código de Vendedor", desc: "Atribuição por vendedor com painel de comissões e ranking", price: 399, tier: "Scale" },
   { id: "regras", name: "Regras de Desconto", desc: "Promoções condicionais (BOGO, volume, por cliente) + brinde por valor", price: 399, tier: "Growth" },
+  { id: "troca", name: "Central de Trocas", desc: "Trocas e devoluções com autoatendimento, vale-troca automático e NPS", price: 399, tier: "Growth" },
 ];
 
 const DELTA_GROWTH = 700; // Start -> Growth (1.297 - 597)
