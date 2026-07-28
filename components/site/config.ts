@@ -1,5 +1,5 @@
 // ⚙️ AJUSTE AQUI: dados de contato e estatísticas do site institucional
-export const BUILD = "1.35.0";
+export const BUILD = "1.36.0";
 
 /**
  * Frentes de marketing (Tráfego Pago e Redes Sociais) desligadas do site público.

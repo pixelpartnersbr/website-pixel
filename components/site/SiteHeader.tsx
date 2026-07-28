@@ -1,12 +1,12 @@
 "use client";
 import { motion, useScroll, useSpring } from "framer-motion";
 import MobileNav from "../MobileNav";
-import { plat } from "./config";
+import { plat, SHOPIXEL_URL } from "./config";
 
 const links = [
   ["/#sobre", "Sobre"],
   ["/#servicos", "Serviços"],
-  [plat("/plataforma"), "Plataforma"],
+  [SHOPIXEL_URL, "Plataforma"],
   [plat("/whatsapp"), "WhatsApp"],
   ["/#contato", "Contato"],
 ];

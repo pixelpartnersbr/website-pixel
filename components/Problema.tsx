@@ -14,7 +14,7 @@ export default function Problema() {
         <Reveal className="mb-14 max-w-[680px]">
           <span className="eyebrow">Ato 1 · o problema</span>
           <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
-            Toda loja WooCommerce comum é uma colcha de retalhos.
+            Toda loja virtual comum é uma colcha de retalhos.
           </h2>
           <p className="text-[16.5px] text-dim">
             Trinta plugins, de trinta fornecedores diferentes, que não conversam entre si. Funciona — até o

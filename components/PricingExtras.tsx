@@ -14,7 +14,7 @@ const faqs = [
   ["O que acontece se eu passar do limite de pedidos?", "Nada no meio do mês — nenhuma cobrança extra, nenhum bloqueio. O enquadramento é revisado por trimestre, com os dados do Pixel Reports, e se a sua loja subiu de patamar de forma consistente, conversamos sobre a mudança de plano com antecedência. Crescer nunca é punido."],
   ["Existe fidelidade?", "O plano mensal não tem fidelidade. O contrato anual tem 10% de desconto e garante o preço pelo período. A implantação é paga uma única vez em qualquer modalidade."],
   ["Minha loja já existe em outra plataforma ou hospedagem. E a migração?", "A implantação já inclui a migração completa: catálogo, clientes, pedidos, apontamento de domínio e período de homologação em staging antes da virada. Sua loja não fica fora do ar no processo."],
-  ["Os plugins funcionam se eu sair da Pixel?", "Sua loja é sua — o núcleo é WooCommerce open-source e o catálogo, os pedidos e os clientes são exportáveis a qualquer momento, sem lock-in. Os módulos proprietários da plataforma (Reports, Shields, Provador etc.) fazem parte da assinatura, como em qualquer plataforma — a diferença é que aqui os seus dados saem com você."],
+  ["Os plugins funcionam se eu sair da Pixel?", "Sua loja é sua — o núcleo é open-source e o catálogo, os pedidos e os clientes são exportáveis a qualquer momento, sem lock-in. Os módulos proprietários da plataforma (Reports, Shields, Provador etc.) fazem parte da assinatura, como em qualquer plataforma — a diferença é que aqui os seus dados saem com você."],
 ];
 
 function Comparativos() {

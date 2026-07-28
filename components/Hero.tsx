@@ -57,13 +57,13 @@ export default function Hero() {
             variants={child}
             className="mb-6 font-display text-[clamp(34px,4.6vw,64px)] font-extrabold leading-[1.06] tracking-[-0.025em]"
           >
-            Sua loja roda WooCommerce.
+            Sua concorrência roda plugin de prateleira.
             <br />
-            Sua operação roda <span className="text-amber">Pixel&nbsp;Commerce</span>.
+            Sua operação roda <span className="text-amber">Shopixel</span>.
           </motion.h1>
           <motion.p variants={child} className="mb-9 max-w-[520px] text-[17.5px] text-dim">
             A camada de segurança, inteligência e automação que a Pixel Partners construiu — e opera —
-            em cima do núcleo de e-commerce mais usado do mundo. Sem colcha de retalhos. Sem lock-in.
+            sobre o núcleo de e-commerce open-source mais usado do mundo. Sem colcha de retalhos. Sem lock-in.
           </motion.p>
           <motion.div variants={child} className="flex flex-wrap gap-3.5">
             <a href="#contato" className="btn-amber">Quero minha loja em Shopixel</a>

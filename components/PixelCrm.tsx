@@ -71,7 +71,7 @@ export function CrmHero() {
             <span className="text-amber">O Pixel CRM faz eles comprarem de novo.</span>
           </h1>
           <p className="mb-7 max-w-[560px] text-[16.5px] text-dim">
-            CRM completo dentro do seu WooCommerce: segmentação RFM, risco de churn, canais de aquisição,
+            CRM completo dentro do seu plataforma: segmentação RFM, risco de churn, canais de aquisição,
             campanhas e automações de WhatsApp — com os seus dados na sua loja, sem mensalidade que cresce
             junto com as suas vendas.
           </p>
@@ -82,7 +82,7 @@ export function CrmHero() {
           <a href={waLink(CTA_MSG)} target="_blank" rel="noopener" className="btn-amber mt-4 inline-block">
             Quero ativar na minha loja
           </a>
-          <p className="mt-3.5 text-[13px] text-dim">Nativo WooCommerce · onboarding incluso · sem fidelidade</p>
+          <p className="mt-3.5 text-[13px] text-dim">Nativo da plataforma · onboarding incluso · sem fidelidade</p>
         </Reveal>
         <Reveal delay={0.15} className="flex justify-center lg:justify-end">
           <DashMock />
@@ -267,7 +267,7 @@ export function CrmWhatsapp() {
 
 /* ============ DIFERENCIAIS ============ */
 const difs: [string, string][] = [
-  ["Seus dados ficam na sua loja", "SaaS de CRM copia sua base pro servidor deles. O Pixel CRM roda dentro do seu WordPress: LGPD simplificada, sem operador externo, sem ficar refém — cancelou um SaaS, perdeu histórico e automações."],
+  ["Seus dados ficam na sua loja", "SaaS de CRM copia sua base pro servidor deles. O Pixel CRM roda dentro da sua loja: LGPD simplificada, sem operador externo, sem ficar refém — cancelou um SaaS, perdeu histórico e automações."],
   ["Preço que não cresce com as vendas", "SaaS de retenção cobra por volume de pedidos ou tamanho de base: você é punido pelo próprio sucesso. Aqui é assinatura fixa, contatos ilimitados."],
   ["Números que batem com o Pixel Reports", "Mesma venda líquida, mesma classificação de canais. O gestor não fica com dois relatórios brigando entre si."],
   ["Churn por cadência individual", "Cliente que compra a cada 90 dias não é 'perdido' aos 60 — e o que compra a cada 20 está em risco aos 45. A régua é o próprio cliente, não uma média genérica."],
@@ -308,7 +308,7 @@ const rows: [string, Cell, Cell][] = [
   ["Custo quando a loja cresce", { v: "sim", note: "não muda" }, { v: "nao", note: "sobe de faixa com as vendas" }],
   ["Onde ficam os dados", { v: "sim", note: "na sua loja" }, { v: "nao", note: "no servidor da Zoppy (SaaS)" }],
   ["Se cancelar", { v: "sim", note: "dados e histórico continuam seus" }, { v: "nao", note: "perde acesso e automações" }],
-  ["WooCommerce", { v: "sim", note: "nativo — HPOS, Flatsome, PrimePress" }, { v: "info", note: "integração via API, multiplataforma" }],
+  ["plataforma", { v: "sim", note: "nativo — infraestrutura PrimePress" }, { v: "info", note: "integração via API, multiplataforma" }],
   ["Análise de canais de mídia", { v: "sim", note: "LTV por canal com click-ID" }, { v: "info", note: "foco em RFM/recompra" }],
   ["Churn", { v: "sim", note: "cadência individual" }, { v: "info", note: "régua de recência/RFM" }],
   ["Giftback / cashback", { v: "sim", note: "via módulo Fidelização + Cashback" }, { v: "sim", note: "carro-chefe da Zoppy" }],
@@ -339,7 +339,7 @@ export function CrmComparativo() {
           </h2>
           <p className="text-[15.5px] text-dim">
             3 mil+ lojas, giftback maduro, multiplataforma — respeito total. O recorte da Pixel é claro:
-            pra loja WooCommerce que quer dado dentro de casa, custo fixo e integração real com a operação,
+            pra loja virtual que quer dado dentro de casa, custo fixo e integração real com a operação,
             o Pixel CRM é a escolha racional.
           </p>
         </Reveal>
@@ -390,7 +390,7 @@ export function CrmCapo() {
   const itens: [string, string][] = [
     ["Índice materializado próprio", "As análises rodam sobre índice com cache inteligente — não pesam o banco, o checkout nem as páginas da loja."],
     ["Sincronização em tempo real", "Cada pedido novo atualiza o CRM na hora, em segundo plano via Action Scheduler."],
-    ["Nativo de verdade", "WooCommerce HPOS e legado, tema Flatsome, infraestrutura PrimePress — sem gambiarra de integração."],
+    ["Nativo de verdade", "arquitetura nativa sobre a infraestrutura PrimePress — sem gambiarra de integração."],
     ["Ajuda contextual em tudo", "Todo cálculo tem um '?' explicando em linguagem de lojista. O time inteiro entende o dashboard, não só o analista."],
   ];
   return (
@@ -420,14 +420,14 @@ export function CrmCapo() {
 
 /* ============ FAQ ============ */
 const faq: [string, string][] = [
-  ["Funciona na minha loja?", "Se a sua loja roda WooCommerce, sim — incluindo lojas com HPOS ativado e tema Flatsome. A instalação e a primeira sincronização são feitas pela equipe Pixel."],
+  ["Funciona na minha loja?", "Se a sua loja roda plataforma, sim — incluindo lojas já em operação. A instalação e a primeira sincronização são feitas pela equipe Pixel."],
   ["Preciso trocar meu WhatsApp?", "Não. O Pixel CRM funciona com a API oficial do WhatsApp (Meta Cloud API ou 360dialog) e também com APIs não oficiais (Evolution/Waha) que você já use. No modo não oficial, o envio tem ritmo controlado pra proteger o seu número."],
-  ["Meus dados vão para algum servidor de terceiros?", "Não. Tudo roda dentro do seu WordPress. Clientes, segmentos, automações e histórico são seus — inclusive se um dia você cancelar."],
+  ["Meus dados vão para algum servidor de terceiros?", "Não. Tudo roda dentro da sua loja. Clientes, segmentos, automações e histórico são seus — inclusive se um dia você cancelar."],
   ["E a LGPD?", "Cada contato tem opt-out individual, respeitado automaticamente em todo disparo, manual ou automático. Como o dado não sai da loja, você não adiciona um operador externo ao seu tratamento de dados."],
   ["O CRM deixa minha loja lenta?", "Não. As análises rodam sobre um índice próprio com cache — não pesam o checkout nem as páginas. A sincronização acontece em segundo plano."],
   ["Quanto tempo até ver resultado?", "O dashboard fica pronto no mesmo dia, após a primeira sincronização. As primeiras automações de reconquista costumam gerar as primeiras vendas recuperadas nas primeiras semanas, dependendo do tamanho e do engajamento da base."],
-  ["Qual a diferença para a Zoppy?", "A Zoppy é um bom SaaS multiplataforma com foco em giftback. O Pixel CRM é nativo do WooCommerce, com preço fixo de R$ 399/mês (não escala com as suas vendas), dados dentro da sua loja e integração total com o Pixel Reports e o WhatsApp da plataforma. Pra loja WooCommerce, é a opção com melhor custo total e soberania do dado."],
-  ["Histórico antigo de canais aparece?", "A origem de aquisição (Google Ads, Meta Ads etc.) usa o rastreamento do WooCommerce, gravado desde o início de 2024. Pedidos anteriores aparecem como 'Desconhecido' — limitação do histórico, não do CRM. Todo cliente novo já entra classificado."],
+  ["Qual a diferença para a Zoppy?", "A Zoppy é um bom SaaS multiplataforma com foco em giftback. O Pixel CRM é nativo da plataforma, com preço fixo de R$ 399/mês (não escala com as suas vendas), dados dentro da sua loja e integração total com o Pixel Reports e o WhatsApp da plataforma. Pra loja virtual, é a opção com melhor custo total e soberania do dado."],
+  ["Histórico antigo de canais aparece?", "A origem de aquisição (Google Ads, Meta Ads etc.) usa o rastreamento da plataforma, gravado desde o início de 2024. Pedidos anteriores aparecem como 'Desconhecido' — limitação do histórico, não do CRM. Todo cliente novo já entra classificado."],
 ];
 
 export function CrmFAQ() {

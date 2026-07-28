@@ -69,7 +69,7 @@ export function VcHero() {
           </h1>
           <p className="mb-7 max-w-[540px] text-[17px] text-dim">
             Catálogo, página de produto e stories shoppable em vídeo, com o carrinho abrindo dentro do
-            player. Plugin nativo do WooCommerce: sem script de terceiro, sem limite de vídeos, sem limite
+            player. Módulo nativo da plataforma: sem script de terceiro, sem limite de vídeos, sem limite
             de views — e os dados na sua loja.
           </p>
           <div className="mb-2 flex items-baseline gap-2.5">

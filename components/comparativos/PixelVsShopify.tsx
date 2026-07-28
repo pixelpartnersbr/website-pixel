@@ -66,7 +66,7 @@ export function ShModelo() {
                 <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Planos fixos em reais (R$ 597 a R$ 2.497/mês) — vender mais não aumenta a fatura</li>
                 <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> 0% de taxa da plataforma: você paga só o seu gateway, negociado por você</li>
                 <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> CRM, fidelização, provador, atacado, vendedores: módulos inclusos no plano ou avulsos com preço fixo público</li>
-                <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Núcleo WooCommerce open-source, servidor seu na PrimePress, banco e código acessíveis — sem lock-in</li>
+                <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Núcleo plataforma open-source, servidor seu na PrimePress, banco e código acessíveis — sem lock-in</li>
               </ul>
             </article>
           </Reveal>
@@ -85,11 +85,11 @@ const rows: [string, Cell, Cell][] = [
   ["CRM + fidelização + cashback inclusos ou a preço fixo", { v: "sim" }, { v: "nao", note: "via apps pagos avulsos" }],
   ["Provador de tamanho, atacado B2B, código de vendedor nativos", { v: "sim" }, { v: "nao", note: "via apps de terceiros" }],
   ["Servidor dedicado à sua loja, com acesso", { v: "sim", note: "PrimePress" }, { v: "nao", note: "infra SaaS compartilhada, sem acesso" }],
-  ["Acesso ao banco de dados e ao código", { v: "sim", note: "núcleo WooCommerce open-source" }, { v: "nao", note: "plataforma proprietária" }],
-  ["Sair sem reconstruir a loja", { v: "sim", note: "WooCommerce roda em qualquer lugar" }, { v: "nao", note: "tema e apps não migram" }],
+  ["Acesso ao banco de dados e ao código", { v: "sim", note: "núcleo open-source" }, { v: "nao", note: "plataforma proprietária" }],
+  ["Sair sem reconstruir a loja", { v: "sim", note: "núcleo open-source roda em qualquer lugar" }, { v: "nao", note: "tema e apps não migram" }],
   ["Suporte em português de quem escreveu o código", { v: "sim" }, { v: "nao", note: "suporte global da plataforma" }],
   ["Ecossistema global gigante de apps e temas", { v: "nao", note: "módulos proprietários + plugins Woo" }, { v: "sim" }],
-  ["Operação internacional multi-moeda pronta", { v: "info", note: "possível via WooCommerce, sob projeto" }, { v: "sim" }],
+  ["Operação internacional multi-moeda pronta", { v: "info", note: "possível via plataforma, sob projeto" }, { v: "sim" }],
 ];
 
 function Mark({ c }: { c: Cell }) {

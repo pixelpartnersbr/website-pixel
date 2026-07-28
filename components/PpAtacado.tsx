@@ -71,7 +71,7 @@ export function AtHero() {
           <a href={waLink(CTA_MSG)} target="_blank" rel="noopener" className="btn-amber mt-4 inline-block">
             Quero abrir meu canal B2B
           </a>
-          <p className="mt-3.5 text-[13px] text-dim">Nativo WooCommerce · CNPJ validado · sem fidelidade</p>
+          <p className="mt-3.5 text-[13px] text-dim">Nativo da plataforma · CNPJ validado · sem fidelidade</p>
         </Reveal>
         <Reveal delay={0.15} className="flex justify-center lg:justify-end">
           <DualPriceMock />
@@ -224,7 +224,7 @@ export function AtCache() {
           </h2>
           <div className="flex flex-col gap-4 text-[15px] text-dim">
             <p>
-              É exatamente aqui que os plugins genéricos escorregam: o WooCommerce guarda o intervalo de
+              É exatamente aqui que os plugins genéricos escorregam: o núcleo do e-commerce guarda o intervalo de
               preços das variações em cache, e sem o devido cuidado um atacadista logado{" "}
               <strong className="text-ink">"envenena" esse cache</strong> — e o varejo inteiro passa a ver
               preço de atacado.
@@ -242,7 +242,7 @@ export function AtCache() {
             <p className="text-[14px] text-dim">
               Mínimos, formas de pagamento e transições são impostos pelo sistema — não dependem de a
               equipe lembrar de conferir. E é feito pro Brasil de verdade: CNPJ validado, PIX e boleto como
-              cidadãos de primeira classe, compatível com o Brazilian Market on WooCommerce que a sua loja
+              cidadãos de primeira classe, compatível com o padrão fiscal brasileiro que a sua loja
               provavelmente já usa.
             </p>
           </div>

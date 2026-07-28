@@ -72,7 +72,7 @@ export function PvHero() {
             O provador virtual que fala a língua da sua marca — <span className="text-amber">sem mensalidade que cresce com o seu tráfego.</span>
           </h1>
           <p className="mb-7 max-w-[560px] text-[16.5px] text-dim">
-            Recomendação de tamanho para roupas e calçados, instalada dentro da sua loja WooCommerce. Reduz
+            Recomendação de tamanho para roupas e calçados, instalada dentro da sua loja virtual. Reduz
             a insegurança que trava a compra e a troca que come sua margem — sem enviar o cliente pra um
             serviço de terceiros, com custo por acesso zero.
           </p>
@@ -83,7 +83,7 @@ export function PvHero() {
           <a href={waLink(CTA_MSG)} target="_blank" rel="noopener" className="btn-amber mt-4 inline-block">
             Quero o provador na minha loja
           </a>
-          <p className="mt-3.5 text-[13px] text-dim">Roupas e calçados · nativo WooCommerce · sem fidelidade</p>
+          <p className="mt-3.5 text-[13px] text-dim">Roupas e calçados · nativo da plataforma · sem fidelidade</p>
         </Reveal>
         <Reveal delay={0.15} className="flex justify-center lg:justify-end">
           <ProvadorMock />
@@ -385,7 +385,7 @@ export function PvComparativo() {
 
 /* ============ PARA QUEM É + FAQ ============ */
 const faq: [string, string][] = [
-  ["Funciona com a minha loja?", "Sim, para lojas WooCommerce. É compatível com HPOS e testado com o tema Flatsome, além de conviver bem com cache de página."],
+  ["Funciona com a minha loja?", "Sim, para lojas virtuais. É roda sobre a infraestrutura PrimePress e convive bem com cache de página."],
   ["Precisa de script externo ou envia dados para fora?", "Não. Roda dentro da sua loja; os dados do cliente ficam na sua infraestrutura. As medidas informadas não são armazenadas em servidor — a recomendação é calculada na hora, e o que se registra (de forma anônima) é o tamanho sugerido, para calibração."],
   ["Serve para calçados?", "Sim. Há um tipo de grade específico para calçados: o cliente informa o comprimento do pé e recebe o número ideal — com aviso claro quando fica entre dois números."],
   ["Como o lojista cadastra as medidas?", "Numa tela simples: escolhe o tipo (roupas ou calçados) e preenche a grade. Uma mesma grade pode valer para um produto, uma categoria ou a loja inteira."],
@@ -396,7 +396,7 @@ const faq: [string, string][] = [
 export function PvQuemFaq() {
   const [open, setOpen] = useState<number | null>(0);
   const quem = [
-    "Lojas de moda em WooCommerce — roupas, calçados ou ambos",
+    "Lojas de moda na plataforma — roupas, calçados ou ambos",
     "Marcas que querem a experiência com a própria identidade, sem 'cara de plugin de terceiro'",
     "Operações com mais de uma loja, onde a mensalidade por loja de um SaaS pesa",
     "Lojistas preocupados com privacidade/LGPD e performance (cache, Core Web Vitals)",

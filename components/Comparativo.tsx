@@ -31,7 +31,7 @@ export default function Comparativo() {
               <thead>
                 <tr>
                   <th className="border-b border-line bg-navy-950/50 p-4 text-left font-display text-[13.5px] font-bold" />
-                  <th className="border-b border-line bg-navy-950/50 p-4 text-left font-display text-[13.5px] font-bold">WooCommerce &ldquo;de prateleira&rdquo;</th>
+                  <th className="border-b border-line bg-navy-950/50 p-4 text-left font-display text-[13.5px] font-bold">plataforma &ldquo;de prateleira&rdquo;</th>
                   <th className="border-b border-line bg-navy-950/50 p-4 text-left font-display text-[13.5px] font-bold">Plataforma fechada (SaaS)</th>
                   <th className="border-b border-line bg-amber p-4 text-left font-display text-[13.5px] font-bold text-navy-950">Shopixel</th>
                 </tr>

@@ -65,7 +65,7 @@ export function CvModelo() {
               <ul className="flex flex-col gap-3 text-[14px] text-dim">
                 <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> CRM completo incluso no plano Growth (R$ 1.297/mês) — ou avulso por <strong className="text-ink">R$ 399/mês fixos</strong> em qualquer plano</li>
                 <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Vender mais não aumenta a mensalidade: 0% de comissão, enquadramento só por faixa de pedidos</li>
-                <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Roda dentro do seu WooCommerce: os dados de clientes nunca saem da sua loja</li>
+                <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Roda dentro do seu plataforma: os dados de clientes nunca saem da sua loja</li>
                 <li className="flex gap-2.5"><span className="font-bold text-amber">✓</span> Um fornecedor, uma fatura — CRM, infra, segurança e suporte no mesmo contrato</li>
               </ul>
             </article>
@@ -87,7 +87,7 @@ const rows: [string, Cell, Cell][] = [
   ["Risco de churn pela cadência individual de compra de cada cliente", { v: "sim" }, { v: "info", note: "não divulgado" }],
   ["Venda líquida real (bruta − frete − reembolsos) como métrica", { v: "sim", note: "integração nativa Pixel Reports" }, { v: "info", note: "não divulgado" }],
   ["Dados de clientes permanecem no banco da sua loja", { v: "sim" }, { v: "nao", note: "SaaS externo — dados sincronizados para a plataforma" }],
-  ["Funciona sem depender de integração com terceiros", { v: "sim", note: "plugin nativo WooCommerce" }, { v: "nao", note: "integração com 20+ plataformas" }],
+  ["Funciona sem depender de integração com terceiros", { v: "sim", note: "plugin nativo da plataforma" }, { v: "nao", note: "integração com 20+ plataformas" }],
   ["Preço público, sem demonstração obrigatória", { v: "sim", note: "nesta página" }, { v: "nao", note: "sob consulta, por volume de vendas" }],
   ["Mensalidade não aumenta quando você vende mais", { v: "sim" }, { v: "nao", note: "planos por número de vendas" }],
   ["Suporte de quem escreveu o código do CRM", { v: "sim" }, { v: "nao" }],

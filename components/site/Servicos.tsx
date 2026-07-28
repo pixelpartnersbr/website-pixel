@@ -1,6 +1,6 @@
 "use client";
 import Reveal from "../Reveal";
-import { MARKETING_ATIVO, plat } from "./config";
+import { MARKETING_ATIVO, plat, SHOPIXEL_URL } from "./config";
 
 type Servico = {
   name: string; desc: string; tags: string[];
@@ -13,9 +13,9 @@ type Servico = {
 const todos: Servico[] = [
   {
     name: "Desenvolvimento Web & Shopixel", featured: true,
-    desc: "Lojas WooCommerce na nossa plataforma proprietária: servidor sob medida, segurança antifraude, analytics de verdade e módulos exclusivos de conversão.",
+    desc: "Lojas virtuais na nossa plataforma proprietária: servidor sob medida, segurança antifraude, analytics de verdade e módulos exclusivos de conversão.",
     tags: ["Lojas Virtuais", "Institucionais", "Landing Pages", "Marketplaces"],
-    href: plat("/plataforma"), cta: "Conhecer a plataforma",
+    href: SHOPIXEL_URL, cta: "Conhecer a plataforma",
   },
   {
     marketing: true,

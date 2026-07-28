@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { StlHero, StlProblema, StlDesconto, StlRecursos, StlComparativo, StlCTA } from "@/components/ShopTheLook";
 
 export const metadata: Metadata = {
-  title: "Shop The Look — o look inteiro num clique, para WooCommerce | Shopixel",
+  title: "Shop The Look — o look inteiro num clique, | Shopixel",
   description:
     "Bloco 'Compre o Look' na página do produto: o cliente seleciona as peças, escolhe os tamanhos e adiciona tudo ao carrinho de uma vez — com desconto progressivo pelo conjunto.",
 };

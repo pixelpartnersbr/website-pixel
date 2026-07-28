@@ -6,7 +6,7 @@ import { VcHero, VcRecursos, VcConversao, VcComparativo, VcHonesto, VcCTA } from
 export const metadata: Metadata = {
   title: "Videocommerce: vídeo shoppable dentro da sua loja — Shopixel",
   description:
-    "Catálogo, galeria e stories em vídeo com carrinho dentro do player. Plugin nativo WooCommerce, sem limite de vídeos ou views, R$ 199/mês — comparativo com Widde incluso.",
+    "Catálogo, galeria e stories em vídeo com carrinho dentro do player. Plugin nativo da plataforma, sem limite de vídeos ou views, R$ 199/mês — comparativo com Widde incluso.",
 };
 
 export default function VideocommercePage() {

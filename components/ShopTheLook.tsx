@@ -83,7 +83,7 @@ export function StlHero() {
           <a href={waLink(CTA_MSG)} target="_blank" rel="noopener" className="btn-amber mt-4 inline-block">
             Quero looks vendendo na minha loja
           </a>
-          <p className="mt-3.5 text-[13px] text-dim">Rodando em produção em lojas da plataforma · nativo WooCommerce · sem fidelidade</p>
+          <p className="mt-3.5 text-[13px] text-dim">Rodando em produção em lojas da plataforma · nativo da plataforma · sem fidelidade</p>
         </Reveal>
         <Reveal delay={0.15} className="flex justify-center lg:justify-end">
           <LookMock />
@@ -108,7 +108,7 @@ export function StlProblema() {
         <Reveal>
           <span className="eyebrow">O problema</span>
           <h2 className="mb-4 font-display text-[clamp(24px,3vw,38px)] font-extrabold leading-[1.12] tracking-tight">
-            Lojas de moda vendem looks. O WooCommerce vende uma peça por vez.
+            Lojas de moda vendem looks. A loja comum vende uma peça por vez.
           </h2>
           <p className="text-[15px] text-dim">
             A experiência padrão obriga o cliente a caçar cada peça: vê a calça, sai da página, procura o
@@ -298,7 +298,7 @@ export function StlComparativo() {
             </table>
           </div>
           <p className="mt-4 max-w-[820px] text-[12.5px] text-dim">
-            Detalhes técnicos: nativo WooCommerce (simples e variáveis), compatível com HPOS, testado com
+            Detalhes técnicos: nativo da plataforma (simples e variáveis), testado com
             Flatsome e FunnelKit Cart, admin em português com tutorial embutido, responsivo (grade no
             desktop, lista vertical no mobile).
           </p>

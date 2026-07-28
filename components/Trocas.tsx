@@ -71,7 +71,7 @@ export function TrHero() {
           <a href={waLink(CTA_MSG)} target="_blank" rel="noopener" className="btn-amber mt-4 inline-block">
             Quero ativar a Central de Trocas
           </a>
-          <p className="mt-3.5 text-[13px] text-dim">Nativo WooCommerce · dados na sua loja · sem fidelidade</p>
+          <p className="mt-3.5 text-[13px] text-dim">Nativo da plataforma · dados na sua loja · sem fidelidade</p>
         </Reveal>
         <Reveal delay={0.15} className="flex justify-center lg:justify-end">
           <TrocasMock />
@@ -241,7 +241,7 @@ const faq: [string, string][] = [
   ["Quando o vale-troca é emitido?", "Automaticamente, assim que a equipe confere o produto devolvido — o cupom chega por e-mail na hora. É a diferença entre um cliente esperando alguém lembrar e um cliente já escolhendo a peça nova."],
   ["E se o cliente desistir depois da aprovação?", "A peça que estava reservada pra ele volta pro estoque automaticamente. Reserva na aprovação, liberação na desistência — sem estoque fantasma em nenhum dos dois sentidos."],
   ["Dá pra impedir abuso de trocas?", "Sim — o bloqueio de trocas sucessivas limita solicitações por pedido e por cliente. A régua é sua; o sistema aplica."],
-  ["Funciona com meus cupons e meu estoque atuais?", "Sim — integração nativa com o WooCommerce, os seus cupons e o seu estoque, dentro do seu WordPress. Nada de dados do seu pós-venda morando no servidor de terceiro."],
+  ["Funciona com meus cupons e meu estoque atuais?", "Sim — integração nativa com a plataforma, os seus cupons e o seu estoque, dentro da sua loja. Nada de dados do seu pós-venda morando no servidor de terceiro."],
 ];
 
 export function TrPorQueFaqCta() {
@@ -256,8 +256,8 @@ export function TrPorQueFaqCta() {
           </h2>
           <p className="text-[15.5px] text-dim">
             Soluções de trocas por assinatura cobram mensalidade por loja, guardam os seus dados fora da sua
-            operação e limitam a personalização. A Central de Trocas roda dentro do seu WordPress, integrada
-            nativamente ao WooCommerce, aos seus cupons, ao seu estoque e ao restante da plataforma — do
+            operação e limitam a personalização. A Central de Trocas roda dentro da sua loja, integrada
+            nativamente à plataforma, aos seus cupons, ao seu estoque e ao restante da plataforma — do
             jeito que a sua operação funciona.
           </p>
         </Reveal>

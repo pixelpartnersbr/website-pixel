@@ -148,7 +148,7 @@ export function WaTarifas() {
 
 /* ============ ECOSSISTEMA ============ */
 const eco = [
-  ["📦", "Follow-up completo de pedidos", "Cada status do WooCommerce dispara o template certo — pagamento, envio, rastreio, entrega — com recibo no log."],
+  ["📦", "Follow-up completo de pedidos", "Cada status do pedido dispara o template certo — pagamento, envio, rastreio, entrega — com recibo no log."],
   ["🛒", "Recuperação de carrinho abandonado", "Quem desistiu recebe o link do carrinho pronto, com desconto condicional pra fechar a venda na hora."],
   ["🔔", "Aviso de volta ao estoque", "Produto esgotou? Quem quis comprar recebe o alerta na reposição. Demanda declarada, conversão altíssima."],
   ["⭐", "Painel de influencers em tempo real", "Cada influencer acompanha comissões no próprio painel e recebe no WhatsApp o aviso de cada venda pelo seu link."],

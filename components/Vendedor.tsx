@@ -76,7 +76,7 @@ export function VdHero() {
           <a href={waLink(CTA_MSG)} target="_blank" rel="noopener" className="btn-amber mt-4 inline-block">
             Descubra quanto da sua receita tem um vendedor por trás
           </a>
-          <p className="mt-3.5 text-[13px] text-dim">Zero impacto no preço · nativo WooCommerce · sem fidelidade</p>
+          <p className="mt-3.5 text-[13px] text-dim">Zero impacto no preço · nativo da plataforma · sem fidelidade</p>
         </Reveal>
         <Reveal delay={0.15} className="flex justify-center lg:justify-end">
           <RankingMock />
@@ -184,7 +184,7 @@ export function VdFuncionalidades() {
         </div>
         <Reveal>
           <p className="mt-6 max-w-[820px] text-[12.5px] text-dim">
-            Fundação técnica: compatível com HPOS e com o armazenamento legado, pt-BR nativo, e
+            Fundação técnica: arquitetura nativa da plataforma, pt-BR nativo, e
             desinstalação limpa que preserva o histórico de atribuição nos pedidos.
           </p>
         </Reveal>

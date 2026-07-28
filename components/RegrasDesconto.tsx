@@ -66,7 +66,7 @@ export function RdHero() {
             Um motor de descontos que se adapta a <span className="text-amber">qualquer promoção.</span>
           </h1>
           <p className="mb-7 max-w-[560px] text-[16.5px] text-dim">
-            Precificação dinâmica e descontos condicionais pro WooCommerce: regras que reagem ao que está no
+            Precificação dinâmica e descontos condicionais pra sua loja: regras que reagem ao que está no
             carrinho, a quem está comprando e a quando a compra acontece — mais brinde automático por valor
             de compra, integrado ao seu carrinho lateral.
           </p>
@@ -77,7 +77,7 @@ export function RdHero() {
           <a href={waLink(CTA_MSG)} target="_blank" rel="noopener" className="btn-amber mt-4 inline-block">
             Quero promoções sem gambiarra
           </a>
-          <p className="mt-3.5 text-[13px] text-dim">Nativo WooCommerce · mantido pela Pixel · sem fidelidade</p>
+          <p className="mt-3.5 text-[13px] text-dim">Nativo da plataforma · mantido pela Pixel · sem fidelidade</p>
         </Reveal>
         <Reveal delay={0.15} className="flex justify-center lg:justify-end">
           <BrindeMock />
@@ -210,7 +210,7 @@ export function RdPorQue() {
   const razoes: [string, string][] = [
     ["Um motor, todas as campanhas", "Robusto o bastante pra cobrir praticamente qualquer promoção — sem empilhar um plugin diferente (e um conflito diferente) pra cada tipo de campanha."],
     ["Construído no comportamento real do seu carrinho", "O módulo de brinde não é genérico: foi feito e testado no FunnelKit Cart de verdade — sidebar, popup de escolha e checkout —, exatamente onde os plugins de brinde de mercado costumam quebrar."],
-    ["Mantido por quem conhece a sua loja", "Evolução contínua pela mesma equipe que opera a plataforma. Não é 'instalar e torcer' — é suporte de verdade, com o módulo acompanhando o WooCommerce e o tema."],
+    ["Mantido por quem conhece a sua loja", "Evolução contínua pela mesma equipe que opera a plataforma. Não é 'instalar e torcer' — é suporte de verdade, com o módulo acompanhando o plataforma e o tema."],
   ];
   return (
     <section className="border-t border-line bg-navy-900 py-24">
@@ -248,7 +248,7 @@ const faq: [string, string][] = [
   ["O desconto funciona junto com cupom?", "Funciona — e o brinde por valor é calculado sobre o total depois do cupom, de propósito: o cliente não 'compra' o brinde com desconto que a loja já deu."],
   ["Posso travar um produto pra nunca entrar em promoção?", "Sim. A exclusão de produtos tira o item de qualquer regra de desconto — proteção de margem pra lançamentos e itens com preço especial, mesmo quando há cupom geral rodando."],
   ["O brinde funciona no celular?", "Sim — o fluxo inteiro (barra de progresso, checkpoints, popup de escolha) é responsivo e foi testado no carrinho lateral mobile, onde a maior parte das compras acontece."],
-  ["Preciso do FunnelKit Cart pra usar?", "Não — o módulo roda no carrinho padrão do WooCommerce. A integração com o FunnelKit Cart é o diferencial pra quem já usa (ou quer usar) carrinho lateral com Smart Checkout."],
+  ["Preciso do FunnelKit Cart pra usar?", "Não — o módulo roda no carrinho padrão da loja. A integração com o FunnelKit Cart é o diferencial pra quem já usa (ou quer usar) carrinho lateral com Smart Checkout."],
 ]
 
 export function RdFaqCta() {

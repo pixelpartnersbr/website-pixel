@@ -55,7 +55,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 border-t border-line pt-5">
           <p className="font-mono text-[11px] tracking-[0.06em] text-dim">
-            powered by PrimePress · núcleo WooCommerce open-source
+            powered by PrimePress · núcleo open-source
           </p>
         </div>
       </div>

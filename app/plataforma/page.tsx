@@ -15,7 +15,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Shopixel — A plataforma da Pixel Partners",
   description:
-    "A camada proprietária de segurança, inteligência e automação da Pixel Partners, rodando sobre WooCommerce e na infraestrutura PrimePress.",
+    "A camada proprietária de segurança, inteligência e automação da Pixel Partners, rodando sobre núcleo open-source e na infraestrutura PrimePress.",
 };
 
 export default function Page() {

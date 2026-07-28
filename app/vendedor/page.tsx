@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { VdHero, VdProblema, VdFuncionalidades, VdDiferenciais, VdCalculadora, VdComparativo, VdFaqCta } from "@/components/Vendedor";
 
 export const metadata: Metadata = {
-  title: "Código de Vendedor — atribuição de vendas sem desconto para WooCommerce | Shopixel",
+  title: "Código de Vendedor — atribuição de vendas sem desconto | Shopixel",
   description:
     "Campo opcional no checkout, ranking com vendas líquidas reais e comissão fechada em minutos. Atribua cada venda ao vendedor certo sem transformar sua equipe em cupom.",
 };

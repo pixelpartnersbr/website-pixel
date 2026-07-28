@@ -5,7 +5,7 @@ import SmoothScroll from "@/components/SmoothScroll";
 export const metadata: Metadata = {
   title: "Pixel Partners — Tecnologia própria para crescer de verdade",
   description:
-    "Casa de tecnologia especializada em desenvolvimento web, sistemas sob medida e apps. Criadora da plataforma Shopixel: WooCommerce com segurança, inteligência e automação proprietárias.",
+    "Casa de tecnologia especializada em desenvolvimento web, sistemas sob medida e apps. Criadora da plataforma Shopixel: plataforma de e-commerce com segurança, inteligência e automação proprietárias.",
   metadataBase: new URL("https://pixelpartners.com.br"),
   openGraph: {
     title: "Pixel Partners",
