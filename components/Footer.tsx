@@ -1,4 +1,4 @@
-import { BUILD } from "./site/config";
+import { BUILD, MARKETING_ATIVO } from "./site/config";
 
 const modulos: [string, string][] = [
   ["/pixel-crm", "Pixel CRM"],
@@ -13,11 +13,11 @@ const modulos: [string, string][] = [
 ];
 
 const comparativos: [string, string][] = [
+  ...(MARKETING_ATIVO ? ([["/trafego-ecommerce", "Tráfego Pago"]] as [string, string][]) : []),
   ["/comparativos/pixel-crm-vs-zoppy", "vs Zoppy"],
   ["/comparativos/pixel-commerce-vs-shopify", "vs Shopify"],
   ["/comparativos/fidelizacao-vs-fidelizar-mais", "vs Fidelizar+"],
   ["/videocommerce#comparativo", "vs Widde"],
-  ["/trafego-ecommerce", "Tráfego Pago"],
   ["/planos", "Planos"],
 ];
 

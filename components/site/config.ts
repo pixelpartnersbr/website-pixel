@@ -1,5 +1,13 @@
 // ⚙️ AJUSTE AQUI: dados de contato e estatísticas do site institucional
-export const BUILD = "1.33.0";
+export const BUILD = "1.34.0";
+
+/**
+ * Frentes de marketing (Tráfego Pago e Redes Sociais) desligadas do site público.
+ * As páginas continuam no repositório e acessíveis por URL direta, mas ficam
+ * fora dos cards de serviço, dos rodapés e da indexação em buscadores.
+ * Para reconectar tudo: trocar para true.
+ */
+export const MARKETING_ATIVO = false;
 
 export const SITE = {
   whatsapp: "5527996520301",

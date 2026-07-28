@@ -3,14 +3,14 @@ import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 
 export const metadata: Metadata = {
-  title: "Pixel Partners — Tecnologia e Marketing para crescer de verdade",
+  title: "Pixel Partners — Tecnologia própria para crescer de verdade",
   description:
-    "Agência boutique de desenvolvimento web e marketing digital. Criadora da plataforma Pixel Commerce: WooCommerce com segurança, inteligência e automação proprietárias.",
+    "Casa de tecnologia especializada em desenvolvimento web, sistemas sob medida e apps. Criadora da plataforma Pixel Commerce: WooCommerce com segurança, inteligência e automação proprietárias.",
   metadataBase: new URL("https://pixelpartners.com.br"),
   openGraph: {
     title: "Pixel Partners",
     description:
-      "Tecnologia própria, marketing certificado e a plataforma Pixel Commerce. Code. Connect. Create.",
+      "Tecnologia própria, sistemas sob medida e a plataforma Pixel Commerce. Code. Connect. Create.",
     images: [
       {
         url: "https://d8j0ntlcm91z4.cloudfront.net/user_3Am4Jv4nSnw3p3H5eVz5c4jDLKs/hf_20260713_193947_c566a573-9fe4-4ac7-a7be-611e2728ae3f.png",

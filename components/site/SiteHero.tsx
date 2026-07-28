@@ -27,7 +27,7 @@ export default function SiteHero() {
       <div className="wrap relative grid items-center gap-14 lg:grid-cols-[1.05fr_.95fr]">
         <motion.div variants={parent} initial="hidden" animate="show" className="max-w-[820px]">
           <motion.span variants={child} className="eyebrow">
-            Tecnologia · Marketing · Desde 2016
+            Tecnologia própria · Engenharia · Desde 2016
           </motion.span>
           <motion.h1
             variants={child}
@@ -38,8 +38,8 @@ export default function SiteHero() {
             <span className="text-amber">Parceria verdadeira.</span>
           </motion.h1>
           <motion.p variants={child} className="mb-9 max-w-[560px] text-[17.5px] text-dim">
-            Somos especialistas em transformar presença digital em crescimento mensurável. Tecnologia
-            própria, tráfego pago certificado e a plataforma Pixel Commerce — tudo sob o mesmo teto.
+            Somos especialistas em transformar operação digital em crescimento mensurável. Sistemas sob
+            medida, aplicativos e a plataforma Pixel Commerce — engenharia própria, sob o mesmo teto.
           </motion.p>
           <motion.div variants={child} className="flex flex-wrap gap-3.5">
             <a href="/#contato" className="btn-amber">Fale com um Especialista</a>

@@ -1,4 +1,4 @@
-import { SITE, waLink, BUILD } from "./config";
+import { SITE, waLink, BUILD, MARKETING_ATIVO } from "./config";
 
 export default function SiteFooter() {
   return (
@@ -9,7 +9,7 @@ export default function SiteFooter() {
             <img src="/images/logo-pixel-partners.png" alt="Pixel Partners" className="mb-3 h-16 w-16" />
             <p className="mb-2 font-display text-[16px] font-extrabold">Pixel Partners</p>
             <p className="text-[13px] text-dim">
-              Agência especializada em desenvolvimento web e marketing digital. Precisão, parceria e
+              Casa de tecnologia especializada em desenvolvimento web, sistemas sob medida e plataforma própria de e-commerce. Precisão, parceria e
               resultados mensuráveis.
             </p>
             <a href={SITE.instagram} target="_blank" rel="noopener" className="mt-3 inline-block font-mono text-[12px] text-dim no-underline hover:text-ink">
@@ -20,10 +20,14 @@ export default function SiteFooter() {
             <p className="mb-3 font-mono text-[11px] uppercase tracking-[0.1em] text-dim">Serviços</p>
             <ul className="flex flex-col gap-2 text-[13.5px]">
               <li><a href="/plataforma" className="text-dim no-underline hover:text-ink">Pixel Commerce</a></li>
-              <li><a href="/trafego-pago" className="text-dim no-underline hover:text-ink">Tráfego Pago · Negócios Locais</a></li>
-              <li><a href="/trafego-ecommerce" className="text-dim no-underline hover:text-ink">Tráfego Pago · Lojas Virtuais</a></li>
+              {MARKETING_ATIVO && (
+                <>
+                  <li><a href="/trafego-pago" className="text-dim no-underline hover:text-ink">Tráfego Pago · Negócios Locais</a></li>
+                  <li><a href="/trafego-ecommerce" className="text-dim no-underline hover:text-ink">Tráfego Pago · Lojas Virtuais</a></li>
+                </>
+              )}
               <li><a href="/#servicos" className="text-dim no-underline hover:text-ink">Desenvolvimento de Apps</a></li>
-              <li><a href="/redes-sociais" className="text-dim no-underline hover:text-ink">Redes Sociais</a></li>
+              {MARKETING_ATIVO && <li><a href="/redes-sociais" className="text-dim no-underline hover:text-ink">Redes Sociais</a></li>}
             </ul>
           </div>
           <div>

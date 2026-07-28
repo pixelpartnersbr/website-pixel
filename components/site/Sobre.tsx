@@ -2,9 +2,9 @@
 import Reveal from "../Reveal";
 
 const bullets = [
-  "Especialistas em nichos específicos: e-commerce, médicos, negócios locais e serviços",
-  "Parceiros certificados Meta Business e Google",
-  "Tecnologia 100% própria: plataforma, plugins e infraestrutura desenvolvidos internamente",
+  "Especialistas em e-commerce, sistemas internos e integrações sob medida",
+  "Plataforma, plugins e infraestrutura desenvolvidos e mantidos internamente",
+  "Código proprietário: nada de dependência de fornecedor terceiro no núcleo da operação",
   "Foco em resultados mensuráveis, não em métricas de vaidade",
 ];
 
@@ -15,15 +15,15 @@ export default function Sobre() {
         <Reveal>
           <span className="eyebrow">Quem somos</span>
           <h2 className="mb-4 font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
-            Marketing e tecnologia não deveriam morar em empresas separadas.
+            A tecnologia que roda o seu negócio não deveria ser genérica.
           </h2>
           <p className="mb-4 text-[16px] text-dim">
-            A Pixel Partners nasceu da convicção de que marketing digital e desenvolvimento web precisam
-            caminhar juntos — com estratégia, dados e tecnologia alinhados a um único objetivo: o
+            A Pixel Partners nasceu da convicção de que plataforma, sistema e operação precisam caminhar
+            juntos — com engenharia, dados e infraestrutura alinhados a um único objetivo: o
             crescimento real do seu negócio.
           </p>
           <p className="text-[16px] text-dim">
-            Somos uma agência boutique: atendemos menos clientes para entregar mais resultado. Cada projeto
+            Somos uma casa de tecnologia boutique: atendemos menos clientes para entregar mais resultado. Cada projeto
             recebe atenção dedicada, estratégia personalizada e relatórios transparentes — gerados pela
             nossa própria plataforma de dados.
           </p>

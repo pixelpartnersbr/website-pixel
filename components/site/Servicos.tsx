@@ -1,13 +1,16 @@
 "use client";
 import Reveal from "../Reveal";
+import { MARKETING_ATIVO } from "./config";
 
 type Servico = {
   name: string; desc: string; tags: string[];
   featured?: boolean; warn?: string; href?: string; cta?: string;
   links?: [string, string][];
+  /** frente de marketing — só aparece quando MARKETING_ATIVO === true */
+  marketing?: boolean;
 };
 
-const servicos: Servico[] = [
+const todos: Servico[] = [
   {
     name: "Desenvolvimento Web & Pixel Commerce", featured: true,
     desc: "Lojas WooCommerce na nossa plataforma proprietária: servidor sob medida, segurança antifraude, analytics de verdade e módulos exclusivos de conversão.",
@@ -15,6 +18,7 @@ const servicos: Servico[] = [
     href: "/plataforma", cta: "Conhecer a plataforma",
   },
   {
+    marketing: true,
     name: "Tráfego Pago",
     desc: "Campanhas de alta performance no Google Ads e Meta Ads, com gestão especializada por segmento de negócio e otimização sobre venda líquida.",
     tags: ["E-commerce", "Negócios Locais", "Médicos", "Serviços"],
@@ -26,6 +30,18 @@ const servicos: Servico[] = [
     tags: ["Android", "iOS", "Publicação nas Lojas", "Integração com E-commerce"],
   },
   {
+    name: "Sistemas Sob Medida",
+    desc: "Software feito para a sua operação: painéis internos, integrações entre sistemas, automações e módulos que nenhum plugin de prateleira resolve.",
+    tags: ["Integrações", "Automações", "Painéis Internos", "APIs"],
+  },
+  {
+    name: "Infraestrutura & QueueGuard",
+    desc: "Servidor sob medida, monitoramento e o QueueGuard: fila inteligente que mantém a loja de pé quando o pico chega — drop, collab ou Black Friday.",
+    tags: ["Servidor Dedicado", "Alta Disponibilidade", "Picos de Tráfego", "Monitoramento"],
+    href: "/plataforma#queueguard", cta: "Ver na plataforma",
+  },
+  {
+    marketing: true,
     name: "Redes Sociais",
     desc: "Gestão de redes sociais com foco em negócios locais e profissionais da saúde. Conteúdo estratégico que gera autoridade e relacionamento.",
     tags: ["Negócios Locais", "Médicos"],
@@ -33,6 +49,8 @@ const servicos: Servico[] = [
     href: "/redes-sociais", cta: "Planos e valores",
   },
 ];
+
+const servicos = todos.filter((s) => MARKETING_ATIVO || !s.marketing);
 
 export default function Servicos() {
   return (
@@ -44,7 +62,7 @@ export default function Servicos() {
             Nossos serviços
           </h2>
           <p className="text-[16.5px] text-dim">
-            Soluções integradas de tecnologia e marketing digital para empresas que buscam crescimento
+            Engenharia de software e plataforma proprietária para empresas que buscam crescimento
             consistente — e mensurável.
           </p>
         </Reveal>
