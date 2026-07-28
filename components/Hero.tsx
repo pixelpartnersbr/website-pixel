@@ -66,7 +66,7 @@ export default function Hero() {
             em cima do núcleo de e-commerce mais usado do mundo. Sem colcha de retalhos. Sem lock-in.
           </motion.p>
           <motion.div variants={child} className="flex flex-wrap gap-3.5">
-            <a href="#contato" className="btn-amber">Quero minha loja em Pixel Commerce</a>
+            <a href="#contato" className="btn-amber">Quero minha loja em Shopixel</a>
             <a href="#numeros" className="btn-ghost">Ver os números</a>
           </motion.div>
           <motion.ul variants={child} className="mt-8 flex flex-wrap gap-7 border-t border-line pt-6">

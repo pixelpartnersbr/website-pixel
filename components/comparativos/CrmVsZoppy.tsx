@@ -164,7 +164,7 @@ export function CvCalculadora() {
             <p>
               Como o preço da Zoppy varia por loja (e não é público), a conta justa é com{" "}
               <strong className="text-ink">a proposta que você recebeu</strong>. Digite o valor mensal ao
-              lado e veja quanto sai por ano — um dinheiro que, no Pixel Commerce, já está{" "}
+              lado e veja quanto sai por ano — um dinheiro que, no Shopixel, já está{" "}
               <strong className="text-ink">dentro do plano Growth</strong>, junto com servidor, segurança,
               analytics, provador e fidelização.
             </p>
@@ -193,12 +193,12 @@ export function CvCalculadora() {
                 <p className="font-display text-[22px] font-black tracking-tight text-[#FF8A8A]">R$ {fmt(anual)}</p>
               </div>
               <div className="rounded-xl border border-amber/40 bg-amber/[.06] p-4">
-                <p className="font-mono text-[10px] uppercase tracking-[0.08em] text-dim">No Pixel Commerce</p>
+                <p className="font-mono text-[10px] uppercase tracking-[0.08em] text-dim">No Shopixel</p>
                 <p className="font-display text-[22px] font-black tracking-tight text-amber">incluso</p>
               </div>
             </div>
             <p className="mt-4 text-center text-[12.5px] text-dim">
-              No Pixel Commerce: incluso no Growth, ou avulso por R$ 399/mês fixos —{" "}
+              No Shopixel: incluso no Growth, ou avulso por R$ 399/mês fixos —{" "}
               <a href="/planos" className="border-b border-amber/50 text-amber no-underline">ver planos e módulos</a>
             </p>
           </div>
@@ -265,7 +265,7 @@ export function CvCTA() {
             Comparativo elaborado em julho/2026 com base em informações públicas do site e materiais da
             Zoppy (zoppy.com.br), sujeitas a alteração sem aviso. Zoppy é marca registrada de seus
             respectivos titulares, sem qualquer vínculo com a Pixel Partners. Este material tem caráter
-            informativo; recursos e preços do Pixel Commerce conforme página de planos vigente.
+            informativo; recursos e preços do Shopixel conforme página de planos vigente.
           </p>
         </Reveal>
       </div>

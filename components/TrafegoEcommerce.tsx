@@ -237,7 +237,7 @@ const difs: [string, string][] = [
   ["0% sobre a verba", "Fee fixo por faixa. A sua verba de mídia é 100% mídia — sem comissão da agência embutida, sem incentivo torto pra te fazer gastar mais."],
   ["Fraude fora da conta", "Detecção de carding e pedidos fraudulentos excluídos da análise — o seu ROAS não é inflado por venda que nunca existiu."],
   ["Conta sua, acesso total", "Google Ads e Meta Ads nas suas contas, com o seu histórico. Sair da Pixel não significa recomeçar do zero."],
-  ["Sinergia com a plataforma", "Loja no Pixel Commerce? CRM, fidelização e recuperação de carrinho trabalham o cliente que a mídia trouxe — o CAC pago uma vez rende compra atrás de compra."],
+  ["Sinergia com a plataforma", "Loja no Shopixel? CRM, fidelização e recuperação de carrinho trabalham o cliente que a mídia trouxe — o CAC pago uma vez rende compra atrás de compra."],
 ];
 
 export function TeDiferenciais() {
@@ -270,7 +270,7 @@ export function TeDiferenciais() {
 const faq: [string, string][] = [
   ["O fee inclui a verba dos anúncios?", "Não — a verba é paga por você diretamente ao Google e à Meta, nas suas próprias contas, com acesso total. O fee cobre a estratégia, a gestão diária, os testes e os relatórios sobre venda líquida."],
   ["O que acontece se eu investir mais que o teto da minha faixa?", "Nada trava: as campanhas seguem rodando. O enquadramento usa a média do trimestre — um pico de Black Friday não te reenquadra sozinho. Se o novo patamar se sustentar, conversamos sobre a faixa seguinte, com aviso prévio."],
-  ["Preciso estar na plataforma Pixel Commerce?", "Não — atendemos lojas WooCommerce em qualquer infraestrutura. Mas quem está na plataforma ganha a sinergia completa: Pixel Reports medindo a mídia na régua de venda líquida e CRM/fidelização multiplicando o cliente que o anúncio trouxe."],
+  ["Preciso estar na plataforma Shopixel?", "Não — atendemos lojas WooCommerce em qualquer infraestrutura. Mas quem está na plataforma ganha a sinergia completa: Pixel Reports medindo a mídia na régua de venda líquida e CRM/fidelização multiplicando o cliente que o anúncio trouxe."],
   ["Vocês trabalham com percentual sobre a verba?", "Não, por princípio: percentual cria incentivo torto (quanto mais você gasta, mais a agência ganha — mesmo sem melhorar resultado). Fee fixo por faixa alinha o interesse: nosso trabalho é fazer a mesma verba render mais."],
   ["Tem fidelidade?", "Não. Contrato mensal, contas de anúncio suas, histórico seu. Preferimos te segurar por resultado."],
   ["E TikTok Ads?", "Hoje o foco é Google + Meta, onde está a esmagadora maioria da receita de e-commerce de moda no Brasil. TikTok entra caso a caso, em proposta — fale com a gente sobre a sua operação."],

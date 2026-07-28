@@ -39,7 +39,7 @@ export default function SiteHero() {
           </motion.h1>
           <motion.p variants={child} className="mb-9 max-w-[560px] text-[17.5px] text-dim">
             Somos especialistas em transformar operação digital em crescimento mensurável. Sistemas sob
-            medida, aplicativos e a plataforma Pixel Commerce — engenharia própria, sob o mesmo teto.
+            medida, aplicativos e a plataforma Shopixel — engenharia própria, sob o mesmo teto.
           </motion.p>
           <motion.div variants={child} className="flex flex-wrap gap-3.5">
             <a href="/#contato" className="btn-amber">Fale com um Especialista</a>
@@ -74,7 +74,7 @@ export default function SiteHero() {
           <div className="absolute inset-8 rounded-full bg-amber/15 blur-[90px]" aria-hidden />
           <div
             role="img"
-            aria-label="Animação 3D das seis camadas da plataforma Pixel Commerce energizando"
+            aria-label="Animação 3D das seis camadas da plataforma Shopixel energizando"
             className="relative aspect-square w-full max-w-[520px] overflow-hidden rounded-3xl border border-white/10 shadow-[0_50px_120px_rgba(0,0,0,.55)]"
           >
             <AmbientVideo src={STACK_VIDEO} poster={STACK_IMG} />

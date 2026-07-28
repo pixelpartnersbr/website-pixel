@@ -1,4 +1,4 @@
-import { SITE, waLink, BUILD, MARKETING_ATIVO } from "./config";
+import { SITE, waLink, BUILD, MARKETING_ATIVO, plat } from "./config";
 
 export default function SiteFooter() {
   return (
@@ -19,7 +19,7 @@ export default function SiteFooter() {
           <div>
             <p className="mb-3 font-mono text-[11px] uppercase tracking-[0.1em] text-dim">Serviços</p>
             <ul className="flex flex-col gap-2 text-[13.5px]">
-              <li><a href="/plataforma" className="text-dim no-underline hover:text-ink">Pixel Commerce</a></li>
+              <li><a href={plat("/plataforma")} className="text-dim no-underline hover:text-ink">Shopixel</a></li>
               {MARKETING_ATIVO && (
                 <>
                   <li><a href="/trafego-pago" className="text-dim no-underline hover:text-ink">Tráfego Pago · Negócios Locais</a></li>
@@ -33,11 +33,11 @@ export default function SiteFooter() {
           <div>
             <p className="mb-3 font-mono text-[11px] uppercase tracking-[0.1em] text-dim">Plataforma</p>
             <ul className="flex flex-col gap-2 text-[13.5px]">
-              <li><a href="/plataforma" className="text-dim no-underline hover:text-ink">Conheça o Pixel Commerce</a></li>
-              <li><a href="/planos" className="text-dim no-underline hover:text-ink">Planos e preços</a></li>
-              <li><a href="/whatsapp" className="text-dim no-underline hover:text-ink">Canal WhatsApp Oficial</a></li>
+              <li><a href={plat("/plataforma")} className="text-dim no-underline hover:text-ink">Conheça o Shopixel</a></li>
+              <li><a href={plat("/planos")} className="text-dim no-underline hover:text-ink">Planos e preços</a></li>
+              <li><a href={plat("/whatsapp")} className="text-dim no-underline hover:text-ink">Canal WhatsApp Oficial</a></li>
               <li><a href="/comparativos/pixel-crm-vs-zoppy" className="text-dim no-underline hover:text-ink">Pixel CRM vs Zoppy</a></li>
-              <li><a href="/comparativos/pixel-commerce-vs-shopify" className="text-dim no-underline hover:text-ink">Pixel Commerce vs Shopify</a></li>
+              <li><a href="/comparativos/shopixel-vs-shopify" className="text-dim no-underline hover:text-ink">Shopixel vs Shopify</a></li>
               <li><a href="/comparativos/fidelizacao-vs-fidelizar-mais" className="text-dim no-underline hover:text-ink">Fidelização vs Fidelizar+</a></li>
               <li><a href="/pixel-crm" className="text-dim no-underline hover:text-ink">Pixel CRM</a></li>
               <li><a href="/atacadista" className="text-dim no-underline hover:text-ink">Módulo Atacadista</a></li>

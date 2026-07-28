@@ -65,7 +65,7 @@ export function CrmHero() {
       <div className="beam" aria-hidden />
       <div className="wrap relative grid items-center gap-14 lg:grid-cols-[1.05fr_.95fr]">
         <Reveal>
-          <span className="eyebrow">Pixel Commerce · Pixel CRM</span>
+          <span className="eyebrow">Shopixel · Pixel CRM</span>
           <h1 className="mb-5 font-display text-[clamp(30px,4.2vw,54px)] font-extrabold leading-[1.08] tracking-[-0.025em]">
             Sua loja já pagou caro por cada cliente.<br />
             <span className="text-amber">O Pixel CRM faz eles comprarem de novo.</span>

@@ -62,7 +62,7 @@ export default function Numeros() {
                 Vendeu R$ 100 mil ou R$ 1 milhão? O plano custa o mesmo.
               </h3>
               <p className="max-w-[620px] text-[15px] text-dim">
-                Os planos de site, hospedagem e suporte do Pixel Commerce têm{" "}
+                Os planos de site, hospedagem e suporte do Shopixel têm{" "}
                 <strong className="text-ink">valor fixo e nenhuma comissão sobre vendas</strong>. E cada
                 plano começa com um <strong className="text-ink">servidor montado sob medida</strong>,
                 dimensionado para o tamanho da sua loja: você não paga por capacidade que não usa, nem

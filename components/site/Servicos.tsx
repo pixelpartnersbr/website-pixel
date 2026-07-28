@@ -1,6 +1,6 @@
 "use client";
 import Reveal from "../Reveal";
-import { MARKETING_ATIVO } from "./config";
+import { MARKETING_ATIVO, plat } from "./config";
 
 type Servico = {
   name: string; desc: string; tags: string[];
@@ -12,10 +12,10 @@ type Servico = {
 
 const todos: Servico[] = [
   {
-    name: "Desenvolvimento Web & Pixel Commerce", featured: true,
+    name: "Desenvolvimento Web & Shopixel", featured: true,
     desc: "Lojas WooCommerce na nossa plataforma proprietária: servidor sob medida, segurança antifraude, analytics de verdade e módulos exclusivos de conversão.",
     tags: ["Lojas Virtuais", "Institucionais", "Landing Pages", "Marketplaces"],
-    href: "/plataforma", cta: "Conhecer a plataforma",
+    href: plat("/plataforma"), cta: "Conhecer a plataforma",
   },
   {
     marketing: true,
@@ -38,7 +38,7 @@ const todos: Servico[] = [
     name: "Infraestrutura & QueueGuard",
     desc: "Servidor sob medida, monitoramento e o QueueGuard: fila inteligente que mantém a loja de pé quando o pico chega — drop, collab ou Black Friday.",
     tags: ["Servidor Dedicado", "Alta Disponibilidade", "Picos de Tráfego", "Monitoramento"],
-    href: "/plataforma#queueguard", cta: "Ver na plataforma",
+    href: plat("/plataforma#queueguard"), cta: "Ver na plataforma",
   },
   {
     marketing: true,

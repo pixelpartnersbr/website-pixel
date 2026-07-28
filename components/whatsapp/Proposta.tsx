@@ -17,12 +17,12 @@ export function WaHero() {
     >
       <div className="wrap grid items-center gap-14 lg:grid-cols-[1.05fr_.95fr]">
         <Reveal>
-          <span className="eyebrow">Pixel Commerce · Canal oficial da plataforma</span>
+          <span className="eyebrow">Shopixel · Canal oficial da plataforma</span>
           <h1 className="mb-5 font-display text-[clamp(32px,4.4vw,54px)] font-extrabold leading-[1.08] tracking-[-0.025em]">
             Sua loja no WhatsApp <span className="text-wa">oficial</span> — com app próprio na Meta.
           </h1>
           <p className="mb-7 max-w-[500px] text-[17px] text-dim">
-            O canal oficial que dá voz de WhatsApp a tudo que a sua loja Pixel Commerce já faz — do número verificado da sua marca, sem risco de banimento, sem intermediário cobrando por mensagem.
+            O canal oficial que dá voz de WhatsApp a tudo que a sua loja Shopixel já faz — do número verificado da sua marca, sem risco de banimento, sem intermediário cobrando por mensagem.
           </p>
           <div className="mb-2 flex items-baseline gap-2.5">
             <span className="text-sm text-dim">a partir de</span>
@@ -312,7 +312,7 @@ export function WaInvestimento() {
               <WaIcon /> Falar com a Pixel Partners
             </a>
             <p className="mx-auto mt-7 max-w-[720px] text-[11.5px] leading-relaxed text-dim">
-              Canal exclusivo para lojas da plataforma Pixel Commerce, por loja, sem fidelidade
+              Canal exclusivo para lojas da plataforma Shopixel, por loja, sem fidelidade
               obrigatória. Tarifas por mensagem são cobradas pela Meta diretamente na conta do cliente, em
               dólar, e podem ser reajustadas; os valores exibidos são referências convertidas. Proposta
               sujeita a análise técnica do ambiente.

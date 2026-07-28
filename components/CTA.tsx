@@ -44,7 +44,7 @@ export default function CTA() {
           </p>
           <motion.a
             ref={ref}
-            href={waLink("Olá! Quero minha loja rodando em Pixel Commerce.")}
+            href={waLink("Olá! Quero minha loja rodando em Shopixel.")}
             target="_blank"
             rel="noopener"
             className="btn-amber inline-block !px-10 !py-4 !text-base"

@@ -7,7 +7,7 @@ import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Planos — Pixel Commerce",
+  title: "Planos — Shopixel",
   description:
     "Planos com preço fixo e 0% de comissão sobre vendas. Servidor sob medida, módulos proprietários e suporte de quem escreveu o código.",
 };

@@ -3,7 +3,7 @@ import { useState } from "react";
 import Reveal from "../Reveal";
 import { waLink } from "../site/config";
 
-const CTA_MSG = "Olá! Vi o comparativo Pixel Commerce vs Shopify e quero entender a conta pra minha loja.";
+const CTA_MSG = "Olá! Vi o comparativo Shopixel vs Shopify e quero entender a conta pra minha loja.";
 
 /* ============ HERO ============ */
 export function ShHero() {
@@ -16,7 +16,7 @@ export function ShHero() {
         <Reveal>
           <span className="eyebrow justify-center">Comparativo · Plataforma de e-commerce</span>
           <h1 className="mx-auto mb-5 max-w-[880px] font-display text-[clamp(30px,4.2vw,56px)] font-extrabold leading-[1.08] tracking-[-0.025em]">
-            Pixel Commerce <span className="text-dim">vs</span> <span className="text-amber">Shopify</span>
+            Shopixel <span className="text-dim">vs</span> <span className="text-amber">Shopify</span>
           </h1>
           <p className="mx-auto max-w-[660px] text-[16.5px] text-dim">
             O Shopify é uma plataforma excelente — globalmente. A questão é que{" "}
@@ -58,7 +58,7 @@ export function ShModelo() {
           </Reveal>
           <Reveal delay={0.1} className="h-full">
             <article className="glow-border h-full rounded-2xl border border-amber/60 bg-gradient-to-b from-amber/[.07] to-transparent p-7">
-              <p className="mb-1 font-mono text-[11px] uppercase tracking-[0.1em] text-amber">Modelo Pixel Commerce</p>
+              <p className="mb-1 font-mono text-[11px] uppercase tracking-[0.1em] text-amber">Modelo Shopixel</p>
               <h3 className="mb-4 font-display text-[19px] font-extrabold tracking-tight">
                 Preço fixo em reais. 0% sobre as vendas. Loja sua.
               </h3>
@@ -120,7 +120,7 @@ export function ShTabela() {
               <thead>
                 <tr className="border-b border-line bg-navy-950/60">
                   <th className="p-4 font-mono text-[11px] font-medium uppercase tracking-[0.1em] text-dim">Critério</th>
-                  <th className="w-[200px] p-4 text-center font-display text-[14px] font-extrabold text-amber">Pixel Commerce</th>
+                  <th className="w-[200px] p-4 text-center font-display text-[14px] font-extrabold text-amber">Shopixel</th>
                   <th className="w-[200px] p-4 text-center font-display text-[14px] font-extrabold">Shopify (BR)</th>
                 </tr>
               </thead>
@@ -171,7 +171,7 @@ export function ShCalculadora() {
               No Brasil, sem Shopify Payments, cada venda paga a taxa do seu gateway{" "}
               <strong className="text-ink">mais a taxa da Shopify</strong> — 2% no Basic, 1% no Grow. É um
               sócio silencioso: quanto mais você vende, mais ele leva. Some a mensalidade em dólar e os
-              apps, e compare com o preço fixo do Pixel Commerce.
+              apps, e compare com o preço fixo do Shopixel.
             </p>
             <p>
               Todos os campos são editáveis — coloque os números da <strong className="text-ink">sua</strong>{" "}
@@ -239,7 +239,7 @@ export function ShCalculadora() {
 /* ============ ARQUITETURA ============ */
 export function ShArquitetura() {
   const pontos = [
-    ["Dono, não inquilino", "No Shopify você aluga uma loja pronta num prédio deles. No Pixel Commerce a loja é sua — código aberto, servidor seu, banco seu. Se um dia quiser sair, leva tudo."],
+    ["Dono, não inquilino", "No Shopify você aluga uma loja pronta num prédio deles. No Shopixel a loja é sua — código aberto, servidor seu, banco seu. Se um dia quiser sair, leva tudo."],
     ["Fatura em reais", "Mensalidade em dólar significa que o Fed e o câmbio mexem na sua planilha. Preço fixo em reais significa que a sua única variável é vender."],
     ["Capacidade sem taxímetro", "Cada app do Shopify é uma mensalidade nova. Aqui vale a regra da casa: capacidade se paga uma vez, canal se paga à parte, nada se paga duas vezes."],
     ["Quem responde escreveu o código", "Problema no checkout às 23h de Black Friday: de um lado, ticket pro suporte global; do outro, o time que escreveu o módulo — e que já está em war-room com você."],
@@ -292,7 +292,7 @@ export function ShCTA() {
             transação de terceiros aplicável no Brasil na ausência do Shopify Payments, conforme plano.
             Valores convertidos na calculadora usam o câmbio informado pelo usuário. Shopify é marca
             registrada de seus respectivos titulares, sem qualquer vínculo com a Pixel Partners. Material
-            informativo; recursos e preços do Pixel Commerce conforme página de planos vigente.
+            informativo; recursos e preços do Shopixel conforme página de planos vigente.
           </p>
         </Reveal>
       </div>

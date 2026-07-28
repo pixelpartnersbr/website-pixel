@@ -1,5 +1,5 @@
 // ⚙️ AJUSTE AQUI: dados de contato e estatísticas do site institucional
-export const BUILD = "1.34.0";
+export const BUILD = "1.35.0";
 
 /**
  * Frentes de marketing (Tráfego Pago e Redes Sociais) desligadas do site público.
@@ -8,6 +8,15 @@ export const BUILD = "1.34.0";
  * Para reconectar tudo: trocar para true.
  */
 export const MARKETING_ATIVO = false;
+
+/**
+ * Domínio público da plataforma Shopixel.
+ * Os links do site institucional para a plataforma usam esta base.
+ * IMPORTANTE: shopixel.com.br precisa apontar para este mesmo projeto na Vercel.
+ * Enquanto o domínio não estiver ativo, deixe "" para os links voltarem a ser relativos.
+ */
+export const SHOPIXEL_URL = "https://shopixel.com.br";
+export const plat = (path: string) => `${SHOPIXEL_URL}${path}`;
 
 export const SITE = {
   whatsapp: "5527996520301",

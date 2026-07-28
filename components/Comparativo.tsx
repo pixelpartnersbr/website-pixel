@@ -20,7 +20,7 @@ export default function Comparativo() {
     <section id="comparativo" className="bg-navy-900 py-24">
       <div className="wrap">
         <Reveal className="mb-14 max-w-[680px]">
-          <span className="eyebrow">Onde o Pixel Commerce se encaixa</span>
+          <span className="eyebrow">Onde o Shopixel se encaixa</span>
           <h2 className="font-display text-[clamp(26px,3.2vw,44px)] font-extrabold leading-[1.12] tracking-tight">
             Mais robusto que o Woo puro. Mais livre que plataforma fechada.
           </h2>
@@ -33,7 +33,7 @@ export default function Comparativo() {
                   <th className="border-b border-line bg-navy-950/50 p-4 text-left font-display text-[13.5px] font-bold" />
                   <th className="border-b border-line bg-navy-950/50 p-4 text-left font-display text-[13.5px] font-bold">WooCommerce &ldquo;de prateleira&rdquo;</th>
                   <th className="border-b border-line bg-navy-950/50 p-4 text-left font-display text-[13.5px] font-bold">Plataforma fechada (SaaS)</th>
-                  <th className="border-b border-line bg-amber p-4 text-left font-display text-[13.5px] font-bold text-navy-950">Pixel Commerce</th>
+                  <th className="border-b border-line bg-amber p-4 text-left font-display text-[13.5px] font-bold text-navy-950">Shopixel</th>
                 </tr>
               </thead>
               <tbody>

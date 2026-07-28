@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { AtHero, AtProblema, AtComoFunciona, AtFuncionalidades, AtCache, AtConversao, AtCusto, AtEcossistema, AtCTA } from "@/components/PpAtacado";
 
 export const metadata: Metadata = {
-  title: "Módulo Atacadista — atacado e varejo na mesma loja WooCommerce | Pixel Commerce",
+  title: "Módulo Atacadista — atacado e varejo na mesma loja WooCommerce | Shopixel",
   description:
     "Preços B2B, quantidade mínima e checkout próprio para atacadistas aprovados por CNPJ — na mesma loja, com estoque único e preço à prova de cache. Sem segundo site.",
 };

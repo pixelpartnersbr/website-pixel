@@ -58,7 +58,7 @@ export function FdModelo() {
           </Reveal>
           <Reveal delay={0.1} className="h-full">
             <article className="glow-border h-full rounded-2xl border border-amber/60 bg-gradient-to-b from-amber/[.07] to-transparent p-7">
-              <p className="mb-1 font-mono text-[11px] uppercase tracking-[0.1em] text-amber">Modelo Pixel Commerce</p>
+              <p className="mb-1 font-mono text-[11px] uppercase tracking-[0.1em] text-amber">Modelo Shopixel</p>
               <h3 className="mb-4 font-display text-[19px] font-extrabold tracking-tight">
                 Preço fixo. Base ilimitada. Fidelizar nunca fica mais caro.
               </h3>
@@ -273,7 +273,7 @@ export function FdCTA() {
             Mais (fidelizarmais.co e páginas oficiais do app nos marketplaces Nuvemshop e wBuy), incluindo
             preços promocionais vigentes na data, sujeitos a alteração sem aviso. Podem existir planos e
             condições não publicados. Fidelizar+ é marca registrada de seus respectivos titulares, sem
-            qualquer vínculo com a Pixel Partners. Material informativo; recursos e preços do Pixel Commerce
+            qualquer vínculo com a Pixel Partners. Material informativo; recursos e preços do Shopixel
             conforme página de planos vigente.
           </p>
         </Reveal>

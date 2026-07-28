@@ -31,8 +31,8 @@ export default function PricingAvulsos() {
   const fmt = (n: number) => n.toLocaleString("pt-BR");
   const msg =
     chosen.length > 0
-      ? `Olá! Estou no site do Pixel Commerce e quero adicionar ao meu plano: ${chosen.map((m) => m.name).join(", ")}.`
-      : "Olá! Quero saber mais sobre os módulos avulsos do Pixel Commerce.";
+      ? `Olá! Estou no site do Shopixel e quero adicionar ao meu plano: ${chosen.map((m) => m.name).join(", ")}.`
+      : "Olá! Quero saber mais sobre os módulos avulsos do Shopixel.";
 
   return (
     <section className="border-t border-line py-24">

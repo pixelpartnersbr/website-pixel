@@ -67,7 +67,7 @@ export function PvHero() {
       <div className="beam" aria-hidden />
       <div className="wrap relative grid items-center gap-14 lg:grid-cols-[1.05fr_.95fr]">
         <Reveal>
-          <span className="eyebrow">Pixel Commerce · Provador de Tamanho</span>
+          <span className="eyebrow">Shopixel · Provador de Tamanho</span>
           <h1 className="mb-5 font-display text-[clamp(30px,4.2vw,54px)] font-extrabold leading-[1.08] tracking-[-0.025em]">
             O provador virtual que fala a língua da sua marca — <span className="text-amber">sem mensalidade que cresce com o seu tráfego.</span>
           </h1>

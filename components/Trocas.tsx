@@ -55,7 +55,7 @@ export function TrHero() {
       <div className="beam" aria-hidden />
       <div className="wrap relative grid items-center gap-14 lg:grid-cols-[1.05fr_.95fr]">
         <Reveal>
-          <span className="eyebrow">Pixel Commerce · Central de Trocas</span>
+          <span className="eyebrow">Shopixel · Central de Trocas</span>
           <h1 className="mb-5 font-display text-[clamp(30px,4.2vw,54px)] font-extrabold leading-[1.08] tracking-[-0.025em]">
             Troca mal resolvida é <span className="text-amber">cliente perdido.</span>
           </h1>

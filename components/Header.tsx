@@ -18,8 +18,17 @@ export default function Header() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-line bg-navy-950/80 backdrop-blur-xl">
       <motion.div className="absolute inset-x-0 top-0 h-[2px] origin-left bg-amber" style={{ scaleX }} />
       <div className="wrap flex h-16 items-center justify-between">
-        <a href="/plataforma" className="flex items-center">
-          <img src="/images/logo-pixel-commerce.png" alt="Pixel Commerce by Pixel Partners" className="h-9 w-auto" />
+        <a href="/plataforma" className="flex items-center gap-2.5 no-underline" aria-label="Shopixel by Pixel Partners">
+          {/* lockup provisório em texto — substituir por asset definitivo quando a identidade do Shopixel ficar pronta */}
+          <img src="/images/mark-p.png" alt="" aria-hidden className="h-8 w-8" />
+          <span className="leading-none">
+            <span className="block font-display text-[20px] font-extrabold tracking-tight">
+              Sho<span className="text-amber">pixel</span>
+            </span>
+            <span className="mt-0.5 block font-mono text-[7.5px] uppercase tracking-[0.18em] text-dim">
+              by Pixel Partners
+            </span>
+          </span>
         </a>
         <ul className="hidden gap-7 xl:flex">
           {links.map(([href, label]) => (

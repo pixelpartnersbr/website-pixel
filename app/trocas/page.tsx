@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { TrHero, TrProblema, TrAutoatendimento, TrGestao, TrInteligencia, TrPorQueFaqCta } from "@/components/Trocas";
 
 export const metadata: Metadata = {
-  title: "Central de Trocas — trocas e devoluções com autoatendimento para WooCommerce | Pixel Commerce",
+  title: "Central de Trocas — trocas e devoluções com autoatendimento para WooCommerce | Shopixel",
   description:
     "O cliente abre a troca sozinho (sem senha), a equipe gerencia num painel com timeline, e as automações emitem vale-troca, reservam estoque e bloqueiam abuso. Dentro da sua loja.",
 };

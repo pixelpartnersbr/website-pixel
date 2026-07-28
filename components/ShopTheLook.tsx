@@ -67,7 +67,7 @@ export function StlHero() {
       <div className="beam" aria-hidden />
       <div className="wrap relative grid items-center gap-14 lg:grid-cols-[1.05fr_.95fr]">
         <Reveal>
-          <span className="eyebrow">Pixel Commerce · Shop The Look</span>
+          <span className="eyebrow">Shopixel · Shop The Look</span>
           <h1 className="mb-5 font-display text-[clamp(32px,4.4vw,56px)] font-extrabold leading-[1.08] tracking-[-0.025em]">
             O look inteiro, <span className="text-amber">num clique só.</span>
           </h1>

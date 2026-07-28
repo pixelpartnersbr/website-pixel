@@ -1,12 +1,13 @@
 "use client";
 import { motion, useScroll, useSpring } from "framer-motion";
 import MobileNav from "../MobileNav";
+import { plat } from "./config";
 
 const links = [
   ["/#sobre", "Sobre"],
   ["/#servicos", "Serviços"],
-  ["/plataforma", "Plataforma"],
-  ["/whatsapp", "WhatsApp"],
+  [plat("/plataforma"), "Plataforma"],
+  [plat("/whatsapp"), "WhatsApp"],
   ["/#contato", "Contato"],
 ];
 

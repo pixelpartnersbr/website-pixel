@@ -63,7 +63,7 @@ export function VcHero() {
       <div className="beam" aria-hidden />
       <div className="wrap relative grid items-center gap-14 lg:grid-cols-[1.1fr_.9fr]">
         <Reveal>
-          <span className="eyebrow">Pixel Commerce · Videocommerce</span>
+          <span className="eyebrow">Shopixel · Videocommerce</span>
           <h1 className="mb-5 font-display text-[clamp(32px,4.4vw,56px)] font-extrabold leading-[1.08] tracking-[-0.025em]">
             Vídeo que vende — <span className="text-amber">dentro</span> da sua loja.
           </h1>

@@ -80,7 +80,7 @@ export default function Pricing() {
     <section className="pb-24 pt-[150px]">
       <div className="wrap">
         <Reveal className="mx-auto mb-10 max-w-[720px] text-center">
-          <span className="eyebrow justify-center">Planos Pixel Commerce</span>
+          <span className="eyebrow justify-center">Planos Shopixel</span>
           <h1 className="mb-4 font-display text-[clamp(32px,4.2vw,58px)] font-extrabold leading-[1.08] tracking-[-0.025em]">
             Preço fixo. <span className="text-amber">0% de comissão.</span>
             <br />Sem surpresa na fatura.
@@ -183,7 +183,7 @@ export default function Pricing() {
                     ))}
                   </ul>
                   <a
-                    href={waLink(`Olá! Tenho interesse no plano ${p.name} do Pixel Commerce.`)}
+                    href={waLink(`Olá! Tenho interesse no plano ${p.name} do Shopixel.`)}
                     target="_blank"
                     rel="noopener"
                     className={`mt-auto rounded-[10px] py-3 text-center font-display text-sm font-bold transition-all ${

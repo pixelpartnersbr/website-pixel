@@ -13,7 +13,7 @@ import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Pixel Commerce — A plataforma da Pixel Partners",
+  title: "Shopixel — A plataforma da Pixel Partners",
   description:
     "A camada proprietária de segurança, inteligência e automação da Pixel Partners, rodando sobre WooCommerce e na infraestrutura PrimePress.",
 };

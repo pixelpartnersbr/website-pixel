@@ -15,7 +15,7 @@ const modulos: [string, string][] = [
 const comparativos: [string, string][] = [
   ...(MARKETING_ATIVO ? ([["/trafego-ecommerce", "Tráfego Pago"]] as [string, string][]) : []),
   ["/comparativos/pixel-crm-vs-zoppy", "vs Zoppy"],
-  ["/comparativos/pixel-commerce-vs-shopify", "vs Shopify"],
+  ["/comparativos/shopixel-vs-shopify", "vs Shopify"],
   ["/comparativos/fidelizacao-vs-fidelizar-mais", "vs Fidelizar+"],
   ["/videocommerce#comparativo", "vs Widde"],
   ["/planos", "Planos"],
@@ -44,7 +44,7 @@ export default function Footer() {
           <p className="flex items-start gap-3 text-[12.5px] text-dim">
             <img src="/images/mark-p.png" alt="" aria-hidden className="h-7 w-7 shrink-0" />
             <span>
-              <strong className="text-ink">Pixel Commerce</strong> é a plataforma proprietária da Pixel
+              <strong className="text-ink">Shopixel</strong> é a plataforma proprietária da Pixel
               Partners · Vila Velha, ES · v{BUILD}
             </span>
           </p>
